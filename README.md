@@ -2,7 +2,23 @@
 
 A repository covering my answers to Codewars Python Challenges.
 
-<br>
+- [Challenges](#challenges)
+  - [7 \& 8 kyu](#7--8-kyu)
+    - [Rock-Paper-Scissors Game](#rock-paper-scissors-game)
+    - [Turn Hours, Minutes and Seconds to Milliseconds](#turn-hours-minutes-and-seconds-to-milliseconds)
+    - [Get the Sum of all Numbers in Array](#get-the-sum-of-all-numbers-in-array)
+    - [Turn Number to Negative](#turn-number-to-negative)
+    - [Convert boolean values to strings 'Yes' or 'No'](#convert-boolean-values-to-strings-yes-or-no)
+    - [Count by X](#count-by-x)
+    - [Categorize each item in List](#categorize-each-item-in-list)
+    - [Does String end with?](#does-string-end-with)
+    - [Double Each Element in Array](#double-each-element-in-array)
+    - [Check if Element in List](#check-if-element-in-list)
+    - [Sum of Only Positives in List](#sum-of-only-positives-in-list)
+    - [Convert Number to String](#convert-number-to-string)
+    - [Get Middle Character(s) based on even or odd Length](#get-middle-characters-based-on-even-or-odd-length)
+  - [5 kyu](#5-kyu)
+    - [Move Zeroes to the End of List](#move-zeroes-to-the-end-of-list)
 
 ## 7 & 8 kyu
 
@@ -142,4 +158,15 @@ You are going to be given a word. Your job is to return the middle character of 
 def get_middle(s):
     index, odd = divmod(len(s), 2)
     return s[index] if odd else s[index - 1:index + 1]
+```
+
+## 5 kyu
+
+### [Move Zeroes to the End of List](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python)
+
+Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
+
+```
+def move_zeros(array):
+    return [x for x in array if x!=0] + [0] * array.count(0)
 ```
