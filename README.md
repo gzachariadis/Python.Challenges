@@ -65,3 +65,13 @@ def count_by(x, n):
     return [i * x for i in range(1, n + 1)]
 ```
 
+### [Categorize New Member](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/solutions/python)
+
+The Western Suburbs Croquet Club has two categories of membership, Senior and Open. To be a senior, a member must be at least 55 years old and have a handicap greater than 7. Input will consist of a list of pairs.
+
+```
+def openOrSenior(data):
+  return ["Senior" if age >= 55 and handicap >= 8 else "Open" for (age, handicap) in data]
+```
+
+
