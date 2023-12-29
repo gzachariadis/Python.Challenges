@@ -2,6 +2,11 @@
 
 A repository covering my answers to Codewars Python Challenges.
 
+# Table of Contents
+1. [7-8 kyu](#7-8 kyu)
+
+## 7 & 8 kyu
+
 ### [Rock-Paper-Scissors Game](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/python)
 
 Let's play! You have to return which player won! In case of a draw return Draw!.
