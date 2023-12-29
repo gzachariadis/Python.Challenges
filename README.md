@@ -3,7 +3,8 @@
 A repository covering my answers to Codewars Python Challenges.
 
 # Table of Contents
-1. [7-8 kyu](#7-8 kyu)
+
+
 
 ## 7 & 8 kyu
 
