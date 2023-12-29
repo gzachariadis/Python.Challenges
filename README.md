@@ -1,9 +1,6 @@
-# Python
+# Challenges
 
 A repository covering my answers to Codewars Python Challenges.
-
-- [Python](#python)
-  - [7 \& 8 kyu](#7--8-kyu)
 
 <br>
 
