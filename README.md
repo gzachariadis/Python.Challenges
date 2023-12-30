@@ -23,7 +23,7 @@ Completed - 16
   - [5 kyu](#5-kyu)
     - [Move Zeroes to the End of List](#move-zeroes-to-the-end-of-list)
 
-## 7 & 8 kyu
+## Difficulty: Easy (7 & 8 kyu)
 
 ### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python)
 
@@ -173,7 +173,7 @@ def get_middle(s):
     return s[index] if odd else s[index - 1:index + 1]
 ```
 
-## 5 kyu
+## Medium Difficulty (5-6 kyu)
 
 ### [Move Zeroes to the End of List](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python)
 
@@ -183,3 +183,14 @@ Write an algorithm that takes an array and moves all of the zeros to the end, pr
 def move_zeros(array):
     return [x for x in array if x!=0] + [0] * array.count(0)
 ```
+
+### [Sum of Multiples inside Number](https://www.codewars.com/kata/514b92a657cdc65150000006/python)
+
+List all natural numbers below the given parameter (not including the parameter)
+List the numbers which are multiple of 3 or 5. Then sum those multiples.
+
+```
+def solution(number):
+    return sum(n for n in range(number) if n % 3 == 0 or n % 5 == 0)
+```
+
