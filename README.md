@@ -23,7 +23,7 @@ Completed - 16
   - [5 kyu](#5-kyu)
     - [Move Zeroes to the End of List](#move-zeroes-to-the-end-of-list)
 
-## Difficulty: Easy (7 & 8 kyu)
+## Easy (7 & 8 kyu)
 
 ### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python)
 
@@ -173,7 +173,7 @@ def get_middle(s):
     return s[index] if odd else s[index - 1:index + 1]
 ```
 
-## Medium Difficulty (5-6 kyu)
+## Medium (5-6 kyu)
 
 ### [Move Zeroes to the End of List](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python)
 
