@@ -174,6 +174,13 @@ def get_middle(s):
     return s[index] if odd else s[index - 1:index + 1]
 ```
 
+### [PascalCase](https://www.codewars.com/kata/5390bac347d09b7da40006f6/python)
+
+```
+def pascal_case(string):
+    return ' '.join(word.capitalize() for word in string.split())
+```
+
 ## Medium (5-6 kyu)
 
 ### [Move Zeroes to the End of List](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python)
