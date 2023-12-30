@@ -203,6 +203,21 @@ def pascal_case(string):
     return ' '.join(word.capitalize() for word in string.split())
 ```
 
+### [Number of People in the Bus](https://www.codewars.com/kata/5648b12ce68d9daa6b000099/python)
+
+There is a bus moving in the city which takes and drops some people at each bus stop.
+
+You are provided with a list (or array) of integer pairs. 
+
+Elements of each pair represent the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop.
+
+Your task is to return the number of people who are still on the bus after the last bus stop (after the last array). 
+
+```
+def number(bus_stops):
+    return sum(on - off for on, off in bus_stops)
+```
+
 ## Medium (5-6 kyu)
 
 ### [Move Zeroes to the End of List](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python)
