@@ -2,11 +2,7 @@
 
 A repository covering my answers to Codewars Python Challenges.
 
-Statistics
-
 Completed - 16\
-Total - 15 at 7-8 kyu\
-Total - 1 at 5 kyu
 
 - [Challenges](#challenges)
   - [7 \& 8 kyu](#7--8-kyu)
