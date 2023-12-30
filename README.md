@@ -218,6 +218,16 @@ def number(bus_stops):
     return sum(on - off for on, off in bus_stops)
 ```
 
+### [Remove First and Last Character from String](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/python)
+
+Your goal is to create a function that removes the first and last characters of a string.
+
+```
+def remove_char(s):
+    return s[1 : -1]
+```
+
+
 ## Medium (5-6 kyu)
 
 ### [Move Zeroes to the End of List](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python)
