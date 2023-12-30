@@ -263,9 +263,11 @@ def solution(s):
         except IndexError:
             result.append("".join([s[-1:], "_"]))
     return result
+```
 
 or
 
+```
 def solution(s):
     result = []
 
