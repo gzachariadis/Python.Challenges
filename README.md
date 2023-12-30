@@ -227,7 +227,6 @@ def remove_char(s):
     return s[1 : -1]
 ```
 
-
 ## Medium (5-6 kyu)
 
 ### [Move Zeroes to the End of List](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python)
@@ -247,4 +246,32 @@ List the numbers which are multiple of 3 or 5. Then sum those multiples.
 ```
 def solution(number):
     return sum(n for n in range(number) if n % 3 == 0 or n % 5 == 0)
+```
+
+### [Create Character Pairs from String](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001/python)
+
+Complete the solution so that it splits the string into pairs of two characters.
+
+If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
+
+```
+def solution(s):
+    result = []
+    for i in range(0, len(s), 2):
+        try:
+            result.append("".join([s[i], s[i + 1]]))
+        except IndexError:
+            result.append("".join([s[-1:], "_"]))
+    return result
+
+or
+
+def solution(s):
+    result = []
+
+    if len(s) % 2:
+        s += '_'    
+    for i in range(0, len(s), 2):
+        result.append(s[i : i + 2])
+    return result
 ```
