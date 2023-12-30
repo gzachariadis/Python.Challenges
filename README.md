@@ -94,12 +94,17 @@ Create a function with two arguments that will return an array of the first n mu
 
 Assume both the given number and the number of times to count will be positive numbers greater than 0.
 
+Solution 1 
+
 ```
 def count_by(x, n):
     return [i * x for i in range(1, n + 1)]
 ```
 
+Solution 2 
+
 ```
+def count_by(x, n):
     return list(range(x, n * x + 1, x))
 ```
 
@@ -120,7 +125,7 @@ def openOrSenior(data):
 
 Complete the solution so that it must return True if a string ends with 2nd argument (also a string).
 
-Solution 1
+##### Solution 1
 
 ```
 def solution(string, ending):
@@ -128,7 +133,7 @@ def solution(string, ending):
 
 ```
 
-Solution 2 
+###### Solution 2 
 
 ```
 def solution(string, ending):
