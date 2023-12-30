@@ -125,7 +125,7 @@ def openOrSenior(data):
 
 Complete the solution so that it must return True if a string ends with 2nd argument (also a string).
 
-##### Solution 1
+#### Solution 1
 
 ```
 def solution(string, ending):
@@ -133,7 +133,7 @@ def solution(string, ending):
 
 ```
 
-###### Solution 2 
+#### Solution 2 
 
 ```
 def solution(string, ending):
