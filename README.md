@@ -28,7 +28,7 @@ Completed - 16
 
 ### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python)
 
-Complete the function that accepts a string parameter. Reverses each word in the string.
+Complete the function that accepts a string parameter. Reverses each word in the string.\
 Return the string with every word reversed. All spaces in the string should be retained.
 
 ```
@@ -58,7 +58,7 @@ def past(h, m, s):
 
 ### [Get the Sum of all Numbers in Array](https://www.codewars.com/kata/53dc54212259ed3d4f00071c/python)
 
-Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+Write a function that takes an array of numbers and returns the sum of the numbers.\ The numbers can be negative or non-integer.\ If the array does not contain any numbers then you should return 0.
 
 ```
 def sum_array(x):
@@ -99,7 +99,7 @@ or
 
 ### [Categorize each item in List](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/solutions/python)
 
-The Western Suburbs Croquet Club has two categories of membership, Senior and Open. To be a senior, a member must be at least 55 years old and have a handicap greater than 7. Input will consist of a list of pairs.
+The Western Suburbs Croquet Club has two categories of membership, Senior and Open.\ To be a senior, a member must be at least 55 years old and have a handicap greater than 7.\ Input will consist of a list of pairs.
 
 ```
 def openOrSenior(data):
@@ -132,7 +132,7 @@ def maps(a):
 
 ### [Check if Element in List](https://www.codewars.com/kata/57cc975ed542d3148f00015b/python)
 
-You will be given an array a and a value x. All you need to do is check whether the provided array contains the value. Return true if the array contains the value, false if not.
+You will be given an array a and a value x.\ All you need to do is check whether the provided array contains the value.\ Return true if the array contains the value, false if not.
 
 ```
 def check(seq, elem):
@@ -166,7 +166,7 @@ def number_to_string(num):
 
 ### [Get Middle Character(s) based on even or odd Length](https://www.codewars.com/kata/56747fd5cb988479af000028/python)
 
-You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
+You are going to be given a word.\ Your job is to return the middle character of the word.\ If the word's length is odd, return the middle character.\ If the word's length is even, return the middle 2 characters.
 
 ```
 def get_middle(s):
