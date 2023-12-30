@@ -4,6 +4,7 @@ A repository covering my answers to Codewars Python Challenges.
 
 - [Challenges](#challenges)
   - [7 \& 8 kyu](#7--8-kyu)
+    - [Reverse Words](#reverse-words)
     - [Rock-Paper-Scissors Game](#rock-paper-scissors-game)
     - [Turn Hours, Minutes and Seconds to Milliseconds](#turn-hours-minutes-and-seconds-to-milliseconds)
     - [Get the Sum of all Numbers in Array](#get-the-sum-of-all-numbers-in-array)
@@ -21,6 +22,16 @@ A repository covering my answers to Codewars Python Challenges.
     - [Move Zeroes to the End of List](#move-zeroes-to-the-end-of-list)
 
 ## 7 & 8 kyu
+
+### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python)
+
+Complete the function that accepts a string parameter. Reverses each word in the string.
+Return the string with every word reversed. All spaces in the string should be retained.
+
+```
+def reverse_words(sentence):
+    return ' '.join(word[::-1] for word in sentence.split(' '))
+```
 
 ### [Rock-Paper-Scissors Game](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/python)
 
