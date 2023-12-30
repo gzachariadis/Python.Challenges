@@ -97,8 +97,9 @@ Assume both the given number and the number of times to count will be positive n
 ```
 def count_by(x, n):
     return [i * x for i in range(1, n + 1)]
+```
 
-or
+```
     return list(range(x, n * x + 1, x))
 ```
 
@@ -119,12 +120,17 @@ def openOrSenior(data):
 
 Complete the solution so that it must return True if a string ends with 2nd argument (also a string).
 
+Solution 1
+
 ```
 def solution(string, ending):
     return ending in string[-len(ending):]
 
-or
+```
 
+Solution 2 
+
+```
 def solution(string, ending):
     return string.endswith(ending)
 
