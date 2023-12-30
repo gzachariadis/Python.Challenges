@@ -94,14 +94,14 @@ Create a function with two arguments that will return an array of the first n mu
 
 Assume both the given number and the number of times to count will be positive numbers greater than 0.
 
-Solution 1 
+#### Solution 1 
 
 ```
 def count_by(x, n):
     return [i * x for i in range(1, n + 1)]
 ```
 
-Solution 2 
+#### Solution 2 
 
 ```
 def count_by(x, n):
@@ -167,12 +167,16 @@ def check(seq, elem):
 
 You get an array of numbers, return the sum of all of the positives ones.
 
+#### Solution 1
+
 ```
 def positive_sum(arr):
     return sum(x for x in arr if x > 0)
+```
 
-or
+#### Solution 2
 
+```
 def positive_sum(arr):
     if arr:
         return sum([i for i in arr if i >= 0])
