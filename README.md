@@ -5,7 +5,7 @@ A repository covering my answers to Codewars Python Challenges.
 Completed - 16
 
 - [Challenges](#challenges)
-  - [7 \& 8 kyu](#7--8-kyu)
+  - [Easy (7 \& 8 kyu)](#easy-7--8-kyu)
     - [Reverse Words](#reverse-words)
     - [Rock-Paper-Scissors Game](#rock-paper-scissors-game)
     - [Turn Hours, Minutes and Seconds to Milliseconds](#turn-hours-minutes-and-seconds-to-milliseconds)
@@ -20,8 +20,9 @@ Completed - 16
     - [Sum of Only Positives in List](#sum-of-only-positives-in-list)
     - [Convert Number to String](#convert-number-to-string)
     - [Get Middle Character(s) based on even or odd Length](#get-middle-characters-based-on-even-or-odd-length)
-  - [5 kyu](#5-kyu)
+  - [Medium (5-6 kyu)](#medium-5-6-kyu)
     - [Move Zeroes to the End of List](#move-zeroes-to-the-end-of-list)
+    - [Sum of Multiples inside Number](#sum-of-multiples-inside-number)
 
 ## Easy (7 & 8 kyu)
 
@@ -193,4 +194,3 @@ List the numbers which are multiple of 3 or 5. Then sum those multiples.
 def solution(number):
     return sum(n for n in range(number) if n % 3 == 0 or n % 5 == 0)
 ```
-
