@@ -321,7 +321,7 @@ def two_decimal_places(number):
     return float(number[:number.index('.') + 3])
 ```
 
-#### [Calculate Items' cost plus Tax](https://www.codewars.com/kata/585d7b4685151614190001fd/python)
+### [Calculate Items' cost plus Tax](https://www.codewars.com/kata/585d7b4685151614190001fd/python)
 
 ##### Objective
 
