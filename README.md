@@ -329,8 +329,8 @@ Given a catalog of items accompanied by prices in a form of a dictionary, and an
 
 ##### Constraints
 
-1. In case an item does not exist in the catalog dictionary, it should be ignored.
-2. Output should be rounded to two decimal places.
+- In case an item does not exist in the catalog dictionary, it should be ignored.
+- Output should be rounded to two decimal places.
 
 ##### Optimal Solution
 
@@ -357,7 +357,7 @@ Ending up with one final list.
 
 ##### Constraints
 
-1. In the case of more than one list sharing the same sum, place them in the same order as they were provided.
+- In the case of more than one list sharing the same sum, place them in the same order as they were provided.
 
 ##### Optimal Solution
 
