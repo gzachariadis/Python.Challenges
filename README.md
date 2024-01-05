@@ -297,7 +297,7 @@ def solution(s):
 
 ### [Formatting Decimal Places](https://www.codewars.com/kata/5641c3f809bf31f008000042/python)
 
-##### Objective
+#### Objective
 
 Given a floating-point number, return it as floating-point number type with only the first two decimal points. 
 
@@ -313,7 +313,7 @@ def two_decimal_places(number):
   return int (number * 100) / 100.0
 ```
 
-### My Solution
+#### My Solution
 
 ```
 def two_decimal_places(number):
