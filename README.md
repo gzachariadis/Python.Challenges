@@ -297,23 +297,23 @@ def solution(s):
 
 ### [Formatting Decimal Places](https://www.codewars.com/kata/5641c3f809bf31f008000042/python)
 
-#### Objective
+##### Objective
 
 Given a floating-point number, return it as floating-point number type with only the first two decimal points. 
 
-#### Constraints 
+##### Constraints 
 
 1. No need to check whether the input is a valid number.
 2. Don't [Round](https://www.w3schools.com/python/ref_func_round.asp) the numbers. 
 
-#### Optimal Solution 
+##### Optimal Solution 
 
 ```
 def two_decimal_places(number):
   return int (number * 100) / 100.0
 ```
 
-#### My Solution
+##### My Solution
 
 ```
 def two_decimal_places(number):
