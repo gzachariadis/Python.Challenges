@@ -347,3 +347,32 @@ def get_total(costs, items, tax):
     return round(total_cost + (total_cost * tax),2)
 ```
 
+### [Can't Beat 'em, Join'em!](https://www.codewars.com/kata/5d37899a3b34c6002df273ee/python)
+
+##### Objective
+
+You are given a list of nested lists. 
+Join the lists together by descending total list value (sum).
+Ending up with one final list.
+
+##### Constraints
+
+1. In the case of more than one list sharing the same sum, place them in the same order as they were provided.
+
+##### Optimal Solution
+
+```
+from itertools import chain
+
+def cant_beat_so_join(lsts):
+    return list(chain.from_iterable(sorted(lsts, key=sum, reverse=True)))
+```
+
+##### My Solution
+
+```
+from itertools import chain
+
+def cant_beat_so_join(numbers):
+    return list(chain(*sorted(numbers, key=sum,reverse=True)))
+```
