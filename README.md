@@ -2,7 +2,7 @@
 
 A repository covering my answers to Codewars Python Challenges.
 
-Completed - 16
+Completed - 31
 
 - [Challenges](#challenges)
   - [Easy (7 \& 8 kyu)](#easy-7--8-kyu)
