@@ -294,3 +294,20 @@ def solution(s):
         result.append(s[i : i + 2])
     return result
 ```
+
+### [Formatting Decimal Places](https://www.codewars.com/kata/5641c3f809bf31f008000042/python)
+
+Each floating-point number should be formatted that only the first two decimal places are returned. 
+
+Parameters:
+
+1. You don't need to check whether the input is a valid number.
+2. Rounding the numbers is not allowed. 
+3. Just cut them after two decimal places!
+
+#### Solution 
+
+```
+def two_decimal_places(number):
+  return int (number * 100) / 100.0
+```
