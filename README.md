@@ -320,3 +320,30 @@ def two_decimal_places(number):
     number = str(number)
     return float(number[:number.index('.') + 3])
 ```
+
+#### [Calculate Items' cost plus Tax](https://www.codewars.com/kata/585d7b4685151614190001fd/python)
+
+##### Objective
+
+Given a catalog of items accompanied by prices in a form of a dictionary, and an array specifying the items bought by a particular customer, calculate the total cost of the items plus a given tax.
+
+##### Constraints
+
+1. In case an item does not exist in the catalog dictionary, it should be ignored.
+2. Output should be rounded to two decimal places.
+
+##### Optimal Solution
+
+```
+def get_total(costs, items, tax):
+    return round(sum(costs.get(item, 0) for item in items) * (1 + tax), 2)
+```
+
+#### My Solution
+
+```
+def get_total(costs, items, tax):
+    total_cost = sum([costs[x] for x in items if x in costs.keys()])
+    return round(total_cost + (total_cost * tax),2)
+```
+
