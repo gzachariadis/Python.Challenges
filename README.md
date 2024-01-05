@@ -297,17 +297,26 @@ def solution(s):
 
 ### [Formatting Decimal Places](https://www.codewars.com/kata/5641c3f809bf31f008000042/python)
 
-Each floating-point number should be formatted that only the first two decimal places are returned. 
+##### Objective
 
-Parameters:
+Given a floating-point number, return it as floating-point number type with only the first two decimal points. 
 
-1. You don't need to check whether the input is a valid number.
-2. Rounding the numbers is not allowed. 
-3. Just cut them after two decimal places!
+#### Constraints 
 
-#### Solution 
+1. No need to check whether the input is a valid number.
+2. Don't [Round](https://www.w3schools.com/python/ref_func_round.asp) the numbers. 
+
+#### Optimal Solution 
 
 ```
 def two_decimal_places(number):
   return int (number * 100) / 100.0
+```
+
+### My Solution
+
+```
+def two_decimal_places(number):
+    number = str(number)
+    return float(number[:number.index('.') + 3])
 ```
