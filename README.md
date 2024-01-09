@@ -47,16 +47,6 @@ violating [Codewars policy](https://docs.codewars.com/community/rules/#policy)
 > and will not receive any honor or rank. This includes clever solutions that are clearly created
 > for the spirit of cheating. Repeat offenders who have intentionally cheated will be banned.
 
-## Author's Notes
-
-You acknowledge and agree that your use of the repository materials is at your own risk. The author
-accepts no responsibility or liability whatsoever for any consequences arising directly or
-indirectly from any action or inaction taken by you on the basis of, or in reliance on, any
-information or material contained in or linked to this repository. The information contained in this
-repository is provided "as is" with no warranties of completeness, accuracy, usefulness, or
-timeliness. The author reserves the right to change any of the items used or contained in the
-repository at any time without notice.
-
 ## Statistics
 
 - [1 kyu - Expert]()
@@ -539,8 +529,22 @@ def cant_beat_so_join(lsts):
     return list(chain.from_iterable(sorted(lsts, key=sum, reverse=True)))
 ```
 
-## Hard (4-2 kyu) - Codewars
+## Hard (4 kyu) - Codewars
+
+## Hard (3 kyu) - Codewars
+
+## Hard (2 kyu) - Codewars
+
+## Expert (1 kyu) - Codewars
 
 <br>
 
-## Expert (1 kyu) - Codewars
+## Author's Notes
+
+You acknowledge and agree that your use of the repository materials is at your own risk. The author
+accepts no responsibility or liability whatsoever for any consequences arising directly or
+indirectly from any action or inaction taken by you on the basis of, or in reliance on, any
+information or material contained in or linked to this repository. The information contained in this
+repository is provided "as is" with no warranties of completeness, accuracy, usefulness, or
+timeliness. The author reserves the right to change any of the items used or contained in the
+repository at any time without notice.
