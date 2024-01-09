@@ -21,10 +21,12 @@ Please attempt this exercises on your own. This repository is only used as diary
 Please **DO NOT** look at the solutions until you have solved a kata, or at least spent some time
 thinking about your own approaches to solving the challenge. Remember, if you use material from this
 repository to gain rank, you are
-violating [Codewars policy](https://docs.codewars.com/community/rules/#policy):
+violating [Codewars policy](https://docs.codewars.com/community/rules/#policy) 
 > If you are caught cheating on a challenge, you will initially have your solution marked as a cheat
 > and will not receive any honor or rank. This includes clever solutions that are clearly created
 > for the spirit of cheating. Repeat offenders who have intentionally cheated will be banned.
+
+## Author's Notes
 
 You acknowledge and agree that your use of the repository materials is at your own risk. The author
 accepts no responsibility or liability whatsoever for any consequences arising directly or
