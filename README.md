@@ -2,7 +2,7 @@
 
 A repository covering all the Python Challenges I have currently completed.
 
-A "✅" next to a Challenge Title indicates I achieved the Optimal Solution, as voted, under the corresponding Platform, on my first attempt.
+A "✅" next to a Challenge Title indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
 
 Completed - 31
 
