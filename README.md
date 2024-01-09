@@ -53,6 +53,8 @@ repository to gain rank, violates each individual Platform's Policy and might re
 | **Exercism**    |          |               |              |            |          |
 
 
+## Table of Contents
+
 - [Challenges](#challenges)
   - [Easy (7 \& 8 kyu)](#easy-7--8-kyu)
     - [Reverse Words](#reverse-words)
@@ -73,7 +75,7 @@ repository to gain rank, violates each individual Platform's Policy and might re
     - [Move Zeroes to the End of List](#move-zeroes-to-the-end-of-list)
     - [Sum of Multiples inside Number](#sum-of-multiples-inside-number)
 
-## Easy (7 & 8 kyu) - Codewars
+## Novice
 
 ### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) ✅
 
