@@ -2,12 +2,13 @@
 ![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)
 ![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey)
 ![Exercism](https://img.shields.io/badge/Exercism-009CAB?style=for-the-badge&logo=exercism&logoColor=white)
-![Codewars](https://github.r2v.ch/codewars?user=gzachariadis&stroke=green)
 
 # Python Challenges
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
+
+![Codewars](https://github.r2v.ch/codewars?user=gzachariadis&stroke=green)
 
 A repository covering all the Python Challenges I have currently completed.
 
