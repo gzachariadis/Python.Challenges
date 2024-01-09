@@ -16,8 +16,14 @@ Each challenge is accompanied by
 1. Objective
    - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
 2. Platform Badge
-   - First nested list item
-     - Second nested list item
+   - A badge that indicates the platform I attempted this challenge on.
+3. Problem Constraints
+   - Limitations & Guidelines on the Problem.
+5. Solution(s)
+6. Optional - Checkbox [✅]
+   - Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
+8. Optional - Notes
+   - Any notes or comments, I might have based my though process on or took while solving the problem.
 
 <br>
 
