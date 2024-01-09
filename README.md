@@ -9,7 +9,9 @@
 
 # Python Challenges
 
-This repository contains a collection of Python solutions to different coding challenges, grouped by difficulty. It's meant to be a diary of sorts to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
+This repository contains a collection of Python solutions to different coding challenges, grouped by difficulty. 
+
+A diary, if you will, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
 
 ## Challenge Format
 
