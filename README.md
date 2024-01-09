@@ -1,5 +1,5 @@
 # Python Challenges
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
 
