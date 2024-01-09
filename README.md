@@ -17,6 +17,8 @@ Each challenge is accompanied by
        - Problem Description
          - Expected Input
          - Expected Output
+
+   
 2. Platform Badge
        - A badge that indicates the platform I attempted this challenge on.
 3. Constraints
