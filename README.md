@@ -40,12 +40,8 @@ A diary, if you will, of sorts, to mark my own progress as I traverse the world 
 Please attempt these exercises on your own.
 
 **DO NOT** look at the solutions until you have solved a challenge, or at least spent some time
-thinking about your own approaches to solving it. Remember, if you use material from this
-repository to gain rank, you are
-violating [Codewars policy](https://docs.codewars.com/community/rules/#policy) 
-> If you are caught cheating on a challenge, you will initially have your solution marked as a cheat
-> and will not receive any honor or rank. This includes clever solutions that are clearly created
-> for the spirit of cheating. Repeat offenders who have intentionally cheated will be banned.
+thinking about your own approaches to solving it. Using material from this 
+repository to gain rank, violate each individual Platform's Policy and might result in getting you banned.
 
 ## Statistics
 
