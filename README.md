@@ -11,50 +11,31 @@
 
 This repository contains a collection of Python solutions to different coding challenges, grouped by difficulty. It's meant to be a diary of sorts to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
 
-Each challenge is accompanied by 
+## Challenge Format
 
-1. Objective
+1. Title
+   - You can use the Challenge Titles as links to the original coding challenges.
+2. Objective
    - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
-2. Platform Badge
+3. Platform Badge
    - A badge that indicates the platform I attempted this challenge on.
-3. Problem Constraints
+4. Problem Constraints
    - Limitations & Guidelines on the Problem.
 5. Solution(s)
+   - Source Code
+   - All solutions were solved on the official platform and verified against the original test suite.
 6. Optional - Checkbox [✅]
    - Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
-8. Optional - Notes
+7. Optional - Notes
    - Any notes or comments, I might have based my though process on or took while solving the problem.
-
-<br>
-
-
-
-
-1. Objective
-       - Problem Description
-         - Expected Input
-         - Expected Output
-
-   
-2. Platform Badge
-       - A badge that indicates the platform I attempted this challenge on.
-3. Constraints
-       - Limitations & Guidelines on the form of the solution required.
-4. Solution
-       - In the form of source code.
-       - All solutions were solved on the official platform and verified against the original test suite.
-5. Optional - Checkbox [✅] - indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
-6. Optional - Notes - Any notes or comments, I might have based my though process on or took while solving the problem.
-
-You can use the Challenge Titles as links to the original coding challenges.
-
-Please attempt this exercises on your own.
 
 ## Mastery Rankings
 
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
 
 ## ⚠️ Disclaimer
+
+Please attempt this exercises on your own.
 
 Please **DO NOT** look at the solutions until you have solved a kata, or at least spent some time
 thinking about your own approaches to solving the challenge. Remember, if you use material from this
