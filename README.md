@@ -426,12 +426,12 @@ def solution(s):
 
 ##### Objective
 
-Given a floating-point number, return it as floating-point number type with only the first two decimal points. 
+- Given a floating-point number, return it as floating-point number type with only the first two decimal points. 
 
 ##### Constraints 
 
-1. No need to check whether the input is a valid number.
-2. Don't [Round](https://www.w3schools.com/python/ref_func_round.asp) the numbers. 
+- No need to check whether the input is a valid number.
+- Don't [Round](https://www.w3schools.com/python/ref_func_round.asp) the numbers. 
 
 ##### Optimal Solution 
 
