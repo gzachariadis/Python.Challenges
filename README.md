@@ -36,19 +36,16 @@ repository is provided "as is" with no warranties of completeness, accuracy, use
 timeliness. The author reserves the right to change any of the items used or contained in the
 repository at any time without notice.
 
-A "✅" next to a Challenge Title indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
-
 ## Statistics
 
-<br>
-<br>
+A "✅" next to a Challenge Title indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
 
-| [1 kyu]() | [2 kyu]() | [3 kyu]() | [4 kyu]() | [5 kyu]() | [6 kyu]() | [7 kyu]() | [8 kyu]() | [beta]() | [retired]() |
-|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|:---------------------------:|:---------------------------------:|
-| 0 | 1 | 2 | 26 | 42 | 416 | 559 | 206 | 55 | 79 |
+- [1 kyu - Expert]()
+- [2 kyu - ]()
+- [3 kyu & 4 kyu - Challenging]()
+- [5 kyu & 6 kyu - Moderate]()
+- [7 kyu - 8 kyu - Easy]() 
 
-
-<br>
 
 - [Challenges](#challenges)
   - [Easy (7 \& 8 kyu)](#easy-7--8-kyu)
