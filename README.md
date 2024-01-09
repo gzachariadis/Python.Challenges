@@ -1,6 +1,6 @@
 # Python Challenges
 
-A repository covering Python Challenges I have managed to complete.
+A repository covering all the Python Challenges I have currently completed.
 
 A "✅" next to a Challenge Title indicates I achieved the Optimal Solution, as voted, under the corresponding Platform, on my first attempt.
 
