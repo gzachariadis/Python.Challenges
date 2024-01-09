@@ -36,7 +36,7 @@ Complete the function that accepts a string parameter, reverses each word in the
 
 - All spaces in the string should be retained.
   
-##### Solution 
+##### Personal Solution 
 
 ```
 def reverse_words(sentence):
