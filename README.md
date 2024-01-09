@@ -167,7 +167,7 @@ def count_by(x, n):
 
 ##### Objective 
 
-<br>
+- Given a list of pairs, each pair consists of an integer for the person's age and an integer for the person's handicap. Return a list of string values stating whether the respective member is to be placed in the "Senior" or "Open" category, based on the constraints.
 
 ##### Constraints
 
