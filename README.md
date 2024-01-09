@@ -79,7 +79,7 @@ repository to gain rank, violates each individual Platform's Policy and might re
 
 ## Novice
 
-### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) ![Codewars Logo](https://pbs.twimg.com/profile_images/1560302876529917956/GZMANt2y_400x400.jpg) ✅
+### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) ![Codewars-badge](https://pbs.twimg.com/profile_images/1560302876529917956/GZMANt2y_400x400.jpg) ✅
 
 ##### Objective
 
@@ -549,3 +549,7 @@ information or material contained in or linked to this repository. The informati
 repository is provided "as is" with no warranties of completeness, accuracy, usefulness, or
 timeliness. The author reserves the right to change any of the items used or contained in the
 repository at any time without notice.
+
+<style>
+   img[alt=Codewars-badge] { width: 30px; }
+</style>
