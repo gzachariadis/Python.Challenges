@@ -26,7 +26,7 @@ Completed - 31
 
 ## Easy (7 & 8 kyu)
 
-### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python)
+### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) ✅
 
 ##### Objective
 
@@ -36,7 +36,7 @@ Complete the function that accepts a string parameter, reverses each word in the
 
 - All spaces in the string should be retained.
   
-##### Personal Solution 
+##### Optimal Solution 
 
 ```
 def reverse_words(sentence):
@@ -45,13 +45,42 @@ def reverse_words(sentence):
 
 ### [Rock-Paper-Scissors Game](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/python)
 
-Let's play! You have to return which player won! In case of a draw return Draw!.
+##### Objective 
+
+Let's play Rock-Paper-Scissors, you have to return which player won! and in case of a draw return Draw!
+
+##### Constraints
+
+- Scissors beats Paper
+- Rock beats Scissors
+- Paper beats Rock
+
+##### Optimal Solution
 
 ```
 def rps(p1, p2):
     hand = {'rock':0, 'paper':1, 'scissors':2}
     results = ['Draw!', 'Player 1 won!', 'Player 2 won!']
     return results[hand[p1] - hand[p2]]
+```
+
+##### Personal Solution
+
+```
+def rps(p1, p2):
+    outcomes = {
+        "scissors" : "paper",
+        "rock" : "scissors",
+        "paper": "rock"
+    }
+    
+    if p1 == p2:
+        return "Draw!"
+    else:
+        if outcomes[p1] == p2:
+            return "Player 1 won!"
+        else:
+            return "Player 2 won!"
 ```
 
 ### [Turn Hours, Minutes and Seconds to Milliseconds](https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/python)
