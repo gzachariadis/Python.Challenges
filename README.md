@@ -8,8 +8,6 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
 
-![Codewars](https://github.r2v.ch/codewars?user=gzachariadis&stroke=green)
-
 A repository covering all the Python Challenges I have currently completed.
 
 A "✅" next to a Challenge Title indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
