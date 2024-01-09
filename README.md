@@ -79,7 +79,7 @@ repository to gain rank, violates each individual Platform's Policy and might re
 
 ## Novice
 
-### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) <img src="https://pbs.twimg.com/profile_images/1560302876529917956/GZMANt2y_400x400.jpg" width="20" height="20"> ✅
+### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) <img src="https://pbs.twimg.com/profile_images/1560302876529917956/GZMANt2y_400x400.jpg" width="15" height="15"> ✅
 
 ##### Objective
 
