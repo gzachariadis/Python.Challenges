@@ -26,9 +26,7 @@ Completed - 31
     - [Move Zeroes to the End of List](#move-zeroes-to-the-end-of-list)
     - [Sum of Multiples inside Number](#sum-of-multiples-inside-number)
 
-<h1 style="border-bottom: 0;">Codewars</h1>
-
-### Easy (7 & 8 kyu)
+## Easy (7 & 8 kyu) - Codewars
 
 ### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) ✅
 
