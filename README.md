@@ -28,9 +28,17 @@ Completed - 31
 
 ### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python)
 
-Complete the function that accepts a string parameter. Reverses each word in the string.
+##### Objective
 
-Return the string with every word reversed. All spaces in the string should be retained.
+- Complete the function that accepts a string parameter. 
+- Reverses each word in the string.
+- Return the string with every word reversed.
+
+##### Constraints
+
+- All spaces in the string should be retained.
+  
+##### Solution 
 
 ```
 def reverse_words(sentence):
