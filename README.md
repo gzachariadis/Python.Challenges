@@ -2,11 +2,12 @@
 ![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)
 ![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey)
 ![Exercism](https://img.shields.io/badge/Exercism-009CAB?style=for-the-badge&logo=exercism&logoColor=white)
-![GitHub top language](https://img.shields.io/github/languages/top/gzachariadis/Python.Challenges.svg?style=flat)
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
+
+![Static Badge](https://img.shields.io/badge/Language-Python-blue?style=flat&logo=python&logoColor=green)
 
 # Solution's Diary
 
