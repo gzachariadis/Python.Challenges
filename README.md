@@ -351,8 +351,7 @@ def number(bus_stops):
 def remove_char(s):
     return s[1 : -1]
 ```
-
-## Medium (5-6 kyu)
+## Medium (5-6 kyu) - Codewars
 
 ### [Move Zeroes to the End of List](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python)
 
@@ -479,3 +478,9 @@ from itertools import chain
 def cant_beat_so_join(lsts):
     return list(chain.from_iterable(sorted(lsts, key=sum, reverse=True)))
 ```
+
+## Hard (4-2 kyu) - Codewars
+
+<br>
+
+## Expert (1 kyu) - Codewars
