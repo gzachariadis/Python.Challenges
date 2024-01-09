@@ -39,7 +39,7 @@ A diary, if you will, of sorts, to mark my own progress as I traverse the world 
 
 Please attempt these exercises on your own.
 
-Please **DO NOT** look at the solutions until you have solved a challenge, or at least spent some time
+**DO NOT** look at the solutions until you have solved a challenge, or at least spent some time
 thinking about your own approaches to solving it. Remember, if you use material from this
 repository to gain rank, you are
 violating [Codewars policy](https://docs.codewars.com/community/rules/#policy) 
