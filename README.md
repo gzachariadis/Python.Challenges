@@ -32,11 +32,11 @@ Completed - 31
 
 ##### Objective
 
-Complete the function that accepts a string parameter, reverses each word in the string and return the string with every word reversed.
+- Write a Function that accepts a string parameter, reverses each word in the string and return the string with every word reversed.
 
 ##### Constraints
 
-- All spaces in the string should be retained.
+- All spaces in the given string should be retained.
   
 ##### Optimal Solution 
 
@@ -49,14 +49,15 @@ def reverse_words(sentence):
 
 ##### Objective 
 
-Let's play Rock-Paper-Scissors, you have to return which player won! and in case of a draw return Draw!
+- Let's play Rock-Paper-Scissors.
 
 ##### Constraints
 
 - Scissors beats Paper
 - Rock beats Scissors
 - Paper beats Rock
-
+- Return which Player won, or in case of a draw return "Draw!"
+  
 ##### Optimal Solution
 
 ```
@@ -70,13 +71,13 @@ def rps(p1, p2):
 
 ##### Objective
 
-Your task is to write a function that takes H - Hours, M - Minutes, S - Seconds and return it in Milliseconds.
+- Write a function that takes H - Hours, M - Minutes, S - Seconds and return the sum of it in Milliseconds.
 
 ##### Constraints
 
-- 0 <= h <= 23
-- 0 <= m <= 59
-- 0 <= s <= 59
+- H must be between 0 and 23
+- M must be between 0 and 59
+- S must be between 0 and 59
 
 ##### Optimal Solution
 
@@ -89,7 +90,7 @@ def past(h, m, s):
 
 ##### Objective
 
-Write a function that takes an array of numbers and returns the sum of the numbers.
+- Write a Function that takes an array of numbers and returns the sum of the numbers.
 
 ##### Constraints
 
@@ -107,7 +108,7 @@ def sum_array(x):
 
 ##### Objective
 
-You are given a number and have to make it negative. 
+- Given a number, write a function to make it negative. 
 
 ##### Constraints
 
@@ -125,7 +126,7 @@ def make_negative(number):
 
 ##### Objective
 
-Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+- Write a Function that takes a boolean value and return "Yes" for True, or "No" for False.
 
 ##### Constraints
 
@@ -142,7 +143,7 @@ def bool_to_word(bool):
 
 ##### Objective
 
-Create a function with two arguments that will return an array of the first n multiples of x.
+- Write a Function with two arguments that will return an array of the first "N" multiples of "X".
 
 ##### Constraints 
 
@@ -166,11 +167,12 @@ def count_by(x, n):
 
 ##### Objective 
 
-The Western Suburbs Croquet Club has two categories of membership, Senior and Open. 
-To be a senior, a member must be at least 55 years old and have a handicap greater than 7.
+<br>
 
 ##### Constraints
 
+- The Western Suburbs Croquet Club has two categories of membership, Senior and Open. 
+- To be a senior, a member must be at least 55 years old and have a handicap greater than 7.
 - Input will consist of a list of pairs.
 
 ##### Optimal Solution
@@ -184,7 +186,7 @@ def openOrSenior(data):
 
 ##### Objective
 
-Complete the solution so that it must return True if a string ends with 2nd argument (also a string).
+- Write a Function that takes two String Values "X" and "Y" and returns "True" if a string "X" ends with "Y" argument.
 
 ##### Constraints
 
@@ -208,7 +210,7 @@ def solution(string, ending):
 
 ##### Objective
 
-Given an array of integers, return a new array with each value doubled.
+- Given an array of integers, write a Function that returns a new array with each integer's value doubled.
 
 ##### Constraints
 
@@ -225,11 +227,11 @@ def maps(a):
 
 ##### Objective
 
-You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+- Given an array "Sequence" and a value "X", check whether the provided array contains the value.
 
 ##### Constraints
 
-- Return true if the array contains the value, false if not.
+- Return boolean True if the array contains the value, boolean False if not.
 
 ```
 def check(seq, elem):
@@ -240,7 +242,7 @@ def check(seq, elem):
 
 ##### Objective
 
-You get an array of numbers, return the sum of all of the positives ones.
+- Given an array of numbers, return the sum of all the positives numbers in the array.
 
 ##### Constraints
 
@@ -266,7 +268,7 @@ def positive_sum(arr):
 
 ##### Objective 
 
-We need a function that can transform a number (integer) into a string.
+- Create a Function that can transform a number (integer) into a string.
 
 ##### Constaints
 
@@ -281,7 +283,9 @@ def number_to_string(num):
 
 ### [Get Middle Character(s) based on even or odd Length](https://www.codewars.com/kata/56747fd5cb988479af000028/python)
 
-You are going to be given a word. Your job is to return the middle character of the word.
+##### Objective 
+
+- Given a word, write a Function to return the middle character of the word.
 
 ##### Constraints
 
@@ -299,7 +303,7 @@ def get_middle(s):
 
 ##### Objective
 
-Perform Pascal Case on a given String. PascalCase stands for capitalize every word's first letter.
+- Write a Function that performs Pascal-Case (capitalize every word's first letter) on a given string. 
 
 ##### Constraints
 
@@ -314,13 +318,11 @@ def pascal_case(string):
 
 ### [Number of People in the Bus](https://www.codewars.com/kata/5648b12ce68d9daa6b000099/python)
 
-##### Objective
+##### Objectives
 
-There is a bus moving in the city which takes and drops some people at each bus stop. You are provided with a list (or array) of integer pairs. 
-
-Elements of each pair represent the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop.
-
-Your task is to return the number of people who are still on the bus after the last bus stop (after the last array). 
+- You are provided with a list (or array) of integer pairs.
+- Elements of each pair represent the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop.
+- Your task is to return the number of people who are still on the bus after the last bus stop (after the last array). 
 
 ##### Constraints
 
@@ -337,7 +339,7 @@ def number(bus_stops):
 
 ##### Objective
 
-Your goal is to create a function that removes the first and last characters of a string.
+- Write a Function that removes the first and last characters of a string.
 
 ##### Constraints
 
@@ -356,11 +358,11 @@ def remove_char(s):
 
 ##### Objective
 
-Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
+- Write a Function that takes an array and moves all of the zeros to the end.
 
 ##### Constraints
 
-<br>
+- Preserve the order of the other elements as given.
 
 ##### Optimal Solution
 
@@ -373,8 +375,8 @@ def move_zeros(array):
 
 ##### Objective 
 
-List all natural numbers below the given parameter (not including the parameter)
-List the numbers which are multiple of 3 or 5. Then sum those multiples.
+- List all natural numbers below the given parameter (not including the parameter)
+- List the numbers which are multiple of 3 or 5. Then sum those multiples.
 
 ##### Constraints
 <br>
@@ -390,7 +392,7 @@ def solution(number):
 
 ##### Objective
 
-Complete the solution so that it splits the string into pairs of two characters.
+- Write a Function that splits the string into pairs of two characters.
 
 ##### Constraints
 
@@ -444,7 +446,7 @@ def two_decimal_places(number):
 
 ##### Objective
 
-Given a catalog of items accompanied by prices in a form of a dictionary, and an array specifying the items bought by a particular customer, calculate the total cost of the items plus a given tax.
+- Given a catalog of items accompanied by prices in a form of a dictionary, and an array specifying the items bought by a particular customer, calculate the total cost of the items plus a given tax.
 
 ##### Constraints
 
@@ -460,11 +462,9 @@ def get_total(costs, items, tax):
 
 ### [Can't Beat 'em, Join'em!](https://www.codewars.com/kata/5d37899a3b34c6002df273ee/python)
 
-##### Objective
+##### Objectives
 
-You are given a list of nested lists. 
-Join the lists together by descending total list value (sum).
-Ending up with one final list.
+- Given a list of nested lists, join the lists together by descending total list value (sum) and return one final aggregate list.
 
 ##### Constraints
 
