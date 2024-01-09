@@ -30,9 +30,7 @@ Completed - 31
 
 ##### Objective
 
-- Complete the function that accepts a string parameter. 
-- Reverses each word in the string.
-- Return the string with every word reversed.
+Complete the function that accepts a string parameter, reverses each word in the string and return the string with every word reversed.
 
 ##### Constraints
 
