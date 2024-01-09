@@ -45,6 +45,8 @@ def reverse_words(sentence):
     return ' '.join(word[::-1] for word in sentence.split(' '))
 ```
 
+##### Comments
+
 ### [Rock-Paper-Scissors Game](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/python)
 
 ##### Objective 
@@ -84,6 +86,9 @@ def rps(p1, p2):
         else:
             return "Player 2 won!"
 ```
+
+##### Comments
+
 
 ### [Turn Hours, Minutes and Seconds to Milliseconds](https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/python)
 
