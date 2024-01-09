@@ -13,6 +13,16 @@ This repository contains a collection of Python solutions to different coding ch
 
 Each challenge is accompanied by 
 
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+
+<br>
+
+
+
+
 1. Objective
        - Problem Description
          - Expected Input
