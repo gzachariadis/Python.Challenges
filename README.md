@@ -7,13 +7,13 @@
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
 
-# Python Challenges
+# Solution's Diary
 
 This repository contains a collection of Python solutions to different coding challenges, grouped by difficulty. 
 
 A diary, if you will, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
 
-## Challenge Format
+## Format
 
 1. Title
    - You can use the Challenge Titles as links to the original coding challenges.
