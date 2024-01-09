@@ -32,7 +32,7 @@ Completed - 31
 
 ##### Objective
 
-- Write a Function that accepts a string parameter, reverses each word in the string and return the string with every word reversed.
+- Write a Function that, given a string parameter, reverses each word in the string and returns the string with every word reversed.
 
 ##### Constraints
 
@@ -49,7 +49,7 @@ def reverse_words(sentence):
 
 ##### Objective 
 
-- Let's play Rock-Paper-Scissors.
+- Write a Function that, plays Rock-Paper-Scissors, given two players' choices as String Values.
 
 ##### Constraints
 
@@ -71,7 +71,7 @@ def rps(p1, p2):
 
 ##### Objective
 
-- Write a function that takes H - Hours, M - Minutes, S - Seconds and return the sum of it in Milliseconds.
+- Write a Function that, given "H" for Hours, "M" for Minutes and "S" for Seconds, returns the sum of all in Milliseconds.
 
 ##### Constraints
 
@@ -90,12 +90,13 @@ def past(h, m, s):
 
 ##### Objective
 
-- Write a Function that takes an array of numbers and returns the sum of the numbers.
+- Write a Function that, given an array of numbers returns the sum of the numbers in the array.
 
 ##### Constraints
 
 - The numbers can be negative or non-integer.
 - If the array does not contain any numbers then you should return 0.
+- Negatives must subtract from the sum, while positivies add to it.
 
 ##### Optimal Solution
 
@@ -108,7 +109,7 @@ def sum_array(x):
 
 ##### Objective
 
-- Given a number, write a function to make it negative. 
+- Write a Function that, given a number, transforms it to negative. 
 
 ##### Constraints
 
@@ -126,7 +127,7 @@ def make_negative(number):
 
 ##### Objective
 
-- Write a Function that takes a boolean value and return "Yes" for True, or "No" for False.
+- Write a Function that, given a boolean value, returns "Yes" for True, or "No" for False.
 
 ##### Constraints
 
@@ -143,7 +144,7 @@ def bool_to_word(bool):
 
 ##### Objective
 
-- Write a Function with two arguments that will return an array of the first "N" multiples of "X".
+- Write a Function that, given two arguments "N" and "X", returns an array of the first "N" multiples of "X".
 
 ##### Constraints 
 
@@ -167,7 +168,7 @@ def count_by(x, n):
 
 ##### Objective 
 
-- Given a list of pairs, each pair consists of an integer for the person's age and an integer for the person's handicap. Return a list of string values stating whether the respective member is to be placed in the "Senior" or "Open" category, based on the constraints.
+- Write a Function that, given a list of pairs, each pair consists of an integer for the person's age and an integer for the person's handicap, returns a list of string values stating whether the respective member is to be placed in the "Senior" or "Open" category, based on the constraints.
 
 ##### Constraints
 
@@ -186,7 +187,7 @@ def openOrSenior(data):
 
 ##### Objective
 
-- Write a Function that takes two String Values "X" and "Y" and returns "True" if a string "X" ends with "Y" argument.
+- Write a Function that, given two String Values "X" and "Y", returns "True" if a string "X" ends with "Y" argument.
 
 ##### Constraints
 
@@ -210,11 +211,11 @@ def solution(string, ending):
 
 ##### Objective
 
-- Given an array of integers, write a Function that returns a new array with each integer's value doubled.
+- Write a Function that, given an array of integers, returns a new array with each integer's value doubled.
 
 ##### Constraints
 
-<br>
+- The output must be a new List.
 
 ##### Optimal Solution
 
@@ -227,11 +228,11 @@ def maps(a):
 
 ##### Objective
 
-- Given an array "Sequence" and a value "X", check whether the provided array contains the value.
+- Write a Function that, given an array "Sequence" and a value "X", check whether the provided array contains the value and returns return "True" if the array contains the value or "False" if not.
 
 ##### Constraints
 
-- Return boolean True if the array contains the value, boolean False if not.
+- Return type must be of type Boolean.
 
 ```
 def check(seq, elem):
@@ -242,11 +243,11 @@ def check(seq, elem):
 
 ##### Objective
 
-- Given an array of numbers, return the sum of all the positives numbers in the array.
+- Write a Function that, given an array of numbers, returns the sum of all the positives numbers in the array.
 
 ##### Constraints
 
-<br>
+- Default sum (in case all negative) should be Zero (0).
 
 ##### Optimal Solution 1
 
@@ -268,11 +269,11 @@ def positive_sum(arr):
 
 ##### Objective 
 
-- Create a Function that can transform a number (integer) into a string.
+- Write a Function that, can transform a number (integer) into a string.
 
 ##### Constaints
 
-<br>
+- Output must be of type String.
 
 ##### Optimal Solution
 
@@ -285,7 +286,7 @@ def number_to_string(num):
 
 ##### Objective 
 
-- Given a word, write a Function to return the middle character of the word.
+- Write a Function that, given a word returns the middle character of the word.
 
 ##### Constraints
 
@@ -303,12 +304,12 @@ def get_middle(s):
 
 ##### Objective
 
-- Write a Function that performs Pascal-Case (capitalize every word's first letter) on a given string. 
+- Write a Function that, performs Pascal-Case (capitalize every word's first letter) on a given string. 
 
 ##### Constraints
 
-<br>
-
+- None.
+  
 ##### Optimal Solution
 
 ```
@@ -320,13 +321,12 @@ def pascal_case(string):
 
 ##### Objectives
 
-- You are provided with a list (or array) of integer pairs.
-- Elements of each pair represent the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop.
-- Your task is to return the number of people who are still on the bus after the last bus stop (after the last array). 
+- Write a Function that, given a list (or array) of integer pairs, representing the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop, returns the number of people who are still on the bus after the last bus stop (after the last array). 
 
 ##### Constraints
 
-<br>
+- The test cases ensure that the number of people in the bus is always >= 0. So the returned integer can't be negative.
+- The second value in the first pair in the array is 0, since the bus is empty in the first bus stop.
 
 ##### Optimal Solution
 
@@ -339,11 +339,11 @@ def number(bus_stops):
 
 ##### Objective
 
-- Write a Function that removes the first and last characters of a string.
+- Write a Function that, removes the first and last characters of a string.
 
 ##### Constraints
 
-<br>
+- You don't have to worry with strings with less than two characters.
 
 ##### Optimal Solution
 
@@ -358,7 +358,7 @@ def remove_char(s):
 
 ##### Objective
 
-- Write a Function that takes an array and moves all of the zeros to the end.
+- Write a Function that, given an array, moves all of the zeros to the end.
 
 ##### Constraints
 
@@ -375,12 +375,13 @@ def move_zeros(array):
 
 ##### Objective 
 
-- List all natural numbers below the given parameter (not including the parameter)
-- List the numbers which are multiple of 3 or 5. Then sum those multiples.
+- Write a Function that, given a parameter, lists all natural numbers below the given parameter (not including the parameter), which are multiple of 3 or 5, returning the sum of those multiples.
 
 ##### Constraints
-<br>
 
+- If the number is a multiple of both 3 and 5, only count it once.
+- Additionally, if the number is negative, return 0.
+  
 ##### Optimal Solution
 
 ```
@@ -392,7 +393,7 @@ def solution(number):
 
 ##### Objective
 
-- Write a Function that splits the string into pairs of two characters.
+- Write a Function that, splits the string into pairs of two characters.
 
 ##### Constraints
 
@@ -428,7 +429,7 @@ def solution(s):
 
 ##### Objective
 
-- Given a floating-point number, return it as floating-point number type with only the first two decimal points. 
+- Write a Function that, given a floating-point number, returns a floating-point number type with only the first two decimal points. 
 
 ##### Constraints 
 
@@ -446,7 +447,7 @@ def two_decimal_places(number):
 
 ##### Objective
 
-- Given a catalog of items accompanied by prices in a form of a dictionary, and an array specifying the items bought by a particular customer, calculate the total cost of the items plus a given tax.
+- Write a Function that, given a catalog of items accompanied by prices in a form of a dictionary, and an array specifying the items bought by a particular customer, calculate the total cost of the items plus a given tax.
 
 ##### Constraints
 
@@ -464,7 +465,7 @@ def get_total(costs, items, tax):
 
 ##### Objectives
 
-- Given a list of nested lists, join the lists together by descending total list value (sum) and return one final aggregate list.
+- Write a Function that, given a list of nested lists, joins the lists together by descending total list value (sum) and returns one final aggregate list.
 
 ##### Constraints
 
