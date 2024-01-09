@@ -28,7 +28,7 @@ Completed - 31
 
 <h1 style="border-bottom: 0;">Codewars</h1>
 
-## Easy (7 & 8 kyu)
+### Easy (7 & 8 kyu)
 
 ### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) ✅
 
