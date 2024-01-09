@@ -29,8 +29,8 @@ repository to gain rank, violates each individual Platform's Policy and might re
    - You can use the Challenge Titles as links to the original coding challenges.
 - Objective
    - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
-- Platform Badge
-   - A badge that indicates the platform I attempted this challenge on.
+- Platform 
+   - ?
 - Problem Constraints
    - Limitations & Guidelines on the Problem.
 - Solution(s)
@@ -79,7 +79,7 @@ repository to gain rank, violates each individual Platform's Policy and might re
 
 ## Novice
 
-### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/codewars_logo_icon_145389.png" width="25" height="25"> ✅
+### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) ✅ - Codewars
 
 ##### Objective
 
