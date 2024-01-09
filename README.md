@@ -13,10 +13,11 @@ This repository contains a collection of Python solutions to different coding ch
 
 Each challenge is accompanied by 
 
-1. First list item
+1. Objective
+   - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
+2. Platform Badge
    - First nested list item
      - Second nested list item
-
 
 <br>
 
