@@ -12,7 +12,7 @@ A repository covering all the Python Challenges I have currently completed.
 
 You should not submit these solutions as your own.
 
-I will not be accepting contributions of any form to this repo.
+![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
 
 A "✅" next to a Challenge Title indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
 
