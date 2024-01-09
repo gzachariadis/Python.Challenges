@@ -173,6 +173,8 @@ To be a senior, a member must be at least 55 years old and have a handicap great
 
 - Input will consist of a list of pairs.
 
+##### Optimal Solution
+
 ```
 def openOrSenior(data):
   return ["Senior" if age >= 55 and handicap >= 8 else "Open" for (age, handicap) in data]
