@@ -41,7 +41,7 @@ Please attempt these exercises on your own.
 
 **DO NOT** look at the solutions until you have solved a challenge, or at least spent some time
 thinking about your own approaches to solving it. Using material from this 
-repository to gain rank, violate each individual Platform's Policy and might result in getting you banned.
+repository to gain rank, violates each individual Platform's Policy and might result in getting you banned.
 
 ## Statistics
 
