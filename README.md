@@ -6,11 +6,27 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
 
-# Python
+# Python Challenges
 
-The repository contains a collection of Python solutions to different coding challenges, grouped by "kyū" (difficulty rank). Each challenge is accompanied by an Objective, a Solution in the form of source code, and any constraints that accompany the problem. All solutions were solved on the official platform and verified against the original test suite. You can use the Challenge Titles as links to the original coding challenges. 
+This repository contains a collection of Python solutions to different coding challenges, grouped by difficulty. It's meant to be a diary of sorts to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
 
-Please attempt this exercises on your own. This repository is only used as diary of sorts to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
+Each challenge is accompanied by 
+- Objective
+    - The problem itself. In the form of Expected Input, Problem Description and Expected Output.
+    - Object may vary in description and detail based on the original author's description.
+- Platform Badge
+    - A badge that indicates the platform I attempted this challenge on.
+- Constraints
+    - Limitations & Guidelines on the form of the solution required.
+- Solution
+    - In the form of source code.
+    - All solutions were solved on the official platform and verified against the original test suite.
+- Optional - Checkbox [✅] - indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
+- Optional - Notes - Any notes or comments, I might have based my though process on or took while solving the problem.
+
+You can use the Challenge Titles as links to the original coding challenges.
+
+Please attempt this exercises on your own.
 
 ## Mastery Rankings
 
@@ -37,8 +53,6 @@ timeliness. The author reserves the right to change any of the items used or con
 repository at any time without notice.
 
 ## Statistics
-
-A "✅" next to a Challenge Title indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
 
 - [1 kyu - Expert]()
 - [2 kyu - ]()
