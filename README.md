@@ -45,8 +45,6 @@ def reverse_words(sentence):
     return ' '.join(word[::-1] for word in sentence.split(' '))
 ```
 
-##### Comments
-
 ### [Rock-Paper-Scissors Game](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/python)
 
 ##### Objective 
@@ -68,31 +66,19 @@ def rps(p1, p2):
     return results[hand[p1] - hand[p2]]
 ```
 
-##### Personal Solution
-
-```
-def rps(p1, p2):
-    outcomes = {
-        "scissors" : "paper",
-        "rock" : "scissors",
-        "paper": "rock"
-    }
-    
-    if p1 == p2:
-        return "Draw!"
-    else:
-        if outcomes[p1] == p2:
-            return "Player 1 won!"
-        else:
-            return "Player 2 won!"
-```
-
-##### Comments
-
-
 ### [Turn Hours, Minutes and Seconds to Milliseconds](https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/python)
 
+##### Objective
+
 Your task is to write a function that takes H - Hours, M - Minutes, S - Seconds and return it in Milliseconds.
+
+##### Constraints
+
+- 0 <= h <= 23
+- 0 <= m <= 59
+- 0 <= s <= 59
+
+##### Optimal Solution
 
 ```
 def past(h, m, s):
@@ -101,11 +87,16 @@ def past(h, m, s):
 
 ### [Get the Sum of all Numbers in Array](https://www.codewars.com/kata/53dc54212259ed3d4f00071c/python)
 
+##### Objective
+
 Write a function that takes an array of numbers and returns the sum of the numbers.
 
-The numbers can be negative or non-integer.
+##### Constraints
 
-If the array does not contain any numbers then you should return 0.
+- The numbers can be negative or non-integer.
+- If the array does not contain any numbers then you should return 0.
+
+##### Optimal Solution
 
 ```
 def sum_array(x):
