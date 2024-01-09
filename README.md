@@ -12,18 +12,20 @@
 This repository contains a collection of Python solutions to different coding challenges, grouped by difficulty. It's meant to be a diary of sorts to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
 
 Each challenge is accompanied by 
-- Objective
-    - The problem itself. In the form of Expected Input, Problem Description and Expected Output.
-    - Object may vary in description and detail based on the original author's description.
-- Platform Badge
-    - A badge that indicates the platform I attempted this challenge on.
-- Constraints
-    - Limitations & Guidelines on the form of the solution required.
-- Solution
-    - In the form of source code.
-    - All solutions were solved on the official platform and verified against the original test suite.
-- Optional - Checkbox [✅] - indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
-- Optional - Notes - Any notes or comments, I might have based my though process on or took while solving the problem.
+
+1. Objective
+       - Problem Description
+         - Expected Input
+         - Expected Output
+2. Platform Badge
+       - A badge that indicates the platform I attempted this challenge on.
+3. Constraints
+       - Limitations & Guidelines on the form of the solution required.
+4. Solution
+       - In the form of source code.
+       - All solutions were solved on the official platform and verified against the original test suite.
+5. Optional - Checkbox [✅] - indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
+6. Optional - Notes - Any notes or comments, I might have based my though process on or took while solving the problem.
 
 You can use the Challenge Titles as links to the original coding challenges.
 
