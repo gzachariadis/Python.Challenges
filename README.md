@@ -105,7 +105,16 @@ def sum_array(x):
 
 ### [Turn Number to Negative](https://www.codewars.com/kata/55685cd7ad70877c23000102/python)
 
-You are given a number and have to make it negative. But maybe the number is already negative?
+##### Objective
+
+You are given a number and have to make it negative. 
+
+##### Constraints
+
+- The number can be negative already, in which case no change is required.
+- Zero (0) is not checked for any specific sign. 
+
+##### Optimal Solution
 
 ```
 def make_negative(number):
@@ -114,7 +123,15 @@ def make_negative(number):
 
 ### [Convert boolean values to strings 'Yes' or 'No'](https://www.codewars.com/kata/53369039d7ab3ac506000467/python)
 
+##### Objective
+
 Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+##### Constraints
+
+- Output must be of String type.
+
+##### Optimal Solution
 
 ```
 def bool_to_word(bool):
@@ -123,18 +140,22 @@ def bool_to_word(bool):
 
 ### [Count by X](https://www.codewars.com/kata/5513795bd3fafb56c200049e/python)
 
+##### Objective
+
 Create a function with two arguments that will return an array of the first n multiples of x.
 
-Assume both the given number and the number of times to count will be positive numbers greater than 0.
+##### Constraints 
 
-#### Solution 1 
+- Assume both the given number and the number of times to count will be positive numbers greater than 0.
+
+##### Optimal Solution 1  
 
 ```
 def count_by(x, n):
     return [i * x for i in range(1, n + 1)]
 ```
 
-#### Solution 2 
+##### Optimal Solution 2 
 
 ```
 def count_by(x, n):
@@ -143,11 +164,14 @@ def count_by(x, n):
 
 ### [Categorize each item in List](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/solutions/python)
 
-The Western Suburbs Croquet Club has two categories of membership, Senior and Open.
+##### Objective 
 
+The Western Suburbs Croquet Club has two categories of membership, Senior and Open. 
 To be a senior, a member must be at least 55 years old and have a handicap greater than 7.
 
-Input will consist of a list of pairs.
+##### Constraints
+
+- Input will consist of a list of pairs.
 
 ```
 def openOrSenior(data):
@@ -156,9 +180,13 @@ def openOrSenior(data):
 
 ### [Does String end with?](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/python)
 
+##### Objective
+
 Complete the solution so that it must return True if a string ends with 2nd argument (also a string).
 
-#### Solution 1
+##### Constraints
+
+#### Optional Solution 1 (Without)
 
 ```
 def solution(string, ending):
@@ -166,7 +194,7 @@ def solution(string, ending):
 
 ```
 
-#### Solution 2 
+#### Optional Solution 2 (With)
 
 ```
 def solution(string, ending):
