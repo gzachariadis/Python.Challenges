@@ -15,20 +15,20 @@ A diary, if you will, of sorts, to mark my own progress as I traverse the world 
 
 ## Format
 
-1. Title
+- Title
    - You can use the Challenge Titles as links to the original coding challenges.
-2. Objective
+- Objective
    - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
-3. Platform Badge
+- Platform Badge
    - A badge that indicates the platform I attempted this challenge on.
-4. Problem Constraints
+- Problem Constraints
    - Limitations & Guidelines on the Problem.
-5. Solution(s)
+- Solution(s)
    - Source Code
    - All solutions were solved on the official platform and verified against the original test suite.
-6. Optional - Checkbox [✅]
+- Optional - Checkbox [✅]
    - Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
-7. Optional - Notes
+- Optional - Notes
    - Any notes or comments, I might have based my though process on or took while solving the problem.
 
 ## Mastery Rankings
