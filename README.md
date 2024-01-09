@@ -8,9 +8,11 @@
 
 # Python
 
-The repository contains a collection of Python solutions to different coding challenges, grouped by "kyū" (difficulty rank). Each kata is organized under this file accompanied by a task object, a solution source code, and any constraints that accompany the problem. All solutions were solved on the official platform and verified against the original test suite. You can use the Challenge Titles as links to the original coding challenge.
+The repository contains a collection of Python solutions to different coding challenges, grouped by "kyū" (difficulty rank). Each challenge is accompanied by an Objective, a Solution in the form of source code, and any constraints that accompany the problem. All solutions were solved on the official platform and verified against the original test suite. You can use the Challenge Titles as links to the original coding challenges. 
 
-## Rankings
+Please attempt this exercises on your own. This repository is only used as diary of sorts to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
+
+## Mastery Rankings
 
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
 
