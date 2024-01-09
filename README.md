@@ -1,8 +1,8 @@
-# Challenges
+# Python Challenges
 
-A repository covering my answers to Codewars Python Challenges.
+A repository covering Python Challenges I have managed to complete.
 
-✅ - Indicates I achieved the Optimal Solution
+A "✅" next to a Challenge Title indicates I achieved the Optimal Solution, as voted, under the corresponding Platform, on my first attempt.
 
 Completed - 31
 
