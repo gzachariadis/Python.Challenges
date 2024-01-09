@@ -26,7 +26,7 @@ Completed - 31
     - [Move Zeroes to the End of List](#move-zeroes-to-the-end-of-list)
     - [Sum of Multiples inside Number](#sum-of-multiples-inside-number)
 
-<p style="border-bottom: 0;">Codewars</p>
+<p style="border-bottom: 0; font-size: 32px; "><strong>Codewars</strong></p>
 
 ## Easy (7 & 8 kyu)
 
