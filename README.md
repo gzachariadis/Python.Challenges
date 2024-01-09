@@ -45,11 +45,12 @@ repository to gain rank, violates each individual Platform's Policy and might re
 
 ## Statistics
 
-- [1 kyu - Expert]()
-- [2 kyu - ]()
-- [3 kyu & 4 kyu - Challenging]()
-- [5 kyu & 6 kyu - Moderate]()
-- [7 kyu - 8 kyu - Easy]() 
+|     Platform    |  Expert  |  Challenging  |  Proficient  |  Moderate  |  Novice  |
+|:---------------:|:--------:|:-------------:|:------------:|:----------:|:--------:|
+|   **Codewars**  |          |               |              |            |          |
+|  **Leet Code**  |          |               |              |            |          |
+| **Hacker Rank** |          |               |              |            |          |
+| **Exercism**    |          |               |              |            |          |
 
 
 - [Challenges](#challenges)
