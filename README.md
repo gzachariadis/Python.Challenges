@@ -15,10 +15,9 @@ A repository covering all the Python Challenges I have currently completed.
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
 
 
-<br>
-<br>
 A "✅" next to a Challenge Title indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
-
+<br>
+<br>
 <br>
 
 | [1 kyu]() | [2 kyu]() | [3 kyu]() | [4 kyu]() | [5 kyu]() | [6 kyu]() | [7 kyu]() | [8 kyu]() | [beta]() | [retired]() |
