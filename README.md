@@ -13,6 +13,14 @@ This repository contains a collection of Python solutions to different coding ch
 
 A diary, if you will, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
 
+## ⚠️ Disclaimer
+
+Please attempt these exercises on your own.
+
+**DO NOT** look at the solutions until you have solved a challenge, or at least spent some time
+thinking about your own approaches to solving it. Using material from this 
+repository to gain rank, violates each individual Platform's Policy and might result in getting you banned.
+
 ## Format
 
 - Title
@@ -34,14 +42,6 @@ A diary, if you will, of sorts, to mark my own progress as I traverse the world 
 ## Mastery Rankings
 
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
-
-## ⚠️ Disclaimer
-
-Please attempt these exercises on your own.
-
-**DO NOT** look at the solutions until you have solved a challenge, or at least spent some time
-thinking about your own approaches to solving it. Using material from this 
-repository to gain rank, violates each individual Platform's Policy and might result in getting you banned.
 
 ## Statistics
 
