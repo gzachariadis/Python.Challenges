@@ -188,7 +188,7 @@ Complete the solution so that it must return True if a string ends with 2nd argu
 
 ##### Constraints
 
-#### Optional Solution 1 (Without)
+##### Optional Solution 1 (Without)
 
 ```
 def solution(string, ending):
@@ -196,7 +196,7 @@ def solution(string, ending):
 
 ```
 
-#### Optional Solution 2 (With)
+##### Optional Solution 2 (With)
 
 ```
 def solution(string, ending):
@@ -206,7 +206,15 @@ def solution(string, ending):
 
 ### [Double Each Element in Array](https://www.codewars.com/kata/57f781872e3d8ca2a000007e/python)
 
+##### Objective
+
 Given an array of integers, return a new array with each value doubled.
+
+##### Constraints
+
+<br>
+
+##### Optimal Solution
 
 ```
 def maps(a):
@@ -215,11 +223,13 @@ def maps(a):
 
 ### [Check if Element in List](https://www.codewars.com/kata/57cc975ed542d3148f00015b/python)
 
-You will be given an array a and a value x.
+##### Objective
 
-All you need to do is check whether the provided array contains the value.
+You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
 
-Return true if the array contains the value, false if not.
+##### Constraints
+
+- Return true if the array contains the value, false if not.
 
 ```
 def check(seq, elem):
@@ -228,16 +238,22 @@ def check(seq, elem):
 
 ### [Sum of Only Positives in List](https://www.codewars.com/kata/5715eaedb436cf5606000381/python)
 
+##### Objective
+
 You get an array of numbers, return the sum of all of the positives ones.
 
-#### Solution 1
+##### Constraints
+
+<br>
+
+##### Optimal Solution 1
 
 ```
 def positive_sum(arr):
     return sum(x for x in arr if x > 0)
 ```
 
-#### Solution 2
+##### Optimal Solution 2
 
 ```
 def positive_sum(arr):
@@ -248,7 +264,15 @@ def positive_sum(arr):
 
 ### [Convert Number to String](https://www.codewars.com/kata/5265326f5fda8eb1160004c8/python)
 
+##### Objective 
+
 We need a function that can transform a number (integer) into a string.
+
+##### Constaints
+
+<br>
+
+##### Optimal Solution
 
 ```
 def number_to_string(num):
@@ -257,24 +281,31 @@ def number_to_string(num):
 
 ### [Get Middle Character(s) based on even or odd Length](https://www.codewars.com/kata/56747fd5cb988479af000028/python)
 
-You are going to be given a word.
+You are going to be given a word. Your job is to return the middle character of the word.
 
-Your job is to return the middle character of the word.
+##### Constraints
 
-If the word's length is odd, return the middle character.
+- If the word's length is odd, return the middle character.
+- If the word's length is even, return the middle 2 characters.
 
-If the word's length is even, return the middle 2 characters.
+##### Optimal Solution
 
 ```
 def get_middle(s):
     index, odd = divmod(len(s), 2)
     return s[index] if odd else s[index - 1:index + 1]
 ```
-
 ### [PascalCase](https://www.codewars.com/kata/5390bac347d09b7da40006f6/python)
 
-Perform Pascal Case on a given String.\
-PascalCase stands for capitalize every word's first letter.
+##### Objective
+
+Perform Pascal Case on a given String. PascalCase stands for capitalize every word's first letter.
+
+##### Constraints
+
+<br>
+
+##### Optimal Solution
 
 ```
 def pascal_case(string):
@@ -283,13 +314,19 @@ def pascal_case(string):
 
 ### [Number of People in the Bus](https://www.codewars.com/kata/5648b12ce68d9daa6b000099/python)
 
-There is a bus moving in the city which takes and drops some people at each bus stop.
+##### Objective
 
-You are provided with a list (or array) of integer pairs. 
+There is a bus moving in the city which takes and drops some people at each bus stop. You are provided with a list (or array) of integer pairs. 
 
 Elements of each pair represent the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop.
 
 Your task is to return the number of people who are still on the bus after the last bus stop (after the last array). 
+
+##### Constraints
+
+<br>
+
+##### Optimal Solution
 
 ```
 def number(bus_stops):
@@ -298,7 +335,15 @@ def number(bus_stops):
 
 ### [Remove First and Last Character from String](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/python)
 
+##### Objective
+
 Your goal is to create a function that removes the first and last characters of a string.
+
+##### Constraints
+
+<br>
+
+##### Optimal Solution
 
 ```
 def remove_char(s):
@@ -309,7 +354,15 @@ def remove_char(s):
 
 ### [Move Zeroes to the End of List](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python)
 
+##### Objective
+
 Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
+
+##### Constraints
+
+<br>
+
+##### Optimal Solution
 
 ```
 def move_zeros(array):
@@ -318,8 +371,15 @@ def move_zeros(array):
 
 ### [Sum of Multiples inside Number](https://www.codewars.com/kata/514b92a657cdc65150000006/python)
 
+##### Objective 
+
 List all natural numbers below the given parameter (not including the parameter)
 List the numbers which are multiple of 3 or 5. Then sum those multiples.
+
+##### Constraints
+<br>
+
+##### Optimal Solution
 
 ```
 def solution(number):
@@ -328,11 +388,15 @@ def solution(number):
 
 ### [Create Character Pairs from String](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001/python)
 
+##### Objective
+
 Complete the solution so that it splits the string into pairs of two characters.
 
-If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
+##### Constraints
 
-#### Solution 1
+- If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
+
+##### Optimal Solution 1
 
 ```
 def solution(s):
@@ -345,7 +409,7 @@ def solution(s):
     return result
 ```
 
-#### Solution 2
+##### Optimal Solution 2
 
 ```
 def solution(s):
@@ -376,14 +440,6 @@ def two_decimal_places(number):
   return int (number * 100) / 100.0
 ```
 
-##### My Solution
-
-```
-def two_decimal_places(number):
-    number = str(number)
-    return float(number[:number.index('.') + 3])
-```
-
 ### [Calculate Items' cost plus Tax](https://www.codewars.com/kata/585d7b4685151614190001fd/python)
 
 ##### Objective
@@ -400,14 +456,6 @@ Given a catalog of items accompanied by prices in a form of a dictionary, and an
 ```
 def get_total(costs, items, tax):
     return round(sum(costs.get(item, 0) for item in items) * (1 + tax), 2)
-```
-
-#### My Solution
-
-```
-def get_total(costs, items, tax):
-    total_cost = sum([costs[x] for x in items if x in costs.keys()])
-    return round(total_cost + (total_cost * tax),2)
 ```
 
 ### [Can't Beat 'em, Join'em!](https://www.codewars.com/kata/5d37899a3b34c6002df273ee/python)
@@ -429,13 +477,4 @@ from itertools import chain
 
 def cant_beat_so_join(lsts):
     return list(chain.from_iterable(sorted(lsts, key=sum, reverse=True)))
-```
-
-##### My Solution
-
-```
-from itertools import chain
-
-def cant_beat_so_join(numbers):
-    return list(chain(*sorted(numbers, key=sum,reverse=True)))
 ```
