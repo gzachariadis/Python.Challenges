@@ -5,15 +5,18 @@
 
 # Python Challenges
 
+A repository covering all the Python Challenges I have currently completed.
+
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
 
-A repository covering all the Python Challenges I have currently completed.
-
-You should not submit these solutions as your own.
+## Rankings
 
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
 
+
+<br>
+<br>
 A "✅" next to a Challenge Title indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
 
 Completed - 31
