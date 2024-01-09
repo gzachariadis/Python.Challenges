@@ -2,6 +2,8 @@
 
 A repository covering my answers to Codewars Python Challenges.
 
+✅ - Indicates I achieved the Optimal Solution
+
 Completed - 31
 
 - [Challenges](#challenges)
