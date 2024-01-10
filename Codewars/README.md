@@ -21,21 +21,21 @@ Solutions were accepted on the official platform and verified against the origin
 
 <br>
 
-- 🚧 [8 Kyu](https://github.com/) - 15/322
+- 🚧 [8 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/README.md) - 15/322
 
-* 🚧 [7 Kyυ](https://github.com/) - 12/1.655
+* 🚧 [7 Kyυ](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/README.md) - 12/1.655
 
-- ⏸️ [6 Kyu](https://github.com/) - 3/1.760
+- ⏸️ [6 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/README.md) - 3/1.760
 
-* ⏸️ [5 Kyu](https://github.com/) - 0/654
+* ⏸️ [5 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/5-kyu/README.md) - 0/654
 
-- ⏸️ [4 Kyu](https://github.com/) - 0/229
+- ⏸️ [4 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/4-kyu/README.md) - 0/229
 
-* ⛔ [3 Kyu](https://github.com/) - 0/69
+* ⛔ [3 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/3-kyu/README.md) - 0/69
 
-- ⛔ [2 Kyu](https://github.com/) - 0/37
+- ⛔ [2 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/2-kyu/README.md) - 0/37
 
-* ⛔ [1 Kyu](https://github.com/) - 0/21
+* ⛔ [1 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/1-kyu/README.md) - 0/21
 
 <br>
 
