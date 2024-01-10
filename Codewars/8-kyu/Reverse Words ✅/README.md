@@ -7,10 +7,3 @@
 ##### Constraints
 
 - All spaces in the given string should be retained.
-  
-##### Optimal Solution 
-
-```
-def reverse_words(sentence):
-    return ' '.join(word[::-1] for word in sentence.split(' '))
-```
