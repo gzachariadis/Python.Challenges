@@ -29,7 +29,7 @@
 
 </div>
 
-<h3 align="center">⚠️ Disclaimer ⚠️</h3>
+<h2 align="center">⚠️ Disclaimer ⚠️</h2>
 <br>
 <p align="center">
   <i align="center"> Please attempt these exercises on your own.</i>
