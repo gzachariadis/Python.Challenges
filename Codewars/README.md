@@ -28,21 +28,21 @@ Solutions are often accompanied by a notes file, explaining the thought-process 
 | 0 	| 0 	| 0 	| 0 	| 0 	| 3 	| 12 	| 15 	| 30 	|
 
 
-- ✅ [8 Kyu](https://github.com/) - Completion Rate: 100%
+- ✅ [8 Kyu](https://github.com/) - 15/322
 
-* 🚧 [7 Kyυ](https://github.com/)
+* 🚧 [7 Kyυ](https://github.com/) - 12/1,655
 
-- ⏸️ [6 Kyu](https://github.com/)
+- ⏸️ [6 Kyu](https://github.com/) - 3/1,760
 
-* ⏸️ [5 Kyu](https://github.com/)
+* ⏸️ [5 Kyu](https://github.com/) - 0/654
 
-- ⏸️ [4 Kyu](https://github.com/)
+- ⏸️ [4 Kyu](https://github.com/) - 0/229
 
-* ⛔ [3 Kyu](https://github.com/)
+* ⛔ [3 Kyu](https://github.com/) - 0/69
 
-- ⛔ [2 Kyu](https://github.com/)
+- ⛔ [2 Kyu](https://github.com/) - 0/37
 
-* ⛔ [1 Kyu](https://github.com/)
+* ⛔ [1 Kyu](https://github.com/) - 0/21
 
 Notes:
 
