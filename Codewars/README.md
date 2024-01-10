@@ -44,7 +44,7 @@ Solutions are often accompanied by a notes file, explaining the thought-process 
 
 * ⛔ [1 Kyu](https://github.com/) - 0/21
 
-![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
+![](https://geps.dev/progress/4.66?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 
 Notes:
