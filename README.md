@@ -6,7 +6,7 @@
 <br>
 
 <h1 align="center">
- <img src="https://w7.pngwing.com/pngs/319/643/png-transparent-programming-in-python-3-a-complete-introduction-to-the-python-language-python-machine-learning-programming-language-logo-framework-text-logo-computer-programming-thumbnail.png">
+ <img src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png">
   <br />
   Python Coding Challenges
 </h1>
