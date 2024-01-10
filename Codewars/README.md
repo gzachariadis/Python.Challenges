@@ -27,8 +27,9 @@ Solutions are often accompanied by a notes file, explaining the thought-process 
 |:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
 | 0 	| 0 	| 0 	| 0 	| 0 	| 3 	| 12 	| 15 	| 30 	|
 
+<br>
 
-- ✅ [8 Kyu](https://github.com/) - 15/322 ![](https://geps.dev/progress/4?dangerColor=800000&warningColor=ff9900&successColor=006600)
+- ✅ [8 Kyu](https://github.com/) - 15/322
 
 * 🚧 [7 Kyυ](https://github.com/) - 12/1,655
 
