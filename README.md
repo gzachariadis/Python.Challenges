@@ -6,7 +6,7 @@
 <br>
 
 <h1 align="center">
- <img src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png">
   <br />
   Python Coding Challenges
 </h1>
