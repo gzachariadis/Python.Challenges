@@ -31,31 +31,31 @@ This repository acts a diary, of sorts, to mark my own progress as I traverse th
 
 ## Coding Style 
 
-Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution it's almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire team.
+Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution it's almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.
 
-Having said that, tackling these challenges, I find myself opting for concise code with Pythonic syntax. This being the case, because, my main goal is to achieve the top solution for each coding problem.
+Having said that, in the process of tackling these challenges, I find myself opting for concise code with Pythonic syntax. As my main goal is to match the top[^1] solution for each coding problem.
 
 ## Repository Updates
 
-If you watch this repository, you will see me, consistently refactor and optimize my code. Sometimes for efficiency, sometimes for readability.
+If you watch this repository, you will see me, consistently refactor and optimizing my code. Sometimes for efficiency, sometimes for readability.
 
-You might also find code be refractored as a targeted solution to a generic problem. That happens because, snippets of reusable code that start from these challenges, sometimes end up in my Visual Code Snippets (JSON) to be used when need for them arises.
+You might also find code be refractored as a more targeted solution to a generic problem. That happens because, snippets of reusable code sometimes arise from tackling these challenges, which end up in my Visual Code Snippets (JSON) to be used when the opportunity emerges.
 
 ## Lessons Learned
 
 Practicing algorithmic problems has helped me to improve my algorithmic thinking. It has also helped me during interviews, by allowing me to be more confident and even learn a few Python "tricks". 
 
-Although, the Biggest Lesson I learned in tackling this endless supply of questions is understanding that there always someone better and always a long way to go. The only way to become better is to focus on yourself and keep up with daily practice.
+Although, the Biggest Lesson I learned in tackling this endless supply of questions is understanding that there always a long way to go. The only way to truly emerge victorious is to focus on yourself and keep challenging yourself consistently.
 
 Additionally, don't let failures stop you; not being able to answer a question is okay, as long as you take the initiative to improve.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 Keeping up with the sentiment of the previous section, please attempt these exercises on your own.
 
 **DO NOT** look at the solutions until you have solved a challenge, or at least spent some time thinking about your own approaches to solving it. 
 
-<div align="center" style="pointer-events: none;">Your only "enemy" is yourself.</div>
+<div align="center" style="color : magenta">Your only "enemy" is yourself.</div>
 
 ## Format
 
@@ -130,6 +130,11 @@ Keeping up with the sentiment of the previous section, please attempt these exer
 ```
 
 ## Performance tests
+
+
+#### Footnotes
+
+[^1]: Top considering the most applicable solution as voted by the platform's audience.
 
 ## Novice
 
