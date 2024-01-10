@@ -1,4 +1,4 @@
-### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) ✅ - 31/12/2023
+### [Reverse Words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python) - 31/12/2023
 
 ##### Objective
 
