@@ -2,11 +2,15 @@
 
 Contained within this folder is a collection of Python solutions to Codewars[^3] kata[^1], grouped by kyū[^2]. 
 
-Each kata[^1] is organized in a separate folder. Refer to [Project Structure]().
+Katas are ordered alphabetically based on their Title.
+
+In case of questions, please refer to [Project Structure].
 
 All solutions were solved on the official platform and verified against the original test suite. 
 
 A date of completion is included in each solution for achiving purposes.
+
+Solutions are often accompanied by a notes file, explaining the thought-process or steps behind the solution.
 
 **Note:** The source code is written in Python 3 and may use language features that are incompatible with Python 2.
 
@@ -23,7 +27,6 @@ A date of completion is included in each solution for achiving purposes.
 |:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
 | 0 	| 0 	| 0 	| 0 	| 0 	| 3 	| 12 	| 15 	| 30 	|
 
-This index will help you find all katas ordered alphabetically with a link to the kata folder.
 
 - ✅ [8 Kyu](https://github.com/) - Completion Rate: 100%
 
@@ -47,8 +50,6 @@ Notes:
 - 🚧 Currently in Progress
 - ⏸️ Paused
 - ⛔ Scheduled
-
-<br>
 
 #### Footnotes
 
