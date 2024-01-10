@@ -47,6 +47,12 @@ Solutions are often accompanied by a notes file, explaining the thought-process 
 ![](https://geps.dev/progress/4?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 
+<div class="progress progress-100plus">
+    <div class="progress-bar" style="width:100.00%">
+        <p class="progress-label">100%</p>
+    </div>
+</div>
+
 Notes:
 
 - ✅ Level Completed
