@@ -33,7 +33,7 @@
   <i align="center"> ⚠️ Please attempt these exercises on your own. ⚠️</i>
 </p>
 
-## Overview
+<h2 align="center">Overview</h2>
 
 This repository acts a diary, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.
 
