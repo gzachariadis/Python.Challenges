@@ -1,13 +1,9 @@
 # Local History for Visual Studio Code
 .history/
+
 # Built Visual Studio Code Extensions
 *.vsix
 
 # VSCode
 **/.vscode/
 .vscode/*
-
-# Ignore everything in this directory
-*
-# Except this file
-!.gitignore
