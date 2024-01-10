@@ -5,12 +5,6 @@
 
 <br>
 
-<style>
-      .unclickable{
-         pointer-events: none;
-      }
-</style>
-
 <h1 align="center">
  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png">
   <br />
@@ -21,7 +15,7 @@
   <i align="center"> A collection of solutions to various coding challenges, grouped by difficulty.</i>
 </p>
 
-<div align="center" class="unclickable">
+<div align="center" style="pointer-events: none;">
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
