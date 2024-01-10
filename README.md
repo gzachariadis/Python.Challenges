@@ -76,8 +76,8 @@ Please attempt these exercises on your own.
 │    │    │    ├── Challenge Title/
 │    │    │                  └── {title}.py
 │    │    ├── Data Structures/
-│    │    │     ├── Challenge Title/
-│    │    │                   └── {title}.py
+│    │    │    ├── Challenge Title/
+│    │    │                  └── {title}.py
 │    │    └── ...
 │    │
 │    ├── 7-kyu/
@@ -85,8 +85,8 @@ Please attempt these exercises on your own.
 │    │    │    ├── Challenge Title/
 │    │    │                  └── {title}.py
 │    │    ├── Data Structures/
-│    │    │     ├── Challenge Title/
-│    │    │                   └── {title}.py
+│    │    │    ├── Challenge Title/
+│    │    │                  └── {title}.py
 │    │    └── ...
 │    │
 │    │
