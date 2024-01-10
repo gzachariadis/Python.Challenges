@@ -33,21 +33,27 @@ This repository acts a diary, of sorts, to mark my own progress as I traverse th
 
 Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution it's almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.
 
-Having said that, in the process of tackling these challenges, I find myself opting for concise code with Pythonic syntax. As my main goal is to match the top[^1] solution for each coding problem.
+Having said that, in the process of tackling these challenges, I find myself opting for concise code with Pythonic syntax. As my main goal is to match the preferred [^1] solution to each individual challenge.
 
 ## Repository Updates
 
-If you watch this repository, you will see me, consistently refactor and optimizing my code. Sometimes for efficiency, sometimes for readability.
 
-You might also find code be refractored as a more targeted solution to a generic problem. That happens because, snippets of reusable code sometimes arise from tackling these challenges, which end up in my Visual Code Snippets (JSON) to be used when the opportunity emerges.
+If you opt to watch this repository, you will notice a consistent effort to refactor and optimize my code. Sometimes for efficiency, sometimes for readability. Sometimes for both.
+
+You might also find code be refractored as a more targeted solution to a generic problem. That happens because, in the process of tackling these challenges, small snippets of reusable code tend arise, which end up in my Visual Code Snippets (JSON) to be used when the opportunity emerges.
 
 ## Lessons Learned
 
-Practicing algorithmic problems has helped me to improve my algorithmic thinking. It has also helped me during interviews, by allowing me to be more confident and even learn a few Python "tricks". 
+Practicing algorithmic problems has helped me to improve my algorithmic thinking. It has also helped me during interviews, by allowing me to be more confident.
 
-Although, the Biggest Lesson I learned in tackling this endless supply of questions is understanding that there always a long way to go. The only way to truly emerge victorious is to focus on yourself and keep challenging yourself consistently.
+Although, the Biggest Lesson I learned in tackling this endless supply of questions is understanding that there always a long way to go. The only way to truly emerge victorious is to focus on yourself and keep challenging him/her consistently.
 
-Additionally, don't let failures stop you; not being able to answer a question is okay, as long as you take the initiative to improve.
+On the same note, don't let failures stop you; not being able to answer a question is okay, as long as you take the initiative to improve.
+
+## Methodology
+
+<br>
+<br>
 
 ## Disclaimer
 
@@ -55,7 +61,7 @@ Keeping up with the sentiment of the previous section, please attempt these exer
 
 **DO NOT** look at the solutions until you have solved a challenge, or at least spent some time thinking about your own approaches to solving it. 
 
-<div align="center" style="color : magenta">Your only "enemy" is yourself.</div>
+<p align="center" style="color:red;">Your only "enemy" is yourself.</p>
 
 ## Format
 
