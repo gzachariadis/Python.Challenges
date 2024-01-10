@@ -29,7 +29,7 @@ Solutions are often accompanied by a notes file, explaining the thought-process 
 
 <br>
 
-- ✅ [8 Kyu](https://github.com/) - 15/322
+- 🚧 [8 Kyu](https://github.com/) - 15/322
 
 * 🚧 [7 Kyυ](https://github.com/) - 12/1.655
 
