@@ -29,11 +29,10 @@
 
 </div>
 
+<p align="center">⚠️ Disclaimer ⚠️</p>
+<br>
 <p align="center">
   <i align="center"> Please attempt these exercises on your own.</i>
-  <br>
-  <br>
-  <i align="center"> Do NOT look at the solutions until you have solved a challenge, or at least spent some time thinking about your own approaches to solving it.</i>
 </p>
 
 ## Overview
