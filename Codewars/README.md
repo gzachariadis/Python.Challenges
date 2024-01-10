@@ -14,6 +14,7 @@ Solutions were accepted on the official platform and verified against the origin
 
 <ins>For quick access</ins>, use the index table or search the repository by kata rank.
 <br>
+<br>
 
 | [1 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/1-kyu/README.md) 	| [2 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/2-kyu/README.md) 	| [3 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/3-kyu/README.md) 	| [4 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/4-kyu/README.md) 	| [5 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/5-kyu/README.md) 	| [6 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/README.md) 	| [7 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/README.md) 	| [8 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/README.md) 	| **Total** 	|
 |:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
