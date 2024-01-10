@@ -1,6 +1,6 @@
 # Overview
 
-This folder contains a collection of Python solutions to Codewars[^3] challenges, grouped by kyū[^2]. Each kata[^1] is organized in a separate folder based on Subject and accompanied by a task description, constraints and a solution source code. 
+This folder contains a collection of Python solutions to Codewars[^3] challenges, grouped by kyū[^2]. Each kata[^1] is organized in a separate folder based on Subject and Challenge Title accompanied by a task description, constraints and a solution source code. 
 
 All solutions were solved on the official platform and verified against the original test suite.
 

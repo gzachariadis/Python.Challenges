@@ -6,10 +6,9 @@
 # Solution's Diary ☕️🚀
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
-
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
-
 ![Static Badge](https://img.shields.io/badge/Language-Python-blue?style=flat&logo=python&logoColor=green)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Overview
 
@@ -17,13 +16,25 @@ This repository contains a collection of Python solutions to different coding ch
 
 A diary, if you will, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
 
+## Coding Style 
+
+Almost every kata has a long solution and a shorter one, IMHO a long descriptive solution it's preferred over a cryptic one-liner, unless it's understandable for your entire team.
+
+While tackling these challenges, I prefer concise code with Pythonic syntax, against highly verbose solutions. My main goal is to achieve the top solution for each coding problem, so code under this repository, is mostly modelled around that.
+
+I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability. Sometimes, you might find code be refractored as a targeted solution to a generic problem. Snippets of reusable code that start from these challenges, sometimes end up in my Visual Code Snippets (JSON).
+
+## Lessons Learned
+
+Practicing algorithmic problems does help you to improve your algorithmic thinking. It has also helped me during interviews, being more confident and even learning a few Python "tricks". 
+
+Although, the Biggest Lesson I learned in tackling this endless supply of questions is understanding that there is a long way to go. Not being able to answer a question is okay, as long as you take the initiative to improve.
+
 ## ⚠️ Disclaimer
 
 Please attempt these exercises on your own.
 
-**DO NOT** look at the solutions until you have solved a challenge, or at least spent some time
-thinking about your own approaches to solving it. Using material from this 
-repository to gain rank, violates each individual Platform's Policy and might result in getting you banned.
+**DO NOT** look at the solutions until you have solved a challenge, or at least spent some time thinking about your own approaches to solving it. 
 
 ## Format
 
@@ -56,28 +67,23 @@ repository to gain rank, violates each individual Platform's Policy and might re
 | **Hacker Rank** |          |               |              |            |          |
 | **Exercism**    |          |               |              |            |          |
 
+## Repository Structure
 
-## Table of Contents
+```ascii
+├── Codewars/
+│    ├── 8-kyu/
+│    │    ├── Binary Addition/
+│    │        ├── Challenge Title/
+│    │                        └── {title}.py
+│    └── 7-kyu/
+│    │    ├── String Manupulation/
+│    │         ├── Challenge Title
+│    │                        └── {title}.py
+│    └── ...
+│
+├── HackerRank/
 
-- [Challenges](#challenges)
-  - [Easy (7 \& 8 kyu)](#easy-7--8-kyu)
-    - [Reverse Words](#reverse-words)
-    - [Rock-Paper-Scissors Game](#rock-paper-scissors-game)
-    - [Turn Hours, Minutes and Seconds to Milliseconds](#turn-hours-minutes-and-seconds-to-milliseconds)
-    - [Get the Sum of all Numbers in Array](#get-the-sum-of-all-numbers-in-array)
-    - [Turn Number to Negative](#turn-number-to-negative)
-    - [Convert boolean values to strings 'Yes' or 'No'](#convert-boolean-values-to-strings-yes-or-no)
-    - [Count by X](#count-by-x)
-    - [Categorize each item in List](#categorize-each-item-in-list)
-    - [Does String end with?](#does-string-end-with)
-    - [Double Each Element in Array](#double-each-element-in-array)
-    - [Check if Element in List](#check-if-element-in-list)
-    - [Sum of Only Positives in List](#sum-of-only-positives-in-list)
-    - [Convert Number to String](#convert-number-to-string)
-    - [Get Middle Character(s) based on even or odd Length](#get-middle-characters-based-on-even-or-odd-length)
-  - [Medium (5-6 kyu)](#medium-5-6-kyu)
-    - [Move Zeroes to the End of List](#move-zeroes-to-the-end-of-list)
-    - [Sum of Multiples inside Number](#sum-of-multiples-inside-number)
+```
 
 ## Novice
 
@@ -532,22 +538,11 @@ def cant_beat_so_join(lsts):
     return list(chain.from_iterable(sorted(lsts, key=sum, reverse=True)))
 ```
 
-## Hard (4 kyu) - Codewars
-
-## Hard (3 kyu) - Codewars
-
-## Hard (2 kyu) - Codewars
-
-## Expert (1 kyu) - Codewars
-
 <br>
 
 ## Author's Notes
 
-You acknowledge and agree that your use of the repository materials is at your own risk. The author
-accepts no responsibility or liability whatsoever for any consequences arising directly or
-indirectly from any action or inaction taken by you on the basis of, or in reliance on, any
-information or material contained in or linked to this repository. The information contained in this
-repository is provided "as is" with no warranties of completeness, accuracy, usefulness, or
-timeliness. The author reserves the right to change any of the items used or contained in the
-repository at any time without notice.
+You acknowledge and agree that your use of the repository materials is at your own risk. The author accepts no responsibility or liability whatsoever for any consequences arising directly or indirectly from any action or inaction taken by you on the basis of, or in reliance on, any
+information or material contained in or linked to this repository. The information contained in this repository is provided "as is" with no warranties of completeness, accuracy, usefulness, or timeliness. The author reserves the right to change any of the items used or contained in the repository at any time without notice.
+
+Using material from this repository to gain rank in any of these platforms, violates each individual Platform's Policy and might result in getting you banned. Consider yourself warned.
