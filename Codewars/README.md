@@ -51,8 +51,6 @@ Notes:
 - ⏸️ Paused
 - ⛔ Scheduled
 
-#### Footnotes
-
 [^1]: An algorithmic problem you have to solve in any programming language you desire. 
 
 [^2]: A number between 1-8 that determines a [level based on subject area and difficulty](https://docs.codewars.com/curation/references/kata-ranks/). The more difficult the kata, the more points will be awarded upon solution.
