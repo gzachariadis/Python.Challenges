@@ -31,7 +31,7 @@
 
 <br>
 <p align="center">
-  <i align="center"> ⚠️Please attempt these exercises on your own. ⚠️</i>
+  <i align="center"> ⚠️ Please attempt these exercises on your own. ⚠️</i>
 </p>
 
 ## Overview
