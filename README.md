@@ -27,31 +27,35 @@
 
 ## Overview
 
-This repository contains a collection of Python solutions to different coding challenges, grouped by difficulty. 
-
-A diary, if you will, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level.
+This repository acts a diary, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.
 
 ## Coding Style 
 
-Almost every kata has a long solution and a shorter one, IMHO a long descriptive solution it's preferred over a cryptic one-liner, unless it's understandable for your entire team.
+Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution it's almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire team.
 
-While tackling these challenges, I prefer concise code with Pythonic syntax, against highly verbose solutions. My main goal is to achieve the top solution for each coding problem, so code under this repository, is mostly modelled around that.
+Having said that, tackling these challenges, I find myself opting for concise code with Pythonic syntax. This being the case, because, my main goal is to achieve the top solution for each coding problem.
 
-I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability. Sometimes, you might find code be refractored as a targeted solution to a generic problem. Snippets of reusable code that start from these challenges, sometimes end up in my Visual Code Snippets (JSON).
+## Repository Updates
+
+If you watch this repository, you will see me, consistently refactor and optimize my code. Sometimes for efficiency, sometimes for readability.
+
+You might also find code be refractored as a targeted solution to a generic problem. That happens because, snippets of reusable code that start from these challenges, sometimes end up in my Visual Code Snippets (JSON) to be used when need for them arises.
 
 ## Lessons Learned
 
-Practicing algorithmic problems does help you to improve your algorithmic thinking. It has also helped me during interviews, being more confident and even learning a few Python "tricks". 
+Practicing algorithmic problems has helped me to improve my algorithmic thinking. It has also helped me during interviews, by allowing me to be more confident and even learn a few Python "tricks". 
 
-Although, the Biggest Lesson I learned in tackling this endless supply of questions is understanding that there is a long way to go. Not being able to answer a question is okay, as long as you take the initiative to improve.
+Although, the Biggest Lesson I learned in tackling this endless supply of questions is understanding that there always someone better and always a long way to go. The only way to become better is to focus on yourself and keep up with daily practice.
+
+Additionally, don't let failures stop you; not being able to answer a question is okay, as long as you take the initiative to improve.
 
 ## ⚠️ Disclaimer
 
-Please attempt these exercises on your own.
+Keeping up with the sentiment of the previous section, please attempt these exercises on your own.
 
 **DO NOT** look at the solutions until you have solved a challenge, or at least spent some time thinking about your own approaches to solving it. 
 
-## Getting Started
+<div align="center" style="pointer-events: none;">Your only "enemy" is yourself.</div>
 
 ## Format
 
@@ -61,6 +65,8 @@ Please attempt these exercises on your own.
    - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
 - Platform 
    - ?
+- Date
+   - Completion date for the Challenge.
 - Problem Constraints
    - Limitations & Guidelines on the Problem.
 - Solution(s)
@@ -89,25 +95,38 @@ Please attempt these exercises on your own.
 ```ascii
 ├── Codewars/
 │    ├── 8-kyu/
-│    │    ├── Binary Addition/
-│    │    │    ├── Challenge Title/
-│    │    │                  └── {title}.py
-│    │    ├── Data Structures/
-│    │    │    ├── Challenge Title/
-│    │    │                  └── {title}.py
+│    │    ├── Challenge Title/
+│    │    │                 └── {title}.py
+│    │    │   
+│    │    ├── Challenge Title/
+│    │    │                 └── {title}.py
+│    │    │
 │    │    └── ...
 │    │
 │    ├── 7-kyu/
-│    │    ├── Binary Addition/
-│    │    │    ├── Challenge Title/
+│    │    ├── Challenge Title/
 │    │    │                  └── {title}.py
-│    │    ├── Data Structures/
-│    │    │    ├── Challenge Title/
+│    │    │   
+│    │    ├── Challenge Title/
 │    │    │                  └── {title}.py
+│    │    │   
 │    │    └── ...
 │    │
-│    │
 ├── HackerRank/
+│    │
+│    │
+│    │
+│    │    
+│    │
+├──  Exercism/
+│    │
+│    │
+│    │
+│    │
+├──  Leetcode/
+│    │
+│    │
+│    │
 ```
 
 ## Performance tests
