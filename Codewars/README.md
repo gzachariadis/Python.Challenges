@@ -2,11 +2,13 @@
 
 Contained within this folder is a collection of Python solutions to Codewars[^3] kata[^1], grouped by kyū[^2] and alphabetically order based on their Title. 
 
-Solutions were accepted on the official platform and verified against the original test suite. A date of completion is included in each solution for achiving purposes and accompanied by a notes file, explaining the thought-process or steps behind the solution.
+Solutions were accepted on the official platform and verified against the original test suite. A date of completion is included in each solution for achiving purposes accompanied by a notes file, explaining the thought-process or steps behind the solution.
 
-In case of questions, please refer to [Project Structure].
+In case of questions, please refer to [Project Structure]() or the [FAQ Section]().
 
-The source code is written in Python 3 and may use language features that are incompatible with Python 2.
+<p align="center">
+  <i align="center"> The source code is written in Python 3 and may use language features that are incompatible with Python 2.</i>
+</p>
 
 ## Progress Statistics 
 
