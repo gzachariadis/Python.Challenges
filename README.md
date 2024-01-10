@@ -3,13 +3,15 @@
 ![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey)
 ![Exercism](https://img.shields.io/badge/Exercism-009CAB?style=for-the-badge&logo=exercism&logoColor=white)
 
+# Solution's Diary ☕️🚀
+
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
 
 ![Static Badge](https://img.shields.io/badge/Language-Python-blue?style=flat&logo=python&logoColor=green)
 
-# Solution's Diary
+## Overview
 
 This repository contains a collection of Python solutions to different coding challenges, grouped by difficulty. 
 
