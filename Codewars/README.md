@@ -1,8 +1,8 @@
 # Overview
 
-This folder contains a collection of Python solutions to Codewars[^3] challenges, grouped by kyū[^2]. Each kata[^1] is organized in a separate folder based on Subject and Challenge Title accompanied by a task description, constraints and a solution source code. 
+This folder contains a collection of Python solutions to Codewars[^3] challenges, grouped by kyū[^2]. Each kata[^1] is organized in a separate folder. [See Project Structure for more info]().
 
-All solutions were solved on the official platform and verified against the original test suite.
+All solutions were solved on the official platform and verified against the original test suite. A date of completion is included in each solution for achiving purposes.
 
 Your goal, should you choose to accept it, is to solve kata[^1] and progress through the ranks, to achieve Mastery[^4].
 
@@ -27,20 +27,28 @@ Your goal, should you choose to accept it, is to solve kata[^1] and progress thr
 
 This index will help you find all katas ordered alphabetically with a link to the kata folder.
 
-- ✅ [8 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/8-kyu.md)
+- ✅ [8 Kyu](https://github.com/)
 
-* 🚧 [7 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/7-kyu.md)
+* 🚧 [7 Kyυ](https://github.com/)
 
-- ⏸️ [6 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/6-kyu.md)
+- ⏸️ [6 Kyu](https://github.com/)
 
-* ⏸️ [5 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/5-kyu.md)
+* ⏸️ [5 Kyu](https://github.com/)
+
+- ⏸️ [4 Kyu](https://github.com/)
+
+* ⛔ [3 Kyu](https://github.com/)
+
+- ⛔ [2 Kyu](https://github.com/)
+
+* ⛔ [1 Kyu](https://github.com/)
 
 Notes:
 
-- ✅ All completed
-- 🚧 Work in progress
+- ✅ Level Completed
+- 🚧 Currently in Progress
 - ⏸️ Paused (for the time being)
-- ⛔ Haven't attempted
+- ⛔ Scheduled
 
 ### Tips & Tricks
 
@@ -66,6 +74,8 @@ Notes:
 6)  If you want to check what solution is faster use [jsPerf](https://jsperf.com) or [JSBench](https://jsbench.me)
 
 <br>
+
+#### Footnotes
 
 [^1]: An algorithmic problem you have to solve in any programming language you desire. 
 
