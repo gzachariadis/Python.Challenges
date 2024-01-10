@@ -1,6 +1,4 @@
-# Codewars
-
-## Overview
+# Overview
 
 This folder contains a collection of Python solutions to Codewars[^3] challenges, grouped by kyū[^2]. Each kata[^1] is organized in a separate folder based on Subject and accompanied by a task description, constraints and a solution source code. 
 
