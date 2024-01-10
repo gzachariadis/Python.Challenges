@@ -6,7 +6,3 @@
 # VSCode
 **/.vscode/
 .vscode/*
-
-# ignore everything except .gitignore
-*
-!.gitignore
