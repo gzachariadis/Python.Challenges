@@ -36,11 +36,11 @@
 
 ## Overview
 
-This repository acts a diary, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.
+<p align="justify">This repository acts a diary, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.</p>
 
 ## Coding Style 
 
-Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution is almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.
+<p align="justify">Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution is almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.</p>
 
 Having said that, in the process of tackling these challenges, I find myself opting for concise code with Pythonic syntax, as my main goal is to match the preferred [^1] solution to each individual challenge.
 
