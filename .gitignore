@@ -7,5 +7,6 @@
 **/.vscode/
 .vscode/*
 
+# ignore everything except .gitignore
 *
-!.gitkeep
+!.gitignore
