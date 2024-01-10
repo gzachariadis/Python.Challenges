@@ -31,9 +31,9 @@ Solutions are often accompanied by a notes file, explaining the thought-process 
 
 - ✅ [8 Kyu](https://github.com/) - 15/322
 
-* 🚧 [7 Kyυ](https://github.com/) - 12/1,655
+* 🚧 [7 Kyυ](https://github.com/) - 12/1.655
 
-- ⏸️ [6 Kyu](https://github.com/) - 3/1,760
+- ⏸️ [6 Kyu](https://github.com/) - 3/1.760
 
 * ⏸️ [5 Kyu](https://github.com/) - 0/654
 
@@ -45,7 +45,7 @@ Solutions are often accompanied by a notes file, explaining the thought-process 
 
 * ⛔ [1 Kyu](https://github.com/) - 0/21
 
-
+<br>
 
 Notes:
 
