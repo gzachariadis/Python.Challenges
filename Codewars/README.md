@@ -1,33 +1,31 @@
 # Overview
 
-This folder contains a collection of Python solutions to Codewars[^3] challenges, grouped by kyū[^2]. Each kata[^1] is organized in a separate folder. [See Project Structure for more info]().
+Contained within this folder is a collection of Python solutions to Codewars[^3] kata[^1], grouped by kyū[^2]. 
 
-All solutions were solved on the official platform and verified against the original test suite. A date of completion is included in each solution for achiving purposes.
+Each kata[^1] is organized in a separate folder. Refer to [Project Structure]().
 
-Your goal, should you choose to accept it, is to solve kata[^1] and progress through the ranks, to achieve Mastery[^4].
+All solutions were solved on the official platform and verified against the original test suite. 
 
-<p align="center">Warriors are not the ones who always win, but the ones that always fight. Banzai!</p>
+A date of completion is included in each solution for achiving purposes.
+
+**Note:** The source code is written in Python 3 and may use language features that are incompatible with Python 2.
 
 ## Current Ranking
 
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
 
-## Statistics 
+## Progress Statistics 
 
 <ins>For quick access</ins>, use the index table or search the repository by kata rank.
+<br>
 
 | [1 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/1-kyu/README.md) 	| [2 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/2-kyu/README.md) 	| [3 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/3-kyu/README.md) 	| [4 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/4-kyu/README.md) 	| [5 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/5-kyu/README.md) 	| [6 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/README.md) 	| [7 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/README.md) 	| [8 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/README.md) 	| **Total** 	|
 |:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
 | 0 	| 0 	| 0 	| 0 	| 0 	| 3 	| 12 	| 15 	| 30 	|
 
-
-**Note:** The source code is written in Python 3 and may use language features that are incompatible with Python 2.
-
-### Progress 
-
 This index will help you find all katas ordered alphabetically with a link to the kata folder.
 
-- ✅ [8 Kyu](https://github.com/)
+- ✅ [8 Kyu](https://github.com/) - Completion Rate: 100%
 
 * 🚧 [7 Kyυ](https://github.com/)
 
@@ -47,31 +45,8 @@ Notes:
 
 - ✅ Level Completed
 - 🚧 Currently in Progress
-- ⏸️ Paused (for the time being)
+- ⏸️ Paused
 - ⛔ Scheduled
-
-### Tips & Tricks
-
-1.  Katas has `tags` that could help you in advance to know what to use.
-    For example you could solve this kata using regular expressions.
-
-    ![Codewars tags](https://image.ibb.co/ekxm96/www_codewars_com_kata_search_my_languages_q_r_7_xids_completed_beta_false_order_by_total_completed_desc.png)
-
-2)  Katas could have some issues that goes beyond your implementation. If you're stuck check the `Issues`.
-    Just click where it says `1 Issue Reported` above the `Instructions`.
-
-    ![Codewars issues](https://image.ibb.co/b65pU6/www_codewars_com_kata_sort_the_gift_code_train_javascript.png)
-
-3.  Finally check the `discussions` in case the Instructions aren't really clear.
-    Click on the `Discuss` button under the `Sample Tests`.
-
-    ![Codewars issues](https://image.ibb.co/j6okmm/www_codewars_com_kata_sort_the_gift_code_train_javascript_1.png)
-
-4)  After you submit your final solution check the Solutions to learn from other alternatives. If you don't understand them you can leave a comment or check the discussions of each one. Try to learn from these solutions and improve your current one or create a Short Solution of your own.
-
-5.  If you check my solutions the "Long Solution" maybe is longer than the "Short Solution" but is more readable.
-
-6)  If you want to check what solution is faster use [jsPerf](https://jsperf.com) or [JSBench](https://jsbench.me)
 
 <br>
 

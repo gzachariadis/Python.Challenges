@@ -64,6 +64,9 @@ On the same note, don't let failures stop you; not being able to answer a questi
 
 ### Performance
 
+If you want to check which solution is faster use [tdlr]().
+
+
 ### Format???
 
 - Title
