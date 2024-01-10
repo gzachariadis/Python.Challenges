@@ -12,6 +12,8 @@ Your goal, should you choose to accept it, is to solve kata[^1] and progress thr
 
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
 
+## Statistics 
+
 <ins>For quick access</ins>, use the index table or search the repository by kata rank.
 
 | [1 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/1-kyu/README.md) 	| [2 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/2-kyu/README.md) 	| [3 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/3-kyu/README.md) 	| [4 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/4-kyu/README.md) 	| [5 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/5-kyu/README.md) 	| [6 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/README.md) 	| [7 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/README.md) 	| [8 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/README.md) 	| **Total** 	|
