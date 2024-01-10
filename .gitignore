@@ -6,3 +6,6 @@
 # VSCode
 **/.vscode/
 .vscode/*
+
+*
+!.gitkeep
