@@ -14,7 +14,7 @@ Your goal, should you choose to accept it, is to solve kata[^1] and progress thr
 
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
 
-## Vocabulary
+<br>
 
 [^1]: An algorithmic problem you have to solve in any programming language you desire. 
 
