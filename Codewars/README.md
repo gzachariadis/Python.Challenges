@@ -8,7 +8,7 @@ Your goal, should you choose to accept it, is to solve kata[^1] and progress thr
 
 <p align="center">Warriors are not the ones who always win, but the ones that always fight. Banzai!</p>
 
-## Ranking
+## Current Ranking
 
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
 
