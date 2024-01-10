@@ -73,16 +73,24 @@ Please attempt these exercises on your own.
 ├── Codewars/
 │    ├── 8-kyu/
 │    │    ├── Binary Addition/
-│    │        ├── Challenge Title/
-│    │                        └── {title}.py
-│    └── 7-kyu/
-│    │    ├── String Manupulation/
-│    │         ├── Challenge Title
-│    │                        └── {title}.py
-│    └── ...
-│
+│    │    │    ├── Challenge Title/
+│    │    │                  └── {title}.py
+│    │    ├── Data Structures/
+│    │    │     ├── Challenge Title/
+│    │    │                   └── {title}.py
+│    │    └── ...
+│    │
+│    ├── 7-kyu/
+│    │    ├── Binary Addition/
+│    │    │    ├── Challenge Title/
+│    │    │                  └── {title}.py
+│    │    ├── Data Structures/
+│    │    │     ├── Challenge Title/
+│    │    │                   └── {title}.py
+│    │    └── ...
+│    │
+│    │
 ├── HackerRank/
-
 ```
 
 ## Novice
