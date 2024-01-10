@@ -19,11 +19,8 @@
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
 
-![Static Badge](https://img.shields.io/badge/Language-Python-blue?style=flat&logo=python&logoColor=green)
-
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges)
 
-![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
