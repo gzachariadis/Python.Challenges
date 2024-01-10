@@ -23,6 +23,48 @@ Your goal, should you choose to accept it, is to solve kata[^1] and progress thr
 
 **Note:** The source code is written in Python 3 and may use language features that are incompatible with Python 2.
 
+### Progress 
+
+This index will help you find all katas ordered alphabetically with a link to the kata folder.
+
+- ✅ [8 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/8-kyu.md)
+
+* 🚧 [7 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/7-kyu.md)
+
+- ⏸️ [6 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/6-kyu.md)
+
+* ⏸️ [5 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/5-kyu.md)
+
+Notes:
+
+- ✅ All completed
+- 🚧 Work in progress
+- ⏸️ Paused (for the time being)
+- ⛔ Haven't attempted
+
+### Tips & Tricks
+
+1.  Katas has `tags` that could help you in advance to know what to use.
+    For example you could solve this kata using regular expressions.
+
+    ![Codewars tags](https://image.ibb.co/ekxm96/www_codewars_com_kata_search_my_languages_q_r_7_xids_completed_beta_false_order_by_total_completed_desc.png)
+
+2)  Katas could have some issues that goes beyond your implementation. If you're stuck check the `Issues`.
+    Just click where it says `1 Issue Reported` above the `Instructions`.
+
+    ![Codewars issues](https://image.ibb.co/b65pU6/www_codewars_com_kata_sort_the_gift_code_train_javascript.png)
+
+3.  Finally check the `discussions` in case the Instructions aren't really clear.
+    Click on the `Discuss` button under the `Sample Tests`.
+
+    ![Codewars issues](https://image.ibb.co/j6okmm/www_codewars_com_kata_sort_the_gift_code_train_javascript_1.png)
+
+4)  After you submit your final solution check the Solutions to learn from other alternatives. If you don't understand them you can leave a comment or check the discussions of each one. Try to learn from these solutions and improve your current one or create a Short Solution of your own.
+
+5.  If you check my solutions the "Long Solution" maybe is longer than the "Short Solution" but is more readable.
+
+6)  If you want to check what solution is faster use [jsPerf](https://jsperf.com) or [JSBench](https://jsbench.me)
+
 <br>
 
 [^1]: An algorithmic problem you have to solve in any programming language you desire. 

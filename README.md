@@ -36,6 +36,8 @@ Please attempt these exercises on your own.
 
 **DO NOT** look at the solutions until you have solved a challenge, or at least spent some time thinking about your own approaches to solving it. 
 
+## Getting Started
+
 ## Format
 
 - Title
@@ -92,6 +94,8 @@ Please attempt these exercises on your own.
 │    │
 ├── HackerRank/
 ```
+
+## Performance tests
 
 ## Novice
 
