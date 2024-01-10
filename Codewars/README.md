@@ -8,8 +8,6 @@ Solutions were accepted on the official platform and verified against the origin
   <i align="center"> The source code is written in Python 3 and may use language features that are incompatible with Python 2.</i>
 </p>
 
-In case of questions, please refer to [Project Structure]() or the [FAQ Section]().
-
 ## Progress Statistics 
 
 ![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
@@ -47,6 +45,10 @@ Notes:
 - 🚧 Currently in Progress
 - ⏸️ Paused
 - ⛔ Scheduled
+
+<p align="center">
+  <i align="center"> In case of questions, please refer to <a>Project Structure</a> or the <a>FAQ Section</a>.</i>
+</p>
 
 [^1]: An algorithmic problem you have to solve in any programming language you desire. 
 
