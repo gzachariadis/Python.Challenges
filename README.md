@@ -3,6 +3,13 @@
 ![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey)
 ![Exercism](https://img.shields.io/badge/Exercism-009CAB?style=for-the-badge&logo=exercism&logoColor=white)
 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
+![Static Badge](https://img.shields.io/badge/Language-Python-blue?style=flat&logo=python&logoColor=green)
+![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges)
+![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 <br>
 
 <h1 align="center">
@@ -10,13 +17,6 @@
   <br />
   Python Coding Challenges
 </h1>
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
-![Static Badge](https://img.shields.io/badge/Language-Python-blue?style=flat&logo=python&logoColor=green)
-![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges)
-![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 <p align="center">
   <i align="center"> A collection of solutions to various coding challenges, grouped by difficulty.</i>
