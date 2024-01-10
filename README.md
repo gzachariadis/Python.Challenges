@@ -15,10 +15,14 @@
   <i align="center"> A collection of solutions to various coding challenges, grouped by difficulty.</i>
 </p>
 
+<div align="center">
+
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
+</div>
 
 ## Overview
 
