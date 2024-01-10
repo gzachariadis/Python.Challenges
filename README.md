@@ -48,6 +48,8 @@ Having said that, in the process of tackling these challenges, I find myself opt
 
 If you opt to watch this repository, you will notice a consistent effort to refactor and optimize my code. Sometimes for efficiency, sometimes for readability. Sometimes for both.
 
+All solutions were solved on the official platform and verified against the original test suite. 
+
 You might also find code be refractored as a more targeted solution to a generic problem. That happens because, in the process of tackling these challenges, small snippets of reusable code tend to arise, those, end up in my Visual Code Snippets (JSON) to be used when the opportunity emerges.
 
 ## Lessons Learned
@@ -62,34 +64,32 @@ On the same note, don't let failures stop you; not being able to answer a questi
 
 ### Performance
 
-### Format
+### Format???
 
 - Title
-   - You can use the Challenge Titles as links to the original coding challenges.
-- Objective
-   - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
-- Platform 
-   - ?
+   - You can use the Challenge Titles as external links to the original coding challenges.
 - Date
    - Completion date for the Challenge.
+- Objective
+   - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
 - Problem Constraints
    - Limitations & Guidelines on the Problem.
 - Solution(s)
    - Source Code
-   - All solutions were solved on the official platform and verified against the original test suite.
 - Optional - Checkbox [✅]
    - Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
 - Optional - Notes
-   - Any notes or comments, I might have based my though process on or took while solving the problem.
+   - Any notes or comments, I might have based my thought process on or took while solving the problem.
+   - Will be included as comments on the python file or as a seperate .txt file.
 
 ## Progress Statistics
 
 |     Platform    |  Expert  |  Challenging  |  Proficient  |  Moderate  |  Novice  |
 |:---------------:|:--------:|:-------------:|:------------:|:----------:|:--------:|
-|   **Codewars**  |          |               |              |            |          |
-|  **Leet Code**  |          |               |              |            |          |
-| **Hacker Rank** |          |               |              |            |          |
-| **Exercism**    |          |               |              |            |          |
+|   **Codewars**  |    0     |       0       |      0       |     0      |    0     |
+|  **Leet Code**  |    0     |       0       |      0       |     0      |    0     |
+| **Hacker Rank** |    0     |       0       |      0       |     0      |    0     |
+|  **Exercism**   |    0     |       0       |      0       |     0      |    0     |
 
 ## Mastery Rankings
 
@@ -143,13 +143,11 @@ On the same note, don't let failures stop you; not being able to answer a questi
 │
 ```
 
-### Footnotes
-
-[^1]: Top considering the most applicable solution as voted by the platform's audience.
-
 ### Author Notes
 
 You acknowledge and agree that your use of the repository materials is at your own risk. The author accepts no responsibility or liability whatsoever for any consequences arising directly or indirectly from any action or inaction taken by you on the basis of, or in reliance on, any
 information or material contained in or linked to this repository. The information contained in this repository is provided "as is" with no warranties of completeness, accuracy, usefulness, or timeliness. The author reserves the right to change any of the items used or contained in the repository at any time without notice.
 
 Using material from this repository to gain rank in any of these platforms, violates each individual Platform's Policy and might result in getting you banned. Consider yourself warned.
+
+[^1]: Top considering the most applicable solution as voted by the platform's audience.
