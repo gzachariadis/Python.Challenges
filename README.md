@@ -144,6 +144,7 @@ If you want to check which solution is faster use [tdlr]().
 │
 ```
 
+```ascii
 |-- README.md
 |-- 1-kyu
   |-- .gitkeep
@@ -220,8 +221,7 @@ If you want to check which solution is faster use [tdlr]().
   |-- You only need one - Beginner
     |-- README.md
     |-- solution.py
-
-
+```
 
 ### Author Notes
 
