@@ -2,7 +2,7 @@
 
 ### Objective
 
-<p align="justify">Write a Function that, removes the first and last characters of a string.</p>
+- Write a Function that, removes the first and last characters of a string.
 
 ### Constraints
 
