@@ -27,6 +27,11 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+[![GitHub Repo stars](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://roadmap.sh&title=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
+[![GitHub Repo stars](https://img.shields.io/badge/share%20on-hacker%20news-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://roadmap.sh)
+[![GitHub Repo stars](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://roadmap.sh&text=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
+[![GitHub Repo stars](https://img.shields.io/badge/share%20on-facebook-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://roadmap.sh)
+[![GitHub Repo stars](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://roadmap.sh&title=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
 </div>
 
 <br>
@@ -42,16 +47,6 @@
 
 <i>Happy coding! </i> 🥳
 
-## Share with the community
-
-Please consider sharing a post about [roadmap.sh](https://roadmap.sh) and the value it provides. It really does help!
-
-[![GitHub Repo stars](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://roadmap.sh&title=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
-[![GitHub Repo stars](https://img.shields.io/badge/share%20on-hacker%20news-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://roadmap.sh)
-[![GitHub Repo stars](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://roadmap.sh&text=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
-[![GitHub Repo stars](https://img.shields.io/badge/share%20on-facebook-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://roadmap.sh)
-[![GitHub Repo stars](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://roadmap.sh&title=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
-
 ## Coding Style 
 
 <p align="justify">Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution is almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.</p>
@@ -66,38 +61,11 @@ Please consider sharing a post about [roadmap.sh](https://roadmap.sh) and the va
 
 ## Roadmap
 
-# Add Links to Folders for Each Challenges
-# Test spaces between the Challenges
-# Add invididual Indexes for Each Level
-# Everything should be in Alphabetical Order
-
-# Use Remove first and last character from string under 8-kyu as a Template for every other file.
-# Find a way to create a template folder with README.md template and an empty python file each time I want to submit a new challenge.
-# Add a To-do Road Map to the README.md
-
 | Status 	| Goal 	| Progress Report 	| ETA 	|
 |:---:	|:---:	|:---:	|:---:	|
 | ❌ 	|  Create Indexes for Each Difficulty Level  	| `in progress` 	| 📅 13/01/2024 	|
 | ❌ 	|   Create a Template for each Challenge README.md  	| `scheduled` 	|  📅 19/01/2024  	|
 | ✔️ 	|   Create Links for Each Challenge Folder under Index.  	| `ready` 	| 📅 11/01/2024 	|
-
-This is early development version. I am currently considering:
-
-- [x] Main `Show Graph` command.
-- [x] Setting for choosing column for opening files.
-- [x] Support for Zettlr-style ID-based links.
-- [x] Highlighting of focused file.
-- [ ] Automated tests. _WIP by [@tchayen](https://github.com/tchayen)_
-- [ ] ~~Dark theme support (+ auto detecting system's dark/light mode).~~ Support for detecting theme's colors was added.
-- [ ] Zoom button controls (`+` / `-` / `reset`).
-- [ ] Optional displaying of external URLs in the graph.
-- [ ] Ignoring files or directories.
-- [ ] Some directory controls within the graph view (adding, removing files).
-- [ ] Configurable parameters of graph simulation.
-- [ ] Optional display of edge directions.
-- [ ] Better examples.
-- [x] Optional autostart.
-- [ ] 
 
 ## Lessons Learned
 
