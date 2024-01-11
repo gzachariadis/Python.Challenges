@@ -9,7 +9,7 @@
 
 ### Objective
 
-- + Write a Function that, removes the first and last characters of a string.
+- @@ Write a Function that, removes the first and last characters of a string. @@ 
 
 ### Constraints
 
