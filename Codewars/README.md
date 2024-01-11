@@ -14,8 +14,14 @@
 ## 5-kyu
 
 
+- [Moving Zeros To The End](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/5-kyu/Moving%20Zeros%20To%20The%20End)
+
 ## 6-kyu
 
+
+- [Multiples of 3 or 5](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/Multiples%20of%203%20or%205)
+
+- [Split Strings](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/Split%20Strings)
 
 ## 7-kyu
 
@@ -24,7 +30,13 @@
 
 - [Convert a Number to a String!](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Convert%20a%20Number%20to%20a%20String!)
 
+- [Formatting decimal places #1](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Formatting%20decimal%20places%20#1)
+
 - [Get the Middle Character](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Get%20the%20Middle%20Character)
+
+- [How much will you spend](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/How%20much%20will%20you%20spend)
+
+- [If you can't beat 'em, join 'em](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/If%20you%20can't%20beat%20'em,%20join%20'em)
 
 - [Jaden Casing Strings](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Jaden%20Casing%20Strings)
 
