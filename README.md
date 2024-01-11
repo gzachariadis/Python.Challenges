@@ -102,21 +102,30 @@ If you want to check which solution is faster use [tdlr]().
 ├── Codewars/
 │    ├── 8-kyu/
 │    │    ├── Challenge Title/
-│    │    │                 └── {title}.py
-│    │    │   
+│    │    │                 └── solution.py
+│    │    │                 └── README.md
+│    │    │ 
 │    │    ├── Challenge Title/
-│    │    │                 └── {title}.py
+│    │    │                 └── solution_1.py
+│    │    │                 └── solution_2.py
+│    │    │                 └── README.md
 │    │    │
 │    │    └── ...
 │    │
 │    ├── 7-kyu/
 │    │    ├── Challenge Title/
-│    │    │                  └── {title}.py
-│    │    │   
+│    │    │                  └── solution_1.py
+│    │    │                  └── solution_2.py
+│    │    │                  └── README.md
+│    │    │  
 │    │    ├── Challenge Title/
-│    │    │                  └── {title}.py
+│    │    │                  └── solution.py
+│    │    │                  └── README.md
 │    │    │   
 │    │    └── ...
+│    │
+│    │  
+│    └── README.md - Platform's Completed challenges indexed and grouped by difficulty/
 │    │
 │    │
 ├── HackerRank/
@@ -142,85 +151,6 @@ If you want to check which solution is faster use [tdlr]().
 │    │
 │    └── ...
 │
-```
-
-```ascii
-|-- README.md
-|-- 1-kyu
-  |-- .gitkeep
-  |-- README.md
-|-- 2-kyu
-  |-- .gitkeep
-  |-- README.md
-|-- 3-kyu
-  |-- .gitkeep
-  |-- README.md
-|-- 4-kyu
-  |-- .gitkeep
-  |-- README.md
-|-- 5-kyu
-  |-- .gitkeep
-  |-- README.md
-|-- 6-kyu
-  |-- README.md
-|-- 7-kyu
-  |-- README.md
-  |-- Categorize New Member
-    |-- README.md
-    |-- solution.py
-  |-- Convert a Number to a String!
-    |-- README.md
-    |-- solution.py
-  |-- Get the Middle Character
-    |-- README.md
-    |-- solution.py
-  |-- Jaden Casing Strings
-    |-- REAME.md
-    |-- solution.py
-  |-- Number of People in the Bus
-    |-- README.md
-    |-- solution.py
-  |-- Reverse words ✅
-    |-- README.md
-    |-- solution.py
-  |-- String ends with
-    |-- README.md
-    |-- solution1.py
-    |-- solution2.py
-|-- 8-kyu
-  |-- README.md
-  |-- Beginner - Lost Without a Map
-    |-- README.md
-    |-- solution.py
-  |-- Beginner Series #2 Clock
-    |-- README.md
-    |-- solution.py
-  |-- Convert boolean values to strings 'Yes' or 'No'
-    |-- README.md
-    |-- solution.py
-  |-- Count by X
-    |-- README.md
-    |-- solution_1.py
-    |-- solution_2.py
-  |-- Remove First and Last Character from String
-    |-- README.md
-    |-- solution.py
-  |-- Return Negative
-    |-- README.md
-    |-- solution.py
-  |-- Rock-Paper-Scissors Game
-    |-- README.md
-    |-- solution.py
-  |-- Sum Arrays
-    |-- README.md
-    |-- solution.py
-  |-- Sum of positive
-    |-- README.md
-    |-- solution_1.py
-    |-- solution_2.py
-  |-- You only need one - Beginner
-    |-- README.md
-    |-- solution.py
 ```
 
 ### Author Notes
