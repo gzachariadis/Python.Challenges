@@ -70,6 +70,8 @@ Additionally, consider sharing it with the community using the badges below.
 
 ## Roadmap
 
+<br>
+
 | Status 	|                          Goal                          	| Progress Report 	|       ETA      	|
 |:------:	|:------------------------------------------------------:	|:---------------:	|:--------------:	|
 |    🚧   	|        Create Indexes for Each Difficulty Level        	|  `in progress`  	|  📅 13/01/2024  	|
