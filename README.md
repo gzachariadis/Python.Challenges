@@ -21,7 +21,7 @@
 
 <div align="center" style="pointer-events: none;">
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gzachariadis/Python.Challenges?&label=Commit%20Activity)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges)
 ![Maintenance](https://img.shields.io/maintenance/yes/2024?style=flat&label=Maintained)
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges)
