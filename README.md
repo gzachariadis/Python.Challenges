@@ -183,4 +183,6 @@ Additionally, included under [this project](https://github.com/gzachariadis/Pyth
 
 <p align="justify">Using material from this repository to gain rank in any of these platforms, violates each individual Platform's Policy and might result in getting you banned. Consider yourself warned.</p>
 
+<br>
+
 [^1]: Top considering the most applicable solution as voted by the platform's audience.
