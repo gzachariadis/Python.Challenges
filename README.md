@@ -40,7 +40,7 @@
 
 <p align="justify">You can go peruse these exercises and try them yourself in any order you like. They are grouped by Platform, then difficulty level and finally alphabetically by their title for easy access.</p>
 
-<i>Happy coding! 🥳</i>
+<i>Happy coding! </i> 🥳
 
 ## Coding Style 
 
