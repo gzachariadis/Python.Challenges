@@ -4,7 +4,7 @@
 
 - Write a Function that, removes the first and last characters of a string.
 
-### Constraints
+### Constraints & Guidelines
 
 - You're given the original string as a parameter.
  
