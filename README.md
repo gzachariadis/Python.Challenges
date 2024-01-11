@@ -38,9 +38,9 @@
 
 <p align="justify">This repository acts a diary, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.</p>
 
-<p align="justify">You can go peruse these exercises and try them yourself in any order you might like. You can find them grouped by Platform, then difficulty level and finally alphabetically by their title. 
+<p align="justify">You can go peruse these exercises and try them yourself in any order you like. They are grouped by Platform, then difficulty level and finally alphabetically by their title for easy access.</p>
 
-Happy coding! 🥳
+<i>Happy coding! 🥳</i>
 
 ## Coding Style 
 
