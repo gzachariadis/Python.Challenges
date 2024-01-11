@@ -79,6 +79,9 @@ Additionally, consider sharing it with the community using the badges below.
 |    ✔️   	|   Create Links for Each Challenge Folder under Index.  	|     `ready`     	|  📅 11/01/2024  	|
 |    📅   	|             Automate the tracking process.             	|   `scheduled`   	|  📅 03/02/2024  	|
 |    🚧   	|                  Fix the Share Buttons                 	|  `in progress`  	|  📅 14/01/2024  	|
+
+<br>
+
 ## Lessons Learned
 
 <p align="justify">Practicing algorithmic problems has helped me improve my algorithmic thinking. It has also helped me during interviews, by allowing me to be more confident with walking people through my thinking as I tackle problems.</p>
