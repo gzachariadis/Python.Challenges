@@ -1,7 +1,7 @@
 
-<h1 align="center">
+<h2 align="center">
   <a href="https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/python">Remove First and Last Character</a>
-</h1>
+</h2>
 
 <p align="center">
   <i align="center">Completed at 31/12/2023 ✔️</i>
