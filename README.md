@@ -76,7 +76,7 @@ Additionally, consider sharing it with the community using the badges below.
 |:------:	|:----------------------------------------------------------------:	|:---------------:	|:--------------:	|
 |    🚧   	|             Create Indexes for Each Difficulty Level             	|  `in progress`  	|  📅 13/01/2024  	|
 |    📅   	|           Create a Template for each Challenge README.md         	|   `scheduled`   	|  📅 19/01/2024  	|
-|        	| Create Template for initiating a README.md & empty solution.py.  	|  `in progress`  	|  📅 13/01/2024  	|
+|    🚧   	| Create Template for initiating a README.md & empty solution.py.  	|  `in progress`  	|  📅 13/01/2024  	|
 |    ✔️   	|        Create Links for Each Challenge Folder under Index.       	|     `ready`     	|  📅 11/01/2024  	|
 |    📅   	|                  Automate the tracking process.                  	|   `scheduled`   	|  📅 03/02/2024  	|
 |    🚧   	|                       Fix the Share Buttons                      	|  `in progress`  	|  📅 14/01/2024  	|
