@@ -82,7 +82,7 @@
 
 ## Performance
 
-<p align="justify">A quick way to compare between solution execution speeds is <a href="https://perfpy.com/#/" target="_black">Perfpy</a>.</p>
+<p align="justify">A quick way to compare between solutions' execution speed is <a href="https://perfpy.com/#/" target="_black">Perfpy</a>.</p>
 
 <p align="justify">Additionally, included under <a href="https://github.com/gzachariadis/Python-Code-Performance" target="_black">this project</a> is my code performance tester, using <a href="https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/" target="_black">cProfiler</a> where you can test the efficiency of your solutions or compare your answers with mine.</p>
 
