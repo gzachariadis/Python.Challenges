@@ -12,3 +12,4 @@
 
 ### Constraints
 
+- Return type must be of type String.
