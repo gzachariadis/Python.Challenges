@@ -36,8 +36,8 @@
 
 ## Purpose
 
-<h3 align="center">Hi 👋, I'm Johnny</h3>
-<h3 align="center">A software engineer from Greece 🏛️</h3>
+<h3 align="center">Hi 👋, I'm George</h3>
+<h4 align="center">A software engineer from Greece.</h4>
 
 <p align="justify">This repository acts a diary, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.</p>
 
