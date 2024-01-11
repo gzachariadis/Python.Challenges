@@ -30,7 +30,7 @@
 
 - [Number of People in the Bus](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Number%20of%20People%20in%20the%20Bus)
 
-- [Reverse words ✅](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Reverse%20words%20✅)
+- [Reverse words](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Reverse%20words)
 
 - [String ends with](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/String%20ends%20with)
 
