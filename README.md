@@ -66,9 +66,13 @@
 
 The higher the difficulty, the more I tend to tackle problems recursively, this means that, I tend to go for the most verbose and intentionally slower solution at first; working my way to a more efficient and concise one. 
 
-Tackling problems in a logical sequence is vital to my process. With each iteration, I refactor my code, moving closer and closer to an optimal solution. By the time, I finally submit my code for verification to any online platform, I am positive my code is able to pass the test suite and has little to no room for improvement based on my current understanding and knowledge of Python.
+Tackling problems in a logical sequence is vital to my process. With each iteration, I refactor my code, moving closer and closer to the optimal solution. By the time, I finally submit my code for verification to any online platform, I am positive my code is able to pass the test suite and has little to no room for improvement based on my current understanding and knowledge of Python.
 
-Occasionally, two or more competing solutions will arise as I am thinking the problem through. When that happens, if I can't immediately differentiate the best solution across the set, I pursue them all, sequentially of course.
+### Multiple Solutions
+
+As you might have noticed, some challenges include more than one solution, that's either because I attempted the challenge multiple times as my knowledge level progressed or because occasionally, two or more competing solutions will arise as I am thinking the problem through. When that happens, if I can't immediately differentiate the best solution across the set, I pursue them all, sequentially of course.
+
+In case the resulting solutions are similar in nature and performance, then both are included for achiving purposes.
 
 ## Enviroment
 
