@@ -1,60 +1,41 @@
-<h1>Overview</h1>
 
-Contained within this folder is a collection of Python solutions to Codewars[^3] kata[^1], grouped by kyū[^2] and alphabetically order based on their Title. 
+## 1-kyu
 
-Solutions were accepted on the official platform and verified against the original test suite. A date of completion is included in each solution for achiving purposes accompanied by a notes file, explaining the thought-process or steps behind the solution.
 
-<p align="center">
-  <i align="center"> The source code is written in Python 3 and may use language features that are incompatible with Python 2.</i>
-</p>
+## 2-kyu
 
-## Progress Statistics 
 
-![alt rank](https://www.codewars.com/users/gzachariadis/badges/large)
+## 3-kyu
 
-<ins>For quick access</ins>, use the index table or search the repository by kata rank.
-<br>
-<br>
 
-| [1 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/1-kyu/README.md) 	| [2 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/2-kyu/README.md) 	| [3 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/3-kyu/README.md) 	| [4 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/4-kyu/README.md) 	| [5 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/5-kyu/README.md) 	| [6 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/README.md) 	| [7 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/README.md) 	| [8 kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/README.md) 	| **Total** 	|
-|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
-| 0 	| 0 	| 0 	| 0 	| 0 	| 3 	| 12 	| 15 	| 30 	|
+## 4-kyu
 
-<br>
 
-- 🚧 [8 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/README.md) - 15/322
+## 5-kyu
 
-* 🚧 [7 Kyυ](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/README.md) - 12/1.655
 
-- ⏸️ [6 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/README.md) - 3/1.760
+## 6-kyu
 
-* ⏸️ [5 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/5-kyu/README.md) - 0/654
 
-- ⏸️ [4 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/4-kyu/README.md) - 0/229
+## 7-kyu
 
-* ⛔ [3 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/3-kyu/README.md) - 0/69
+- Categorize New Member
+- Convert a Number to a String!
+- Get the Middle Character
+- Jaden Casing Strings
+- Number of People in the Bus
+- Reverse words ✅
+- String ends with
 
-- ⛔ [2 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/2-kyu/README.md) - 0/37
+## 8-kyu
 
-* ⛔ [1 Kyu](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/1-kyu/README.md) - 0/21
-
-<br>
-
-Notes:
-
-- ✅ Level Completed
-- 🚧 Currently in Progress
-- ⏸️ Paused
-- ⛔ Scheduled
-
-<p align="center">
-  <i align="center"> In case of questions, please refer to <a>Project Structure</a> or the <a>FAQ Section</a>.</i>
-</p>
-
-[^1]: An algorithmic problem you have to solve in any programming language you desire. 
-
-[^2]: A number between 1-8 that determines a [level based on subject area and difficulty](https://docs.codewars.com/curation/references/kata-ranks/). The more difficult the kata, the more points will be awarded upon solution.
-
-[^3]: [Codewars](https://www.codewars.com/) is an online educational platform for computer programming. On the platform, users known as "Code Warriors" attempt to solve programming challenges, known as kata, to practice programming skills and earn honor points. Each kata is assigned a kyū rank based on its subject and difficulty.
-
-[^4]: All code warriors start at 8 kyū 👘 and advance through the ranks to the final 4th dan 🥋, achieving the rank of Master.
+- Beginner - Lost Without a Map
+- Beginner Series #2 Clock
+- Convert boolean values to strings 'Yes' or 'No'
+- Count by X
+- Remove First and Last Character from String
+- Return Negative
+- Rock-Paper-Scissors Game
+- Sum Arrays
+- Sum of positive
+- You only need one - Beginner
