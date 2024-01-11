@@ -125,7 +125,7 @@ If you want to check which solution is faster use [tdlr]().
 │    │    └── ...
 │    │
 │    │  
-│    └── README.md - Platform's Completed challenges indexed and grouped by difficulty/
+│    └── README.md - Challenges indexed and grouped by difficulty.
 │    │
 │    │
 ├── HackerRank/
