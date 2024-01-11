@@ -64,21 +64,21 @@
 
 ## Methodology
 
-The higher the difficulty, the more I tend to tackle problems recursively, this means that, I tend to go for the most verbose and intentionally slower solution at first; working my way to a more efficient and concise one. 
+<p align="justify">The higher the difficulty, the more I tend to tackle problems recursively, this means that, I tend to go for the most verbose and intentionally slower solution at first; working my way to a more efficient and concise one.</p>
 
-Tackling problems in a logical sequence is vital to my process. With each iteration, I refactor my code, moving closer and closer to the optimal solution. By the time, I finally submit my code for verification to any online platform, I am positive my code is able to pass the test suite and has little to no room for improvement based on my current understanding and knowledge of Python.
+<p align="justify">Tackling problems in a logical sequence is vital to my process. With each iteration, I refactor my code, moving closer and closer to the optimal solution. By the time, I finally submit my code for verification to any online platform, I am positive my code is able to pass the test suite and has little to no room for improvement based on my current understanding and knowledge of Python.</p>
 
 ### Multiple Solutions
 
-As you might have noticed, some challenges include more than one solution, that's either because I attempted the challenge multiple times as my knowledge level progressed or because occasionally, two or more competing solutions will arise as I am thinking the problem through. When that happens, if I can't immediately differentiate the best solution across the set, I pursue them all, sequentially of course.
+<p align="justify">As you might have noticed, some challenges include more than one solution, that's either because I attempted the challenge multiple times as my knowledge level progressed or because occasionally, two or more competing solutions will arise as I am thinking the problem through. When that happens, if I can't immediately differentiate the best solution across the set, I pursue them all, sequentially of course.</p>
 
-In case the resulting solutions are similar in nature and performance, then both are included for achiving purposes.
+<p align="justify">In case the resulting solutions are similar in nature and performance, then both are included for achiving purposes.</p>
 
 ## Enviroment
 
-As part of this exploration into competitive coding, I have created a seperate [repository](https://github.com/gzachariadis/Code-Wars); a local coding environment, functionally similar to most editors that are used by these platforms, as a means of  recursively testing my code's output and improving it before submitting my answer to the platform for further testing.
+<p align="justify">As part of this exploration into competitive coding, I have created a seperate <a href="https://github.com/gzachariadis/Code-Wars" target="_blank">repository</a>; a local coding environment, functionally similar to most editors that are used by these platforms, as a means of  recursively testing my code's output and improving it before submitting my answer to the platform for further testing.</p>
 
-You can find the project [here](https://github.com/gzachariadis/Code-Wars) along with details on how to set it up for yourself.
+<p align="justify">You can find the project <a href="https://github.com/gzachariadis/Code-Wars" target="_blank">here along with details on how to set it up for yourself.</p>
 
 ## Performance
 
