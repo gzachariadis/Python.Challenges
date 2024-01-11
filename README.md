@@ -64,9 +64,9 @@
 
 ## Methodology
 
-The higher the difficulty, the more I tend to tackle problems recursively, this means that, I tend to go for the most verbose and intentionally slower solution at first and work my way to a more efficient and concise one. 
+The higher the difficulty, the more I tend to tackle problems recursively, this means that, I tend to go for the most verbose and intentionally slower solution at first; working my way to a more efficient and concise one. 
 
-Tackling problems in a logical sequence is vital part to my process. With each iteration, I refactor my code, moving closer and closer to an optimal solution, before finally submitting my code for verification to any online platform.
+Tackling problems in a logical sequence is vital to my process. With each iteration, I refactor my code, moving closer and closer to an optimal solution. By the time, I finally submit my code for verification to any online platform, I am positive my code is able to pass the test suite and has little to no room for improvement based on my current understanding and knowledge of Python.
 
 Occasionally, two or more competing solutions will arise as I am thinking the problem through. When that happens, if I can't immediately differentiate the best solution across the set, I pursue them all, sequentially of course.
 
