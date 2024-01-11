@@ -76,7 +76,7 @@
 
 ## Enviroment
 
-<p align="justify">As part of this exploration into competitive coding, I have created a seperate <a href="https://github.com/gzachariadis/Code-Wars" target="_blank">repository</a>; a local coding environment, functionally similar to most platform code editors, as a means of  recursively testing my code as I am improving it.</p>
+<p align="justify">As part of this exploration into competitive coding, I have created a seperate <a href="https://github.com/gzachariadis/Code-Wars" target="_blank">repository</a>; a local coding environment, functionally similar to most code editors, as a means of  recursively testing my code as I am improving it.</p>
 
 <p align="justify">You can find the project <a href="https://github.com/gzachariadis/Code-Wars" target="_blank">here</a> along with details on how to set it up for yourself.</p>
 
