@@ -1,2 +1,2 @@
 - [Reverse Words ✅](Codewars\7-kyu\Reverse Words ✅)
-- []
+- [Categorize New Member](Codewars\7-kyu\Categorize New Member)
