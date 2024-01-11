@@ -34,8 +34,8 @@
   <i align="center"> ⚠️ Please attempt these exercises on your own. ⚠️</i>
 </p>
 
-## Purpose
 
+## Purpose
 <p align="justify">Hi 👋,  I'm George!</p>
 
 <p align="justify">This repository acts as my diary, of sorts, to mark progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.</p>
@@ -72,9 +72,11 @@ Additionally, consider sharing it with the community using the badges below.
 
 | Status 	| Goal 	| Progress Report 	| ETA 	|
 |:---:	|:---:	|:---:	|:---:	|
-| ❌ 	|  Create Indexes for Each Difficulty Level  	| `in progress` 	| 📅 13/01/2024 	|
-| ❌ 	|   Create a Template for each Challenge README.md  	| `scheduled` 	|  📅 19/01/2024  	|
+| 🚧 	|  Create Indexes for Each Difficulty Level  	| `in progress` 	| 📅 13/01/2024 	|
+| 📅 	|   Create a Template for each Challenge README.md  	| `scheduled` 	|  📅 19/01/2024  	|
 | ✔️ 	|   Create Links for Each Challenge Folder under Index.  	| `ready` 	| 📅 11/01/2024 	|
+| 📅 	|  Automate the tracking process.  	| `scheduled` 	| 📅 03/02/2024 	|
+| 🚧 	| Fix the Share Buttons 	| `in progress` 	| 📅 14/01/2024 	|
 
 ## Lessons Learned
 
