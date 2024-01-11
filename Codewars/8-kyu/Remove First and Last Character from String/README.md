@@ -8,6 +8,6 @@
 
 - You're given the original string as a parameter.
  
-### Guidelines
+### Testing Guidelines
 
 - You don't have to worry with strings with less than two characters.
