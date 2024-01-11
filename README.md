@@ -64,9 +64,11 @@
 
 ## Methodology
 
-For larger problems, I tackle them recursively, this means that, I tend to go for the most verbose and intentionally slower solution, as I work my way to a more efficient and concise one. That's important both for understanding step by step what your algorithm is executing and for tackling problems in a logical sequence. With each iteration, I refactor my code, moving closer and closer to an optimal solution, before finally submitting my code for verification to any online platform.
+The higher the difficulty, the more I tend to tackle problems recursively, this means that, I tend to go for the most verbose and intentionally slower solution at first and work my way to a more efficient and concise one. 
 
-Occasionally, two or more competing ways of solving a challenge will arise at the time of thinking the problem through and devising a solution, when that happens, if I can't immediately differentiate a best solution across the set, I pursure all, sequentially and let coding peformance and understandabillity differentiate between them. 
+Tackling problems in a logical sequence is vital part to my process. With each iteration, I refactor my code, moving closer and closer to an optimal solution, before finally submitting my code for verification to any online platform.
+
+Occasionally, two or more competing solutions will arise as I am thinking the problem through. When that happens, if I can't immediately differentiate the best solution across the set, I pursue them all, sequentially of course.
 
 ## Enviroment
 
