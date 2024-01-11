@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <i align="center">31/12/2023</i>
+  <i align="center">Completed at 31/12/2023</i>
 </p>
 
 ### Objective
