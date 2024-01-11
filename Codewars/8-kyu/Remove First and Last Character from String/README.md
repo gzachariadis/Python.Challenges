@@ -1,4 +1,7 @@
-# [Remove First and Last Character from String](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/python)
+
+<h1 align="center">
+  <a href="https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/python">Remove First and Last Character from String</a>
+</h1>
 
 ### Objective
 
