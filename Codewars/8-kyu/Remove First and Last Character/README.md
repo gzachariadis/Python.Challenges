@@ -3,6 +3,8 @@
   <a href="https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/python">Remove First and Last Character</a>
 </h1>
 
+<i align="center">31/12/2023</i>
+
 ### Objective
 
 - Write a Function that, removes the first and last characters of a string.

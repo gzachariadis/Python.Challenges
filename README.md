@@ -121,7 +121,7 @@ Additionally, consider sharing it with the community using the badges below.
    - Completion date for the Challenge.
 - Objective
    - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
-- Problem Constraints
+- Constraints
    - Limitations & Guidelines on the Problem.
 - Solution(s)
    - Source Code in the form of a Python executable.
