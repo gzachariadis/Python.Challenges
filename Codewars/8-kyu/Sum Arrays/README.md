@@ -15,7 +15,3 @@
 - The numbers can be negative or non-integer.
 - If the array does not contain any numbers then you should return 0.
 - Negatives must subtract from the sum, while positivies add to it.
-
-### Guidelines
-
-- None.

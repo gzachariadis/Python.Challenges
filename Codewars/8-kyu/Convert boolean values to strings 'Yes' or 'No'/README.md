@@ -13,7 +13,3 @@
 ### Constraints
 
 - Output must be of String type.
-
-### Guidelines
-
-- None.

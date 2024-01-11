@@ -13,7 +13,3 @@
 ### Constraints
 
 - The output must be a new List.
-  
-### Guidelines
-
-- None.

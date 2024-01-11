@@ -13,7 +13,3 @@
 ### Constraints
 
 - Default sum (in case all negative) should be Zero (0).
-
-### Guidelines
-
-- None.

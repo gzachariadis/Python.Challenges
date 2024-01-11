@@ -15,7 +15,3 @@
 - H must be between 0 and 23
 - M must be between 0 and 59
 - S must be between 0 and 59
-
-### Guidelines
-
-- None.
