@@ -25,7 +25,7 @@
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/gzachariadis/Python.Challenges?&label=Last%20Commit)
 ![Maintenance](https://img.shields.io/maintenance/yes/2024?style=flat&label=Maintained)
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges?&label=Size)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square&label=Code%20Style)](https://github.com/prettier/prettier)
+![Static Badge](https://img.shields.io/badge/Code_Style-Prettier-ff69b4?style=flat&logo=prettier&logoColor=white&label=Code%20Style&link=https%3A%2F%2Fgithub.com%2Fprettier%2Fprettier)
 ![GitHub License](https://img.shields.io/github/license/gzachariadis/Python.Challenges?style=flat&logo=github&label=License&color=blue)
 
 </div>
