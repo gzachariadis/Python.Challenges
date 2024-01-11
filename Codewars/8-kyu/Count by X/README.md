@@ -1,5 +1,3 @@
-### [Count by X](https://www.codewars.com/kata/5513795bd3fafb56c200049e/python)
-
 <h1 align="center">
   <a href="https://www.codewars.com/kata/5513795bd3fafb56c200049e/python">Count by X</a>
 
