@@ -68,8 +68,6 @@ Additionally, consider sharing it with the community using the badges below.
 
 <p align="justify">You might also find code be refractored as a more targeted solution to a generic problem. That happens because, in the process of tackling these challenges, small snippets of reusable code tend to arise, those, end up in my Visual Code Snippets (JSON) to be used when the opportunity emerges.</p>
 
-<br>
-
 ## Roadmap
 
 | Status 	|                          Goal                          	| Progress Report 	|       ETA      	|
