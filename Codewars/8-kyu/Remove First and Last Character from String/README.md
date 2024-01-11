@@ -10,7 +10,4 @@
 ### Constraints & Guidelines
 
 - You're given the original string as a parameter.
- 
-### Testing
-
 - You don't have to worry with strings with less than two characters.
