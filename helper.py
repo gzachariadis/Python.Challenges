@@ -31,3 +31,8 @@ for x in get_immediate_subdirectories(os.path.normpath(Codewars)):
 # Test spaces between the Challenges
 # Add invididual Indexes for Each Level
 # Everything should be in Alphabetical Order
+
+# Use Remove first and last character from string under 8-kyu as a Template for every other file.
+# Find a way to create a template folder with README.md template and an empty python file each time I want to submit a new challenge.
+# Add a To-do Road Map to the README.md
+        
