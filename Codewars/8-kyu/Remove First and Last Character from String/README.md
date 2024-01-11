@@ -11,9 +11,3 @@
 ### Testing
 
 - You don't have to worry with strings with less than two characters.
-
-### Sample Data Set
-
-['eloquent', 'country', 'person', 'place', 'ok','ooopsss']
-
-    
