@@ -44,7 +44,7 @@
 
 ## Share with the Community
 
-Please consider, leaving a Star(⭐) if this repository provided value for you.
+Please consider, leaving a Star⭐.
 
 Additionally, consider sharing it with the community using the badges below.
 
