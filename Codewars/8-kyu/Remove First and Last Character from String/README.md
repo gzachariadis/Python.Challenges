@@ -1,4 +1,4 @@
-# [Remove First and Last Character from String!](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/python)
+# [Remove First and Last Character from String](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/python)
 
 ### Objective
 
