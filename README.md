@@ -86,7 +86,7 @@ A quick way to compare between solution execution speeds is [Perfpy](https://per
 
 Additionally, included under [this project](https://github.com/gzachariadis/Python-Code-Performance) is my code performance tester, using [cProfiler](https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/) where you can test the efficiency of your solutions or compare your answers with mine.
 
-### Format???
+## Format???
 
 - Title
    - You can use the Challenge Titles as external links to the original coding challenges.
@@ -177,7 +177,7 @@ Additionally, included under [this project](https://github.com/gzachariadis/Pyth
 │
 ```
 
-### Author Notes
+## Author Notes
 
 You acknowledge and agree that your use of the repository materials is at your own risk. The author accepts no responsibility or liability whatsoever for any consequences arising directly or indirectly from any action or inaction taken by you on the basis of, or in reliance on, any
 information or material contained in or linked to this repository. The information contained in this repository is provided "as is" with no warranties of completeness, accuracy, usefulness, or timeliness. The author reserves the right to change any of the items used or contained in the repository at any time without notice.
