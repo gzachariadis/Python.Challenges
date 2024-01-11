@@ -38,6 +38,10 @@
 
 <p align="justify">This repository acts a diary, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.</p>
 
+<p align="justify">You can go peruse these exercises and try them yourself in any order you might like. You can find them grouped by Platform, then difficulty level and finally alphabetically by their title. 
+
+Happy coding! 🥳
+
 ## Coding Style 
 
 <p align="justify">Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution is almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.</p>
@@ -60,10 +64,21 @@
 
 ## Methodology
 
-### Performance
+For larger problems, I tackle them recursively, this means that, I tend to go for the most verbose and intentionally slower solution, as I work my way to a more efficient and concise one. That's important both for understanding step by step what your algorithm is executing and for tackling problems in a logical sequence. With each iteration, I refactor my code, moving closer and closer to an optimal solution, before finally submitting my code for verification to any online platform.
 
-If you want to check which solution is faster use [tdlr]().
+Occasionally, two or more competing ways of solving a challenge will arise at the time of thinking the problem through and devising a solution, when that happens, if I can't immediately differentiate a best solution across the set, I pursure all, sequentially and let coding peformance and understandabillity differentiate between them. 
 
+## Enviroment
+
+As part of this exploration into competitive coding, I have created a seperate [repository](https://github.com/gzachariadis/Code-Wars); a local coding environment, functionally similar to most editors that are used by these platforms, as a means of  recursively testing my code's output and improving it before submitting my answer to the platform for further testing.
+
+You can find the project [here](https://github.com/gzachariadis/Code-Wars) along with details on how to set it up for yourself.
+
+## Performance
+
+A quick way to compare between solution execution speeds is [Perfpy](https://perfpy.com/#/).
+
+Additionally, included under [this project](https://github.com/gzachariadis/Python-Code-Performance) is my code performance tester, using [cProfiler](https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/) where you can test the efficiency of your solutions or compare your answers with mine.
 
 ### Format???
 
@@ -77,8 +92,10 @@ If you want to check which solution is faster use [tdlr]().
    - Limitations & Guidelines on the Problem.
 - Solution(s)
    - Source Code
-- Optional - Checkbox [✅]
-   - Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
+- Optional - Indicators
+   - ✅ Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
+   - 🏆 Indicates I achieve the 2nd best answer.
+   - 🚩 Indicates a failure to match achieve a top 3 solution on the first try.
 - Optional - Notes
    - Any notes or comments, I might have based my thought process on or took while solving the problem.
    - Will be included as comments on the python file or as a seperate .txt file.
