@@ -26,6 +26,7 @@
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+![GitHub License](https://img.shields.io/github/license/gzachariadis/Python.Challenges?style=flat&logo=github&label=License&color=blue)
 
 </div>
 
