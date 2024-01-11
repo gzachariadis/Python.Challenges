@@ -27,3 +27,7 @@ for x in get_immediate_subdirectories(os.path.normpath(Codewars)):
             f.write("\n")
         f.close()
 
+# Add Links to Folders for Each Challenges
+# Test spaces between the Challenges
+# Add invididual Indexes for Each Level
+# Everything should be in Alphabetical Order
