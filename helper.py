@@ -23,8 +23,8 @@ for x in get_immediate_subdirectories(os.path.normpath(Codewars)):
 
     for y in challenges:
         with open(Codewars_README, "a", encoding="utf-8") as f:
-            f.write("- " + str(y))
-            f.write("\n")
+            print("- [" + str(y) + "](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/" + x + str(y).replace(' ', '%20'))
+            # f.write("\n")
         f.close()
 
 # Add Links to Folders for Each Challenges
