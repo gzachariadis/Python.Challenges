@@ -46,7 +46,7 @@
 
 <p align="justify">Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution is almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.</p>
 
-<p align="justify">Having said that, in the process of tackling these challenges, I find myself opting for concise code with Pythonic syntax, as my main goal is to match the preferred [^1] solution to each individual challenge.</p>
+<p align="justify">Having said that, in the process of tackling these challenges, I find myself opting for concise code with Pythonic syntax, as my main goal is to match the preferred solution (as voted by the platform's audience) to each individual challenge.</p>
 
 ## Repository Updates
 
@@ -82,11 +82,11 @@
 
 ## Performance
 
-A quick way to compare between solution execution speeds is [Perfpy](https://perfpy.com/#/).
+<p align="justify">A quick way to compare between solution execution speeds is <a href="" target="_black">Perfpy</a></p>(https://perfpy.com/#/).
 
-Additionally, included under [this project](https://github.com/gzachariadis/Python-Code-Performance) is my code performance tester, using [cProfiler](https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/) where you can test the efficiency of your solutions or compare your answers with mine.
+<p align="justify">Additionally, included under <a href="https://github.com/gzachariadis/Python-Code-Performance" target="_black">this project</a> is my code performance tester, using <a href="https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/" target="_black">cProfiler</a> where you can test the efficiency of your solutions or compare your answers with mine.</p>
 
-## Format???
+## Format
 
 - Title
    - You can use the Challenge Titles as external links to the original coding challenges.
@@ -182,7 +182,3 @@ Additionally, included under [this project](https://github.com/gzachariadis/Pyth
 <p align="justify">You acknowledge and agree that your use of the repository materials is at your own risk. The author accepts no responsibility or liability whatsoever for any consequences arising directly or indirectly from any action or inaction taken by you on the basis of, or in reliance on, any information or material contained in or linked to this repository. The information contained in this repository is provided "as is" with no warranties of completeness, accuracy, usefulness, or timeliness. The author reserves the right to change any of the items used or contained in the repository at any time without notice.</p>
 
 <p align="justify">Using material from this repository to gain rank in any of these platforms, violates each individual Platform's Policy and might result in getting you banned. Consider yourself warned.</p>
-
-<br>
-
-[^1]: Top considering the most applicable solution as voted by the platform's audience.
