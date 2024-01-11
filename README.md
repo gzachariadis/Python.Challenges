@@ -36,7 +36,7 @@
 
 ## Purpose
 
-<p align="justify">Hi 👋, I'm George!</p>
+<p align="justify">Hi 👋,  I'm George!</p>
 
 <p align="justify">This repository acts as my diary, of sorts, to mark my own progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.</p>
 
