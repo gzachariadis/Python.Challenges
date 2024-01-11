@@ -34,9 +34,7 @@
   <i align="center"> ⚠️ Please attempt these exercises on your own. ⚠️</i>
 </p>
 
-
-## Purpose
-<p align="justify">Hi 👋,  I'm George!</p>
+## Hi 👋, I'm George!
 
 <p align="justify">This repository acts as my diary, of sorts, to mark progress as I traverse the world of competitive programming and elevate my skill level to achieve Mastery of the Python language.</p>
 
