@@ -100,6 +100,7 @@ If you want to check which solution is faster use [tdlr]().
 
 ```ascii
 ├── Codewars/
+│    │
 │    ├── 8-kyu/
 │    │    ├── Challenge Title/
 │    │    │                 └── solution.py
