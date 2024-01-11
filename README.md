@@ -97,8 +97,8 @@
 - Problem Constraints
    - Limitations & Guidelines on the Problem.
 - Solution(s)
-   - Source Code
-- Optional - Indicators
+   - Source Code in the form of a Python executable.
+- Indicators
    - ✅ Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
    - 🏆 Indicates I achieve the 2nd best answer.
    - 🚩 Indicates a failure to match achieve a top 3 solution on the first try.
@@ -158,23 +158,25 @@
 │    │
 │    │    
 │    │
-│    └── ...
-│
+│    └── README.md - Challenges indexed and grouped by difficulty.
+│    │
+│    │
 ├──  Exercism/
 │    │
 │    │
 │    │
 │    │
-│    └── ...
-│
+│    └── README.md - Challenges indexed and grouped by difficulty.
+│    │
+│    │
 ├──  Leetcode/
 │    │
 │    │
 │    │
 │    │
 │    │
-│    └── ...
-│
+│    └── README.md - Challenges indexed and grouped by difficulty.
+│    │
 ```
 
 ## Author Notes
