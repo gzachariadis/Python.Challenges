@@ -16,7 +16,7 @@
 </h1>
 
 <p align="center">
-  <i align="center"> A collection of solutions to various coding challenges, grouped by difficulty.</i>
+  <i align="center"> A collection of my solutions to various coding challenges, grouped by difficulty.</i>
 </p>
 
 <div align="center" style="pointer-events: none;">
@@ -68,7 +68,7 @@
 
 <p align="justify">Tackling problems in a logical sequence is vital to my process. With each iteration, I refactor my code, moving closer and closer to the optimal solution. By the time, I finally submit my code for verification to any online platform, I am positive my code is able to pass the test suite and has little to no room for improvement based on my current understanding and knowledge of Python.</p>
 
-### Multiple Solutions
+## Multiple Solutions
 
 <p align="justify">As you might have noticed, some challenges include more than one solution, that's either because I attempted the challenge multiple times as my knowledge level progressed or because occasionally, two or more competing solutions will arise as I am thinking the problem through. When that happens, if I can't immediately differentiate the best solution across the set, I pursue them all, sequentially of course.</p>
 
