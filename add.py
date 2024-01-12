@@ -4,51 +4,43 @@ from os.path import dirname, abspath
 import os
 import re
 
-# Required Inputs
+# URL - 
 
-# - Challenge ID 
-# - Platform
-# - Username
+from functions import fetch, parse_url, create_folder
+from urllib.parse import urlparse
 
+Link = str(sys.argv[1])
+Platform = str((urlparse(Link).netloc.split(".")[-2:])[0]).capitalize()
+
+# Disallowed Characters for Folder names
 Disallowed_Characters = r'[\\/*?:"<>|]'
 
-# The API endpoint
-codewars_url = "https://www.codewars.com/api/v1/code-challenges/" + sys.argv[1]
+# Given the URL as Input parse it and return the info required for the request
+url, ID = parse_url(Platform,Link)
 
-# A GET request to the API
-response = requests.get(codewars_url)
-
-# Print the response
-response_json = response.json()
+response_json = fetch("{}{}".format(url,ID))
 
 Challenge_Name = re.sub(Disallowed_Characters,"",  response_json['name'])
 Challenge_URL = str(response_json['url']).strip()
 Challenge_Rank = str(re.sub(' ','-', response_json['rank']['name'])).strip()
 
-# Repository Directory
-current_d = dirname(abspath(__file__))
-Platform = sys.argv[2]
+# Path to try create the new challenge folder
+path = "\\".join([dirname(abspath(__file__)),Platform,Challenge_Rank,Challenge_Name])
 
-full_path = current_d + '\{}'.format(Platform) + '\{}'.format(Challenge_Rank) + '\{}'.format(Challenge_Name)
+# Try to create a folder for this new challenge based on the full path.
+create_folder(path)
 
-if not os.path.exists(full_path):
-    os.makedirs(full_path)
+try:
 
-    try:
+    solution = open(path + '\{}'.format("solution.py") , 'w')
+    solution.close()
+    notes = open(path + '\{}'.format("notes.txt") , 'w')
+    notes.close()
+    readme = open(path + '\{}'.format("README.md") , 'w')
+    readme.close()
 
-        solution = open(full_path + '\{}'.format("solution.py") , 'w')
-        solution.close()
-        notes = open(full_path + '\{}'.format("notes.txt") , 'w')
-        notes.close()
-        readme = open(full_path + '\{}'.format("README.md") , 'w')
-        readme.close()
+    print("New entry was added Successfully.")
+except FileNotFoundError as e:
+    print(f'An error occurred: {e}')
 
-        print("New entry was added Successfully.")
-    except FileNotFoundError as e:
-        print(f'An error occurred: {e}')
-
-
-else:
-    print("Challenge Exists Already.")
-
-
+print("Succesfully added.")

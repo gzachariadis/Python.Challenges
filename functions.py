@@ -3,6 +3,9 @@ from datetime import timezone
 import requests
 import time
 import re
+from urllib.parse import urlparse
+import os
+import sys
 
 def ordinal(n: int) -> str:
     """
@@ -80,4 +83,62 @@ def get_user_info(username,platform):
                                     },'Challenges' : challenge_data }
             
             return user_data
+
+
+def parse_url(Platform: str, url: str) -> str:
+    match Platform:
+        case "Codewars":
+            # The API endpoint
+            return ["https://www.codewars.com/api/v1/code-challenges/", urlparse(url).path.split('/')[-2]]
+        case "exercism":
+            return ""
+        case "hackerrank":
+            return ""
+        case "leetcode":
+            return ""
+
+def fetch(url):
+    try:
         
+        # Issue a Request 
+        with requests.get(url) as response:
+
+            # Check request was successful
+            response.raise_for_status()
+
+        if response.status_code == 200:
+
+            # Successful Response
+            return response.json()
+
+        else:
+            print(f"Unexpected status code: {response.status_code}")
+            return None
+
+    except requests.exceptions.RequestException as e:
+        
+        # Handle exceptions
+        print(f"Error making the request: {e}")
+        return None
+
+
+def create_folder(folder_path):
+
+    try:
+        # Use os.makedirs to create the folder and its parent directories if they don't exist
+        os.makedirs(folder_path, exist_ok=True)
+
+        if os.path.exists(folder_path):
+            
+            print(f"A challenge by this name, already exists in your database.")
+            sys.exit()
+
+        else:
+            
+            print(f"Folder '{folder_path}' created successfully.")
+    
+    except PermissionError:
+        print(f"Permission error: Unable to create folder.")
+    
+    except OSError as e:
+        print(f"Error creating folder: {e}")
