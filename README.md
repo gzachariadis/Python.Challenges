@@ -140,31 +140,7 @@ Additionally, consider sharing it with the community using the badges below.
 
 ## Template
 
-<h1 align="center">
-  <a href="">Challenge Title [Can be used as External Link]</a>
-</h1>
-
-<p id="DateParagraph" align="center">
-  <i align="center">Completion date for the Challenge</i>
-</p>
-
-<p id="TagsParagraph" align="center">
-  <i align="center">Mathematics - Algorithms - Fundamentals</i>
-</p>
-
-### Objective
-
-- A Problem Description, varying in size, describing the problems's expected inputs and outputs.
-
-### Constraints
-
-- Limitations & Guidelines on the Problem.
-
-## Indicators
-
-- ✅ Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
-- 🏆 Indicates I achieve the 2nd best answer.
-- 🚩 Indicates a failure to match achieve a top 3 solution on the first try.
+See [Template.md](https://github.com/gzachariadis/Python.Challenges/blob/main/Template.md).
 
 ## Progress Statistics
 
