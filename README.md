@@ -44,6 +44,31 @@
 
 <i>Happy coding! </i> 🥳
 
+
+## Getting Started
+
+### Template
+
+```
+git clone https://github.com/gzachariadis/Python.Challenges.git
+cd Python.Challenges
+python update.py [Username] [Platform]
+```
+
+### Mirroring
+
+```
+git clone --bare https://github.com/gzachariadis/Python.Challenges.git
+
+python update.py [Username] [Platform]
+```
+
+### Creating New Entries
+
+```
+python add.py [Challenge ID] [Platform]
+```
+
 ## Share with the Community
 
 Please consider, leaving a Star⭐.
@@ -55,18 +80,6 @@ Additionally, consider sharing it with the community using the badges below.
 [![GitHub Repo stars](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://roadmap.sh&text=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
 [![GitHub Repo stars](https://img.shields.io/badge/share%20on-facebook-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://roadmap.sh)
 [![GitHub Repo stars](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://roadmap.sh&title=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
-
-## Coding Style 
-
-<p align="justify">Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution is almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.</p>
-
-<p align="justify">Having said that, in the process of tackling these challenges, I find myself opting for concise code with Pythonic syntax, as my main goal is to match the preferred solution (as voted by the platform's audience) to each individual challenge.</p>
-
-## Repository Updates
-
-<p align="justify">If you opt to watch this repository, you will notice a consistent effort to refactor and optimize my code. Sometimes for efficiency, sometimes for readability. Sometimes for both.</p>
-
-<p align="justify">You might also find code be refractored as a more targeted solution to a generic problem. That happens because, in the process of tackling these challenges, small snippets of reusable code tend to arise, those, end up in my Visual Code Snippets (JSON) to be used when the opportunity emerges.</p>
 
 ## Roadmap
 
@@ -80,6 +93,18 @@ Additionally, consider sharing it with the community using the badges below.
 |    ✔️   	|        Create Links for Each Challenge Folder under Index.       	|     `ready`     	|  📅 11/01/2024  	|
 |    📅   	|                  Automate the update process.                  	|   `scheduled`   	|  📅 03/02/2024  	|
 |    🚧   	|                       Fix the Share Buttons                      	|  `in progress`  	|  📅 14/01/2024  	|
+
+## Coding Style 
+
+<p align="justify">Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution is almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.</p>
+
+<p align="justify">Having said that, in the process of tackling these challenges, I find myself opting for concise code with Pythonic syntax, as my main goal is to match the preferred solution (as voted by the platform's audience) to each individual challenge.</p>
+
+## Repository Updates
+
+<p align="justify">If you opt to watch this repository, you will notice a consistent effort to refactor and optimize my code. Sometimes for efficiency, sometimes for readability. Sometimes for both.</p>
+
+<p align="justify">You might also find code be refractored as a more targeted solution to a generic problem. That happens because, in the process of tackling these challenges, small snippets of reusable code tend to arise, those, end up in my Visual Code Snippets (JSON) to be used when the opportunity emerges.</p>
 
 ## Lessons Learned
 
@@ -113,25 +138,33 @@ Additionally, consider sharing it with the community using the badges below.
 
 <p align="justify">Additionally, included under this <a href="https://github.com/gzachariadis/Python-Code-Performance" target="_black">project</a> is my code performance tester, using <a href="https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/" target="_black">cProfiler</a> where you can test the efficiency of your solutions or compare your answers against mine.</p>
 
-## Format
+## Template
 
-- Title
-   - You can use the Challenge Titles as external links to the original coding challenges.
-- Date
-   - Completion date for the Challenge.
-- Objective
-   - A Problem Description, varying in size, describing the problems's expected inputs and outputs.
-- Constraints
-   - Limitations & Guidelines on the Problem.
-- Solution(s)
-   - Source Code in the form of a Python executable.
-- Indicators
-   - ✅ Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
-   - 🏆 Indicates I achieve the 2nd best answer.
-   - 🚩 Indicates a failure to match achieve a top 3 solution on the first try.
-- Optional - Notes
-   - Any notes or comments, I might have based my thought process on or took while solving the problem.
-   - Will be included as comments on the python file or as a seperate .txt file.
+<h1 align="center">
+  <a href="">Challenge Title [Can be used as External Link]</a>
+</h1>
+
+<p id="DateParagraph" align="center">
+  <i align="center">Completion date for the Challenge</i>
+</p>
+
+<p id="TagsParagraph" align="center">
+  <i align="center">Mathematics - Algorithms - Fundamentals</i>
+</p>
+
+### Objective
+
+- A Problem Description, varying in size, describing the problems's expected inputs and outputs.
+
+### Constraints
+
+- Limitations & Guidelines on the Problem.
+
+## Indicators
+
+- ✅ Indicates I achieved the Optimal Solution (as voted by the Platform's Users) on my first attempt.
+- 🏆 Indicates I achieve the 2nd best answer.
+- 🚩 Indicates a failure to match achieve a top 3 solution on the first try.
 
 ## Progress Statistics
 
@@ -159,6 +192,7 @@ Additionally, consider sharing it with the community using the badges below.
 │    │    ├── Challenge Title/
 │    │    │                 └── solution_1.py
 │    │    │                 └── solution_2.py
+│    │    │                 └── notes.txt
 │    │    │                 └── README.md
 │    │    │
 │    │    └── ...
@@ -171,6 +205,7 @@ Additionally, consider sharing it with the community using the badges below.
 │    │    │  
 │    │    ├── Challenge Title/
 │    │    │                  └── solution.py
+│    │    │                  └── notes.txt
 │    │    │                  └── README.md
 │    │    │   
 │    │    └── ...
