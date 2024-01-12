@@ -44,8 +44,7 @@
 
 <i>Happy coding! </i> 🥳
 
-
-## Getting Started
+## Start your Journey
 
 ### Template
 
