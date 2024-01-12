@@ -124,21 +124,21 @@ def fetch(url):
 
 def create_folder(folder_path):
 
-    try:
-        # Use os.makedirs to create the folder and its parent directories if they don't exist
-        os.makedirs(folder_path, exist_ok=True)
-
-        if os.path.exists(folder_path):
+    if os.path.exists(folder_path):
             
             print(f"A challenge by this name, already exists in your database.")
             sys.exit()
 
-        else:
-            
+    else:
+
+        try:
+            # Use os.makedirs to create the folder and its parent directories if they don't exist
+            os.makedirs(folder_path, exist_ok=True)
+
             print(f"Folder '{folder_path}' created successfully.")
     
-    except PermissionError:
-        print(f"Permission error: Unable to create folder.")
-    
-    except OSError as e:
-        print(f"Error creating folder: {e}")
+        except PermissionError:
+            print(f"Permission error: Unable to create folder.")
+        
+        except OSError as e:
+            print(f"Error creating folder: {e}")

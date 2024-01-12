@@ -1,11 +1,6 @@
-import requests
 import sys
 from os.path import dirname, abspath
-import os
 import re
-
-# URL - 
-
 from functions import fetch, parse_url, create_folder
 from urllib.parse import urlparse
 
@@ -18,8 +13,10 @@ Disallowed_Characters = r'[\\/*?:"<>|]'
 # Given the URL as Input parse it and return the info required for the request
 url, ID = parse_url(Platform,Link)
 
+# Make API call and fetch response
 response_json = fetch("{}{}".format(url,ID))
 
+# Fetch info from Response
 Challenge_Name = re.sub(Disallowed_Characters,"",  response_json['name'])
 Challenge_URL = str(response_json['url']).strip()
 Challenge_Rank = str(re.sub(' ','-', response_json['rank']['name'])).strip()
@@ -39,8 +36,5 @@ try:
     readme = open(path + '\{}'.format("README.md") , 'w')
     readme.close()
 
-    print("New entry was added Successfully.")
 except FileNotFoundError as e:
     print(f'An error occurred: {e}')
-
-print("Succesfully added.")
