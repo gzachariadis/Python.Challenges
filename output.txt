@@ -1,0 +1,386 @@
+{
+    "gzachariadis": {
+        "Total Completed": 31,
+        "Statistics": {
+            "1-kyu": 0,
+            "2-kyu": 0,
+            "3-kyu": 0,
+            "4-kyu": 0,
+            "5-kyu": 2,
+            "6-kyu": 2,
+            "7-kyu": 12,
+            "8-kyu": 15
+        },
+        "Challenges": {
+            "5641c3f809bf31f008000042": {
+                "Name": "Formatting decimal places #1",
+                "Completed at": "Friday, 5th January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5641c3f809bf31f008000042/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "585d7b4685151614190001fd": {
+                "Name": "How much will you spend?",
+                "Completed at": "Friday, 5th January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/585d7b4685151614190001fd/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Mathematics",
+                        "Algorithms"
+                    ]
+                }
+            },
+            "5d37899a3b34c6002df273ee": {
+                "Name": "If you can't beat 'em, join 'em!",
+                "Completed at": "Friday, 5th January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5d37899a3b34c6002df273ee/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Fundamentals",
+                        "Arrays",
+                        "Algorithms",
+                        "Puzzles"
+                    ]
+                }
+            },
+            "56b1f01c247c01db92000076": {
+                "Name": "Double Char",
+                "Completed at": "Thursday, 4th January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/56b1f01c247c01db92000076/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals",
+                        "Strings"
+                    ]
+                }
+            },
+            "525f3eda17c7cd9f9e000b39": {
+                "Name": "Calculating with Functions",
+                "Completed at": "Thursday, 4th January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39/python",
+                    "rank": "5-kyu",
+                    "tags": [
+                        "Functional Programming"
+                    ]
+                }
+            },
+            "582c81d982a0a65424000201": {
+                "Name": "Is every value in the array an array?",
+                "Completed at": "Thursday, 4th January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/582c81d982a0a65424000201/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Arrays",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "54ff3102c1bad923760001f3": {
+                "Name": "Vowel Count",
+                "Completed at": "Thursday, 4th January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/54ff3102c1bad923760001f3/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Strings",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "55ecd718f46fba02e5000029": {
+                "Name": "What is between?",
+                "Completed at": "Thursday, 4th January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/55ecd718f46fba02e5000029/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals",
+                        "Algorithms"
+                    ]
+                }
+            },
+            "53dbd5315a3c69eed20002dd": {
+                "Name": "List Filtering",
+                "Completed at": "Tuesday, 2nd January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/53dbd5315a3c69eed20002dd/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Lists",
+                        "Filtering",
+                        "Data Structures",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "55a2d7ebe362935a210000b2": {
+                "Name": "Find the smallest integer in the array",
+                "Completed at": "Monday, 1st January 2024",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/55a2d7ebe362935a210000b2/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "515de9ae9dcfc28eb6000001": {
+                "Name": "Split Strings",
+                "Completed at": "Saturday, 30th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/515de9ae9dcfc28eb6000001/python",
+                    "rank": "6-kyu",
+                    "tags": [
+                        "Regular Expressions",
+                        "Strings",
+                        "Algorithms"
+                    ]
+                }
+            },
+            "56bc28ad5bdaeb48760009b0": {
+                "Name": "Remove First and Last Character",
+                "Completed at": "Saturday, 30th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Strings",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "5648b12ce68d9daa6b000099": {
+                "Name": "Number of People in the Bus",
+                "Completed at": "Saturday, 30th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5648b12ce68d9daa6b000099/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "5390bac347d09b7da40006f6": {
+                "Name": "Jaden Casing Strings",
+                "Completed at": "Saturday, 30th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5390bac347d09b7da40006f6/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Strings",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "514b92a657cdc65150000006": {
+                "Name": "Multiples of 3 or 5",
+                "Completed at": "Saturday, 30th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/514b92a657cdc65150000006/python",
+                    "rank": "6-kyu",
+                    "tags": [
+                        "Mathematics",
+                        "Algorithms"
+                    ]
+                }
+            },
+            "5259b20d6021e9e14c0010d4": {
+                "Name": "Reverse words",
+                "Completed at": "Saturday, 30th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Strings",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "52597aa56021e91c93000cb0": {
+                "Name": "Moving Zeros To The End",
+                "Completed at": "Friday, 29th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/52597aa56021e91c93000cb0/python",
+                    "rank": "5-kyu",
+                    "tags": [
+                        "Arrays",
+                        "Sorting",
+                        "Algorithms"
+                    ]
+                }
+            },
+            "5502c9e7b3216ec63c0001aa": {
+                "Name": "Categorize New Member",
+                "Completed at": "Thursday, 28th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "51f2d1cafc9c0f745c00037d": {
+                "Name": "String ends with?",
+                "Completed at": "Thursday, 28th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Strings",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "57f781872e3d8ca2a000007e": {
+                "Name": "Beginner - Lost Without a Map",
+                "Completed at": "Thursday, 28th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/57f781872e3d8ca2a000007e/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals",
+                        "Arrays"
+                    ]
+                }
+            },
+            "57cc975ed542d3148f00015b": {
+                "Name": "You only need one - Beginner",
+                "Completed at": "Thursday, 28th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/57cc975ed542d3148f00015b/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals",
+                        "Strings",
+                        "Arrays"
+                    ]
+                }
+            },
+            "5715eaedb436cf5606000381": {
+                "Name": "Sum of positive",
+                "Completed at": "Thursday, 28th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5715eaedb436cf5606000381/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Arrays",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "55f9b48403f6b87a7c0000bd": {
+                "Name": "Beginner Series #1 School Paperwork",
+                "Completed at": "Thursday, 28th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "5265326f5fda8eb1160004c8": {
+                "Name": "Convert a Number to a String!",
+                "Completed at": "Thursday, 28th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5265326f5fda8eb1160004c8/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Strings",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "56747fd5cb988479af000028": {
+                "Name": "Get the Middle Character",
+                "Completed at": "Thursday, 28th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/56747fd5cb988479af000028/python",
+                    "rank": "7-kyu",
+                    "tags": [
+                        "Fundamentals",
+                        "Strings"
+                    ]
+                }
+            },
+            "5672a98bdbdd995fad00000f": {
+                "Name": "Rock Paper Scissors!",
+                "Completed at": "Sunday, 24th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5672a98bdbdd995fad00000f/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "55f9bca8ecaa9eac7100004a": {
+                "Name": "Beginner Series #2 Clock",
+                "Completed at": "Saturday, 23rd December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "53dc54212259ed3d4f00071c": {
+                "Name": "Sum Arrays",
+                "Completed at": "Saturday, 23rd December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/53dc54212259ed3d4f00071c/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Arrays",
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "55685cd7ad70877c23000102": {
+                "Name": "Return Negative",
+                "Completed at": "Wednesday, 20th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/55685cd7ad70877c23000102/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "53369039d7ab3ac506000467": {
+                "Name": "Convert boolean values to strings 'Yes' or 'No'.",
+                "Completed at": "Wednesday, 20th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/53369039d7ab3ac506000467/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Fundamentals"
+                    ]
+                }
+            },
+            "5513795bd3fafb56c200049e": {
+                "Name": "Count by X",
+                "Completed at": "Wednesday, 20th December 2023",
+                "Additional Info": {
+                    "url": "https://www.codewars.com/kata/5513795bd3fafb56c200049e/python",
+                    "rank": "8-kyu",
+                    "tags": [
+                        "Arrays",
+                        "Fundamentals"
+                    ]
+                }
+            }
+        }
+    }
+}
