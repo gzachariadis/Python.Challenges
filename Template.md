@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <i align="center">Mathematics,Algorithms, Fundamentals</i>
+  <i align="center">Mathematics - Algorithms - Fundamentals</i>
 </p>
 
 ### Objective
