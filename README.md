@@ -138,10 +138,6 @@ Additionally, consider sharing it with the community using the badges below.
 
 <p align="justify">Additionally, included under this <a href="https://github.com/gzachariadis/Python-Code-Performance" target="_black">project</a> is my code performance tester, using <a href="https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/" target="_black">cProfiler</a> where you can test the efficiency of your solutions or compare your answers against mine.</p>
 
-## Template
-
-See [Template.md](https://github.com/gzachariadis/Python.Challenges/blob/main/Template.md).
-
 ## Progress Statistics
 
 |     Platform    |  Expert  |  Challenging  |  Proficient  |  Moderate  |  Novice  |
