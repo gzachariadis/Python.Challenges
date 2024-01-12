@@ -6,6 +6,10 @@
   <i align="center">Wednesday, 20th December 2023</i>
 </p>
 
+<p align="center">
+  <i align="center">Mathematics,Algorithms, Fundamentals</i>
+</p>
+
 ### Objective
 
 -
