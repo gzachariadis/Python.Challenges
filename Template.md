@@ -1,13 +1,13 @@
-<h1 id="TitleHeader" align="center">
-  <a href="">Count by X</a>
+<h1 align="center">
+  <a id="challenge_name" href=""></a>
 </h1>
 
-<p id="DateParagraph" align="center">
-  <i align="center">Wednesday, 20th December 2023</i>
+<p align="center">
+  <i id="completion_date" align="center"></i>
 </p>
 
-<p id="TagsParagraph" align="center">
-  <i align="center">Mathematics - Algorithms - Fundamentals</i>
+<p align="center">
+  <i id="tags" align="center"></i>
 </p>
 
 ### Objective
