@@ -46,20 +46,27 @@
 
 ## Start your Journey
 
-### Mirroring
+### Step 1 - Mirroring
 
 ```
 git clone https://github.com/gzachariadis/Python.Challenges.git
 cd Python.Challenges
 ```
 
-### Creating New Entries
+### Step 2 - Editing Credentials
+
+```
+cd Python.Challenges
+nano credentials.json
+```
+
+### Step 3 - Creating New Entries
 
 ```
 python .\add.py --link [URL]
 ```
 
-### Updating Manually
+### Step 4 - Updating Manually (Optional)
 
 ```
 python .\update.py --platform [Platform]
