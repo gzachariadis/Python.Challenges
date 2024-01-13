@@ -46,27 +46,30 @@
 
 ## Start your Journey
 
-### Template
+### Mirroring
 
 ```
 git clone https://github.com/gzachariadis/Python.Challenges.git
 cd Python.Challenges
-python update.py [Username] [Platform]
-```
-
-### Mirroring
-
-```
-git clone --bare https://github.com/gzachariadis/Python.Challenges.git
-
-python update.py [Username] [Platform]
 ```
 
 ### Creating New Entries
 
 ```
-python add.py [Challenge ID] [Platform]
+python .\add.py --link [URL]
 ```
+
+<p align="justify">The script will identify automatically the platform, difficulty and challenge name and store the challenge accordingly.</p>
+
+### Updating Manually
+
+```
+python .\update.py --platform [Platform]
+```
+
+### Create your own Template
+
+<p align="justify">Edit the <a href="">Template.md</a> file according to your needs. Careful when changing the "id" inside of the HTML tags, as they are used to fill the content accordingly.</p>
 
 ## Share with the Community
 
