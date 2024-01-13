@@ -19,7 +19,7 @@ response_json = fetch("{}{}".format(url,ID))
 
 # Fetch info from Response
 Challenge_Name = re.sub(Disallowed_Characters,"",  response_json['name'])
-Challenge_URL = str(response_json['url']).strip()
+Challenge_URL = str("\\".join([response_json['url'],"python"])).strip()
 Challenge_Rank = str(re.sub(' ','-', response_json['rank']['name'])).strip()
 Template_Path = "\\".join([dirname(abspath(__file__)),"Template.md"])
 Challenge_Tags = ', '.join(response_json['tags']).strip()

@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a id="challenge_name" href="https://www.codewars.com/kata/659af96994b858db10e1675f">The lost beginning</a>
+  <a id="challenge_name" href="https://www.codewars.com/kata/659af96994b858db10e1675f\python">The lost beginning</a>
 </h1>
 
 <p align="center">
