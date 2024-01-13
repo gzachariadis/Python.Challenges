@@ -44,38 +44,6 @@
 
 <i>Happy coding! </i> 🥳
 
-## Start your Journey
-
-### Step 1 - Mirroring
-
-```
-git clone https://github.com/gzachariadis/Python.Challenges.git
-cd Python.Challenges
-```
-
-### Step 2 - Editing Credentials
-
-```
-cd Python.Challenges
-nano credentials.json
-```
-
-### Step 3 - Creating New Entries
-
-```
-python .\add.py --link [URL]
-```
-
-### Step 4 - Updating Manually (Optional)
-
-```
-python .\update.py --platform [Platform]
-```
-
-### Create your own Template
-
-<p align="justify">Edit the <a href="https://github.com/gzachariadis/Python.Challenges/blob/main/Template.md">Template.md</a> file according to your needs. Careful when changing the "id" inside of the HTML tags, as they are used to fill the content accordingly.</p>
-
 ## Share with the Community
 
 Please consider, leaving a Star⭐.
@@ -144,6 +112,39 @@ Additionally, consider sharing it with the community using the badges below.
 <p align="justify">A quick way to compare between solutions' execution speed is <a href="https://perfpy.com/#/" target="_black">Perfpy</a>.</p>
 
 <p align="justify">Additionally, included under this <a href="https://github.com/gzachariadis/Python-Code-Performance" target="_black">project</a> is my code performance tester, using <a href="https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/" target="_black">cProfiler</a> where you can test the efficiency of your solutions or compare your answers against mine.</p>
+
+
+## Start your own Journey
+
+### Step 1 - Mirroring
+
+```
+git clone https://github.com/gzachariadis/Python.Challenges.git
+cd Python.Challenges
+```
+
+### Step 2 - Editing Credentials
+
+```
+cd Python.Challenges
+nano credentials.json
+```
+
+### Step 3 - Creating New Entries
+
+```
+python .\add.py --link [URL]
+```
+
+### Step 4 - Updating Manually (Optional)
+
+```
+python .\update.py --platform [Platform]
+```
+
+### Create your own Template
+
+<p align="justify">Edit the <a href="https://github.com/gzachariadis/Python.Challenges/blob/main/Template.md">Template.md</a> file according to your needs. Careful when changing the "id" inside of the HTML tags, as they are used to fill the content accordingly.</p>
 
 ## Progress Statistics
 
