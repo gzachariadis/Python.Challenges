@@ -6,7 +6,43 @@ import re
 from urllib.parse import urlparse
 import os
 import sys
-from jinja2 import Template
+import json 
+
+def show_usage_guide():
+    print("Usage: python add.py [options]")
+    print("Options:")
+    print("  -h, --help         Show this help message and exit")
+    print("  -l, --link         Specify the challenge link/url (required)")
+    print("  -u, --username     Specify your username (defaults to credentials file)")
+    print("  -t, --template     Specify Template (defaults to 'Template.md')")
+    print("\n")
+    exit()
+
+import argparse
+
+def parse_arguments(credentials_file):
+
+    try:        
+        parser = argparse.ArgumentParser(description="Automating the process of adding new challenges to the database.")
+        
+        parser.add_argument('-l', '--link', type=str, help='Specify the challenge link/url', required=True)
+        parser.add_argument('-u', '--username', type=str, default=parse_credentials(credentials_file), help='Specify your username')
+        parser.add_argument('-t', '--template', type=str, default='Template.md', help='Specify the output directory')
+
+        args = parser.parse_args()
+        
+        return args
+    
+    except:
+        show_usage_guide()
+
+def parse_credentials(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            json_data = json.load(file)
+            return json_data.get("User", {}).get("Codewars", {}).get("username", None)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
 
 def ordinal(n: int) -> str:
     """
