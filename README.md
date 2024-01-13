@@ -67,7 +67,7 @@ python .\update.py --platform [Platform]
 
 ### Create your own Template
 
-<p align="justify">Edit the <a href="">Template.md</a> file according to your needs. Careful when changing the "id" inside of the HTML tags, as they are used to fill the content accordingly.</p>
+<p align="justify">Edit the <a href="https://github.com/gzachariadis/Python.Challenges/blob/main/Template.md">Template.md</a> file according to your needs. Careful when changing the "id" inside of the HTML tags, as they are used to fill the content accordingly.</p>
 
 ## Share with the Community
 
