@@ -59,8 +59,6 @@ cd Python.Challenges
 python .\add.py --link [URL]
 ```
 
-<p align="justify">The script will identify automatically the platform, difficulty and challenge name and store the challenge accordingly.</p>
-
 ### Updating Manually
 
 ```
