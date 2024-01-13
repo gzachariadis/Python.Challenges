@@ -35,6 +35,7 @@ initiate_structure(path)
 
 README_path = "\\".join([dirname(abspath(__file__)),Platform,Challenge_Rank,Challenge_Name,"README.md"])
 
-# Edit the Template
-edit_template(challenge_name=Challenge_Name,completion_date="Wednesday, 30 December 2024",tags=Challenge_Tags,template_path=Template_Path,readme_file=README_path)
+# Model README.md based on Template.md
+edit_template(challenge_name=Challenge_Name,challenge_url=Challenge_URL,completion_date="Wednesday, 30 December 2024",tags=Challenge_Tags,template_path=Template_Path,readme_file=README_path)
+
 

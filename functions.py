@@ -234,10 +234,11 @@ def parse_challenge_id(url):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-def edit_template(challenge_name, completion_date, tags, template_path, readme_file):
-
+def edit_template(challenge_name, challenge_url, completion_date, tags, template_path, readme_file):
     try:
-
+        
+        print("Modelling Challenge README.md after provided Template file...")
+        
         # Check if both the template file and readme file exist
         if not os.path.exists(template_path):
             print(f"Error: Template file not found at path {template_path}")
@@ -252,7 +253,7 @@ def edit_template(challenge_name, completion_date, tags, template_path, readme_f
             template_content = template_file.read()
 
         # Replace variables in the template content
-        template_content = template_content.replace('<a id="challenge_name" href=""></a>', f'<a id="challenge_name" href="">{challenge_name}</a>')
+        template_content = template_content.replace('<a id="challenge_name" href=""></a>', f'<a id="challenge_name" href="{challenge_url}">{challenge_name}</a>')
         template_content = template_content.replace('<i id="completion_date" align="center"></i>', f'<i id="completion_date" align="center">{completion_date}</i>')
         template_content = template_content.replace('<i id="tags" align="center"></i>', f'<i id="tags" align="center">{tags}</i>')
 
@@ -260,7 +261,8 @@ def edit_template(challenge_name, completion_date, tags, template_path, readme_f
         with open(readme_file, 'w') as readme_file_content:
             readme_file_content.write(template_content)
 
-        print("README file edited and overwritten successfully.")
+        print("README.md file edited and overwritten successfully.")
+   
     except FileNotFoundError:
         print(f"Error: File not found.")
     except PermissionError:
