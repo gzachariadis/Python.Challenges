@@ -23,6 +23,8 @@ repos:
       - id: check-added-large-files
       - id: check-ast
       - id: check-json
+        types: [text]
+        files: \.(json|template)$
       - id: pretty-format-json
       - id: debug-statements
       - id: check-merge-conflict
