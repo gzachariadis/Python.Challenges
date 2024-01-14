@@ -1,55 +1,94 @@
-from os.path import dirname, abspath
-from functions import fetch, parse_url, create_folder, initiate_structure, edit_template, show_usage_guide, parse_credentials, parse_arguments
-
-from urllib.parse import urlparse
 import re
+from os.path import abspath, dirname
+from urllib.parse import urlparse
+
+from functions import (create_folder, edit_template, extract_id, fetch,
+                       initiate_structure, is_valid_url, parse_arguments)
 
 # Disallowed Characters for Folder names
 Disallowed_Characters = r'[\\/*?:"<>|]'
 
 if __name__ == "__main__":
-    
-    credentials_file = "\\".join([dirname(abspath(__file__)),"credentials.json"])
+  # Part 1 - Validate Data
 
-    args = parse_arguments(credentials_file)
+  # Read Credentials
+  credentials_file = "\\".join(
+      [dirname(abspath(__file__)), "credentials.json"])
 
-    # Link based on Script Arguments
-    Link = args.link
+  # Verify Credentials file valid
 
-    # Verify link is valid
-    # Verify link domain is one of the permitted options.
-    Platform = str((urlparse(Link).netloc.split(".")[-2:])[0]).capitalize()
+  # Parse Arguments
+  args = parse_arguments(credentials_file)
 
-    # Determine template path based on argument or keep default value.
-    Template_Path = "\\".join([dirname(abspath(__file__)),"Template.md"])
-    
-    # Determine Challenge name
-    Challenge_Name = re.sub(Disallowed_Characters,"",  response_json['name'])
+  # Validation
 
-    # Given the URL as Input parse it and return the info required for the request
-    url, ID = parse_url(Platform,Link)
+  # Step 1: Verify provided link is a valid URL
+  if is_valid_url(args.link):
 
-    # Make API call and Fetch Response
-    response_json = fetch("{}{}".format(url,ID))
+    # Step 2 : Verify link domain is one of the permitted options.
 
-    # Determine info
-    Challenge_URL = str("\\".join([response_json['url'],"python"])).strip()
-    Challenge_Rank = str(re.sub(' ','-', response_json['rank']['name'])).strip()
-    Challenge_Tags = ', '.join(response_json['tags']).strip()
+    Platform = str(
+        (urlparse(args.link).netloc.split(".")[-2:])[0]).capitalize()
 
-    # Determine New Challenge file path
-    path = "\\".join([dirname(abspath(__file__)),Platform,Challenge_Rank,Challenge_Name])
+  # Step 3 : Check Valid Username
 
-    # Create a folder for this new challenge based on path.
-    create_folder(path)
+  # Step 4 : Check Template.md file exists.
 
-    # Initiate the Folder Structure
-    initiate_structure(path)
+  # Step 5: Check Template.md file contains appropriate ids.
 
-    # Model README.md based on Template
-    edit_template(challenge_name=Challenge_Name,challenge_url=Challenge_URL,completion_date="Wednesday, 30 December 2024",tags=Challenge_Tags,template_path=Template_Path,readme_file="\\".join(path,"README.md"]))
+  # Part 2 - Request Info
 
-    # Ask user for their solution?
-    
-    # Open Folder?
-    open_file
+  # Given the URL extract the Challenge ID
+  ID = extract_id(args.link)
+
+  # Make API call and Fetch Response
+  response_json = fetch("{}{}".format(args.link, ID))
+
+  # Determine info based on Request Response
+  Challenge_Name = re.sub(Disallowed_Characters, "", response_json["name"])
+  Challenge_URL = str("\\".join([response_json["url"], "python"])).strip()
+  Challenge_Rank = str(re.sub(" ", "-", response_json["rank"]["name"])).strip()
+  Challenge_Tags = ", ".join(response_json["tags"]).strip()
+
+  # Call update.py
+
+  # Fetch response in the form of database.json
+
+  # Validate
+
+  # Parse JSON
+
+  # Fetch Completion Date
+
+  # Part 3 - Update Structure
+
+  # Determine New Challenge file path
+  path = "\\".join(
+      [dirname(abspath(__file__)), Platform, Challenge_Rank, Challenge_Name])
+
+  # Determine template path based on argument or keep default value.
+  Template_Path = "\\".join([dirname(abspath(__file__)), "Template.md"])
+
+  # Create a folder for this new challenge based on path.
+  create_folder(path)
+
+  # Initiate the Folder Structure
+  initiate_structure(path)
+
+  # Model README.md based on Template
+  edit_template(
+      challenge_name=Challenge_Name,
+      challenge_url=Challenge_URL,
+      completion_date="Wednesday, 30 December 2024",
+      tags=Challenge_Tags,
+      template_path=Template_Path,
+      readme_file="\\".join([path, "README.md"]),
+  )
+
+  # Part 4 - Results
+
+  # Ask user for their solution?
+
+  # Open Folder?
+
+  # open_file

@@ -9,13 +9,17 @@ from urllib.parse import urlparse
 
 import requests
 
+from helper import create_file, does_path_exist, is_empty
+
 
 def show_usage_guide():
     print("Usage: python add.py [options]")
     print("Options:")
     print("  -h, --help         Show this help message and exit")
     print("  -l, --link         Specify the challenge link/url (required)")
-    print("  -u, --username     Specify your username (defaults to credentials file)")
+    print(
+        "  -u, --username     Specify your username (defaults to credentials file)"
+    )
     print("  -t, --template     Specify Template (defaults to 'Template.md')")
     print("\n")
     exit()
@@ -61,7 +65,11 @@ def parse_credentials(file_path):
     try:
         with open(file_path, "r") as file:
             json_data = json.load(file)
-            return json_data.get("User", {}).get("Codewars", {}).get("username", None)
+            return (
+                json_data.get("User", {})
+                .get("Codewars", {})
+                .get("username", None)
+            )
     except (FileNotFoundError, json.JSONDecodeError):
         return None
 
@@ -74,7 +82,9 @@ def ordinal(n: int) -> str:
 
 
 def translate_date(a_date):
-    date1 = datetime.date(datetime.fromisoformat(a_date[:-1]).astimezone(timezone.utc))
+    date1 = datetime.date(
+        datetime.fromisoformat(a_date[:-1]).astimezone(timezone.utc)
+    )
 
     dayOrdinal = ordinal(date1.day)
 
@@ -93,7 +103,7 @@ def make_api_call(url):
         return None
 
 
-def get_pages(User):
+def pages(User: str) -> int:
     codewars_user = "https://www.codewars.com/api/v1/users/{}/code-challenges/completed?page=0".format(
         User
     )
@@ -101,7 +111,7 @@ def get_pages(User):
     response_json = make_api_call(codewars_user)
 
     # Return Number of Completed Challenge Pages
-    return int(response_json["totalPages"])
+    return response_json["totalPages"]
 
 
 def get_user_info(username, platform):
@@ -110,7 +120,7 @@ def get_user_info(username, platform):
 
     match platform:
         case "Codewars":
-            Pages = get_pages(User=username)
+            Pages = pages(User=username)
             # Completed = response_json['totalItems']
 
             for x in range(Pages):
@@ -130,10 +140,8 @@ def get_user_info(username, platform):
                     }
 
                 for each in challenge_data:
-                    challenge_info = (
-                        "https://www.codewars.com/api/v1/code-challenges/{}".format(
-                            each
-                        )
+                    challenge_info = "https://www.codewars.com/api/v1/code-challenges/{}".format(
+                        each
                     )
 
                     time.sleep(2)
@@ -143,7 +151,9 @@ def get_user_info(username, platform):
                     challenge_data[each]["Additional Info"] = {
                         "url": str(parsed_info["url"] + "/python").strip(),
                         "rank": str(
-                            re.sub(" ", "-", parsed_info["rank"]["name"]).strip()
+                            re.sub(
+                                " ", "-", parsed_info["rank"]["name"]
+                            ).strip()
                         ),
                         "tags": parsed_info["tags"],
                     }
@@ -220,7 +230,7 @@ def parse_url(Platform: str, url: str) -> str:
             # The API endpoint
             return [
                 "https://www.codewars.com/api/v1/code-challenges/",
-                parse_challenge_id(url),
+                extract_id(url),
             ]
         case "exercism":
             return ""
@@ -252,10 +262,8 @@ def fetch(url):
 
 
 # Given a folder path, creates a folder if none exists.
-
-
 def create_folder(folder_path):
-    if os.path.exists(folder_path):
+    if does_path_exist(folder_path):
         print(f"A challenge by this name, already exists in your database.")
         sys.exit()
 
@@ -268,7 +276,7 @@ def create_folder(folder_path):
             subfolders = folder_path.split(os.path.sep)
 
             # Return the last three subfolders
-            # print(f"Categorized challenge under {
+            #   print(f"Categorized challenge under {
             #   subfolders[-3]}, identified as difficulty \"{subfolders[-2]}\" and named \"{subfolders[-1]}\".")
 
         except PermissionError:
@@ -281,27 +289,28 @@ def create_folder(folder_path):
 def initiate_structure(folder_path):
     try:
         # Check if the folder exists
-        if not os.path.exists(folder_path):
-            print("Error, folder doesn't exist.")
-            sys.exit()
+        if not does_path_exist(folder_path):
+            # TODO: What is should do here?
+            pass
 
         # Check if the folder is empty
-        if not os.listdir(folder_path):
+        if is_empty(folder_path):
             # Create an empty solution.py file
-            with open(os.path.join(folder_path, "solution.py"), "w"):
-                pass
+            create_file(folder_path, file_name="solution.py")
 
             # Create an empty README.md file
-            with open(os.path.join(folder_path, "README.md"), "w"):
-                pass
+            create_file(folder_path=folder_path, file_name="README.md")
 
-            # Create notes.txt file
-            with open(os.path.join(folder_path, "notes.txt"), "w") as notes_file:
-                notes_file.write("Write your notes and observations here.")
-                notes_file.close()
+            # Create a notes.txt file
+            create_file(
+                folder_path=folder_path,
+                file_name="notes.txt",
+                contents="Write your notes and observations here.",
+            )
 
         else:
-            print("Folder is not empty.")
+            pass
+            #! TODO: Folder is not empty, what should it be done about that?
 
     except FileNotFoundError:
         print(f"Error: Folder not found at path {folder_path}")
@@ -315,14 +324,11 @@ def initiate_structure(folder_path):
 
 def is_valid_url(url):
     try:
-        # Attempt to parse the URL
-        parsed_url = urlparse(url)
+        result = urlparse(url)
 
         # Check if the URL has both a scheme and a network location (netloc)
-        if parsed_url.scheme and parsed_url.netloc:
-            return parsed_url
-        else:
-            raise ValueError("URL is missing either the scheme or netloc.")
+        if result.scheme and result.netloc:
+            return all([result.scheme, result.netloc])
 
     except ValueError as ve:
         print(f"ValueError: {ve}")
@@ -333,29 +339,30 @@ def is_valid_url(url):
         return False
 
 
-def parse_challenge_id(url):
+def extract_id(url):
     valid_domains = ["codewars", "hackerrank", "exercism", "leetcode"]
 
     try:
-        # Parse the URL
-        parsed_url = is_valid_url(url)
-
         # Check if the URL is valid and the main domain matches one of the options
         if (
-            parsed_url.scheme
-            and parsed_url.netloc
-            and any(domain in parsed_url.netloc for domain in valid_domains)
+            url.scheme
+            and url.netloc
+            and any(domain in url.netloc for domain in valid_domains)
         ):
             # If the domain is "codewars," extract the challenge ID
-            if "codewars" in parsed_url.netloc:
-                path_segments = parsed_url.path.split("/")
-                challenge_id = path_segments[2] if len(path_segments) >= 3 else None
+            if "codewars" in url.netloc:
+                path_segments = url.path.split("/")
+                challenge_id = (
+                    path_segments[2] if len(path_segments) >= 3 else None
+                )
                 return challenge_id
 
             else:
                 print("URL is valid, but the domain is not 'codewars'.")
         else:
-            print("Invalid URL or domain does not match the specified options.")
+            print(
+                "Invalid URL or domain does not match the specified options."
+            )
 
     except ValueError:
         print("Invalid URL format.")
@@ -365,7 +372,12 @@ def parse_challenge_id(url):
 
 
 def edit_template(
-    challenge_name, challenge_url, completion_date, tags, template_path, readme_file
+    challenge_name,
+    challenge_url,
+    completion_date,
+    tags,
+    template_path,
+    readme_file,
 ):
     try:
         print("Modelling Challenge README.md after provided Template file...")

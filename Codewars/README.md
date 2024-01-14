@@ -23,14 +23,14 @@
 
 - [Split Strings](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/Split%20Strings)
 
+- [The lost beginning](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/6-kyu/The%20lost%20beginning)
+
 ## 7-kyu
 
 
 - [Categorize New Member](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Categorize%20New%20Member)
 
 - [Convert a Number to a String!](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Convert%20a%20Number%20to%20a%20String!)
-
-- [Formatting decimal places #1](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Formatting%20decimal%20places%20#1)
 
 - [Get the Middle Character](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/7-kyu/Get%20the%20Middle%20Character)
 
@@ -48,7 +48,6 @@
 
 ## 8-kyu
 
-
 - [Beginner - Lost Without a Map](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/Beginner%20-%20Lost%20Without%20a%20Map)
 
 - [Beginner Series #2 Clock](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/Beginner%20Series%20#2%20Clock)
@@ -57,7 +56,7 @@
 
 - [Count by X](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/Count%20by%20X)
 
-- [Remove First and Last Character from String](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/Remove%20First%20and%20Last%20Character%20from%20String)
+- [Remove First and Last Character](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/Remove%20First%20and%20Last%20Character)
 
 - [Return Negative](https://github.com/gzachariadis/Python.Challenges/tree/main/Codewars/8-kyu/Return%20Negative)
 
