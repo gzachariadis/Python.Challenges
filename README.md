@@ -347,9 +347,13 @@ Usage: python update.py [options]
 
 ## FAQ
 
-## The script doesn't pull challenge descriptions, why?
+### Why the scripts doesn't pull challenge descriptions?
 
-> I prefer to write my own descriptions to question, in my own words, that makes it easier for me to go back and review them and understand them better.
+I prefer to write my own descriptions to any challenges for several reasons.
+
+1.	I prefer the clarity of my own thoughts and a more familiar feel, I tend to find most descriptions lacking in that same clarity.
+
+	-	I tend to write long verbose descriptions which more effectively accompany the answers. Since, the answers tend to be one-liners and lack specificity in arguments.
 
 ## Author Notes
 
