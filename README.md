@@ -31,10 +31,6 @@
 
 </div>
 
-[![forthebadge](https://forthebadge.com/images/featured/featured-built-with-love.svg)](https://forthebadge.com)
-
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
-
 <p align="center">
   <i align="center"> ⚠️ Please attempt these exercises on your own. ⚠️</i>
 </p>
