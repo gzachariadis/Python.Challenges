@@ -228,10 +228,22 @@ nano credentials.json
 python .\add.py --link [URL]
 ```
 
+```
+Usage: python add.py [options]
+    Options:
+      "-h", "--help"            Show this help message and exit
+      "-l", "--link"            Specify the challenge link/url (required)
+      "-u", "--username"        Specify your username
+      "-c", "--configure"       Configure script defaults
+      "-t", "--template"        Specify Template file
+      "-s", "--submit"          Submit wars.py as solution file
+      "-n", "--notes"           Submit notes as solution notes
+```
+
 ### Step 4 - Updating Manually (Optional)
 
 ```
-python .\update.py --platform [Platform]
+python .\update.py --platform [Platform] --username [Username]
 ```
 
 ### Step 5 - Create your own Template
