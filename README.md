@@ -78,25 +78,28 @@ Additionally, consider sharing it with the community using the badges below.
 - [ ] Create a database for Challenges.
 - [ ] Minimize requests to only new challenges.
 
-### Attempt.py
+### Attempt.py ???
 
 #### Input
 
-- [ ] a challenge Link
+- [ ] Challenge Link
 
 #### Logic
 
-- [ ] Open wars.py inside vscode
-- [ ] fetch description inside notes?
-- [ ] fetch automatic test?
-- [ ] fetch sample code provided?
+- [ ] Fetch description inside notes?
+- [ ] Fetch automatic tests?
+- [ ] Overwite wars.py with sample code provided?
+
+#### Output
+
+- [ ] Open wars.py + notes inside VS Code ?
 
 ### Add.py
 
 #### Input
 
 - [ ] Set a new argument -s for "submit --yes" if the want the contents of wars.py to be submitted as their solution.
-- [ ] Set a new argument -n for "notes" if they want the contents of notes.txt to be sumbitted as their notes for the challenge.
+- [ ] Set a new argument -n for "notes" if they want the contents of notes file to be sumbitted as their notes for the challenge.
 
 #### Validation
 
@@ -105,6 +108,10 @@ Additionally, consider sharing it with the community using the badges below.
   - [ ] Check Template.md file valid.
   - [ ] Determine Challenge Path
 
+#### Output
+
+- [ ] Open folder? or open solutions.py using VS Code.
+
 #### Improvements
 
 - [ ] What to do when API request fails?
@@ -112,19 +119,42 @@ Additionally, consider sharing it with the community using the badges below.
 
 <br>
 
-### Update.py
+### Update.py - Update Database
 
-#### Validation
+#### Iput
 
-- [ ] Create input Validation methods
+- [ ] Platform
+- [ ] Username
 
 #### Logic
 
-#### Improvements
+- [ ] Validation methods
+- [ ] Fetch User info based on Platform
+- [ ] Update Database [only with new challenges] - key [id]
+- [ ] Retrieve File Structure.
+- [ ] Ask user if missing challenges should be added automatically to his folder structure. Yes = call add.py for each one (no arguments). No = exit().
 
-- [ ] Update.md must print "Acquired {number} new challenges. Updating the database..."
+#### Output
+
+- [ ] "Updating the database..."
+- [ ] "Acquired {number} new challenges. Update your folder structure automatically? Y/N --default yes."
 
 <br>
+
+### Functions.py
+
+- [ ] Seperate functions based on their use? (Validation, API, Output etc.)
+- [ ] Seperate functions used under update.py and add.py in different files.
+- [ ] Common ones should be in one shared file.
+
+- [ ] Parse Credentials
+  - [ ] Find a way for the user to set username per platform in the database.
+  - [ ] if "-u" is used once, it should be the new default for certain platform. This means that if I use "add.py -l "codewars.com....." -u "george123" then, under Codewars, in the database "george123" must be saved as the new default.
+
+- [ ] Get user info -> Update Database.
+  - [ ] Must gather data until all pages are completed.
+  - [ ] Find which do not exist in database.
+  - [ ] Add new Ones to the database.
 
 ### Completed ✓
 
