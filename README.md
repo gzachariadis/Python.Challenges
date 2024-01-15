@@ -220,12 +220,6 @@ cd Python.Challenges
 python config.py --configure --platform Codewars --username [username]
 ```
 
-```bash
-  Usage: python config.py -c [Option] [Value]
-      Options:
-        "-c", "--configure" Configure a Specific Option
-```
-
 #### Example Usages
 
 ```bash
