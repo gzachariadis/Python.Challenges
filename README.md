@@ -72,13 +72,8 @@ Additionally, consider sharing it with the community using the badges below.
 ## Updates
 
 - [ ] Should I reconsider notes.txt to be a notes.md ?
-
-### Potential
-
 - [ ] Create a database for Challenges.
 - [ ] Minimize requests to only new challenges.
-
-### Attempt.py ???
 
 #### Input
 
@@ -121,7 +116,7 @@ Additionally, consider sharing it with the community using the badges below.
 
 ### Update.py - Update Database
 
-#### Iput
+#### Input
 
 - [ ] Platform
 - [ ] Username
@@ -142,6 +137,8 @@ Additionally, consider sharing it with the community using the badges below.
 <br>
 
 ### Functions.py
+
+#### Notes
 
 - [ ] Seperate functions based on their use? (Validation, API, Output etc.)
 - [ ] Seperate functions used under update.py and add.py in different files.
@@ -347,6 +344,12 @@ Usage: python update.py [options]
 │    └── README.md - Challenges indexed and grouped by difficulty.
 │    │
 ```
+
+## FAQ
+
+### The script doesn't pull challenge descriptions, why?
+
+> I prefer to write my own descriptions to question, in my own words, that makes it easier for me to go back and review them and understand them better.
 
 ## Author Notes
 
