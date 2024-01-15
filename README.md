@@ -27,8 +27,13 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges?&label=Size)
 ![GitHub License](https://img.shields.io/github/license/gzachariadis/Python.Challenges?style=flat&logo=github&label=License&color=blue)
 
-![Static Badge](https://img.shields.io/badge/Code_Style-Prettier-ff69b4?style=flat&logo=prettier&logoColor=white&label=Code%20Style&link=https%3A%2F%2Fgithub.com%2Fprettier%2Fprettier)
+![Static Badge](https://img.shields.io/badge/Code_Style-yapf-ff69b4?style=flat&logo=googlechrome&logoColor=white&link=https%3A%2F%2Fgithub.com%2Fgoogle%2Fyapf)
+
 </div>
+
+[![forthebadge](https://forthebadge.com/images/featured/featured-built-with-love.svg)](https://forthebadge.com)
+
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
 <p align="center">
   <i align="center"> ⚠️ Please attempt these exercises on your own. ⚠️</i>
