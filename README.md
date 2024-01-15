@@ -230,11 +230,13 @@ python config.py --configure --platform Exercism --username george1234
 python config.py --configure --default-template my_Template.md
 ```
 
-### Step 3 - Creating New Entries
+### Step 3 - Creating New Entry
 
 ```bash
 python .\add.py --link [URL]
 ```
+
+#### Usage
 
 ```bash
 
@@ -254,6 +256,8 @@ Usage: python add.py [options]
 ```bash
 python .\update.py --platform [Platform] --username [Username]
 ```
+
+#### Usage
 
 ```bash
 Usage: python update.py [options]
