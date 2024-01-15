@@ -347,7 +347,7 @@ Usage: python update.py [options]
 
 ## FAQ
 
-## Why the scripts doesn't pull challenge descriptions?
+### Why aren't challenge descriptions automatically pulled from APIs?
 
 <i align="justify">I prefer to write my own descriptions to any challenges for several reasons; The clarity of my own thoughts for one, gives me a more familiar feel. I find most author's descriptions are lacking in that same clarity.</i>
 
