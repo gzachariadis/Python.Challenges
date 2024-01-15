@@ -53,10 +53,10 @@ Please consider, leaving a Star⭐.
 Additionally, consider sharing it with the community using the badges below.
 
 ![Reddit](https://img.shields.io/badge/Share_on-Reddit-orange?style=flat&logo=reddit&logoColor=orange&labelColor=%230D0D0D&link=https%3A%2F%2Freddit.com%2Fsubmit%3Furl%3Dhttps%3A%2F%2Fgithub.com%2Fgzachariadis%2FPython.Challenges%26title%3DA%2520collection%2520of%2520my%2520solutions%2520to%2520various%2520coding%2520challenges%2C%2520grouped%2520by%2520difficulty)
-![Ycombinator](https://img.shields.io/badge/Share_to-HackerNews-orange?style=flat&logo=ycombinator&logoColor=orange&labelColor=%23262626&color=%23F89E0B&link=https%3A%2F%2Fnews.ycombinator.com%2Fsubmitlink%3Fu%3Dhttps%3A%2F%2Fgithub.com%2Fgzachariadis%2FPython.Challenges)
+![Ycombinator](https://img.shields.io/badge/Share_on-HackerNews-orange?style=flat&logo=ycombinator&logoColor=orange&labelColor=%23262626&color=%23F89E0B&link=https%3A%2F%2Fnews.ycombinator.com%2Fsubmitlink%3Fu%3Dhttps%3A%2F%2Fgithub.com%2Fgzachariadis%2FPython.Challenges)
+![Twitter](https://img.shields.io/badge/Share_to-Twitter-orange?style=flat&logo=x&logoColor=white&labelColor=%230B0B0B&color=blue&link=https%3A%2F%2Ftwitter.com%2Fshare%3Furl%3Dhttps%3A%2F%2Fgithub.com%2Fgzachariadis%2FPython.Challenges%26text%3DA%2520collection%2520of%2520my%2520solutions%2520to%2520various%2520coding%2520challenges%2C%2520grouped%2520by%2520difficulty)
 
 
-[![GitHub Repo stars](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://roadmap.sh&text=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
 [![GitHub Repo stars](https://img.shields.io/badge/share%20on-facebook-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://roadmap.sh)
 [![GitHub Repo stars](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://roadmap.sh&title=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
 
