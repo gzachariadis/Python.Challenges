@@ -224,8 +224,9 @@ python config.py --initiate --configure
   Usage
       "-i", "--initiate"                 Initiate  Database
       "-c", "--configure [option]"       Configure Option
-            "--platform [platform] --username [username]"
-            "--default-template [file_path]"
+        Options:
+              "--platform [platform] --username [username]" Set Username
+              "--default-template [file_path]" Set Template File
 ```
 
 ### Step 3 - Creating New Entries
@@ -239,7 +240,7 @@ python .\add.py --link [URL]
 Usage: python add.py [options]
     Options:
       "-h", "--help"            Show this help message and exit
-      "-l", "--link"            Specify the challenge link/url (required)
+      "-l", "--link"            Specify the challenge url (required)
       "-u", "--username"        Specify your username (required)
       "-t", "--template"        Specify Template file
       "-s", "--submit"          Submit wars.py as solution file
@@ -264,10 +265,8 @@ Usage: python update.py [options]
     Options:
       "-h", "--help"            Show this help message and exit
       "-u", "--username"        Specify your username (required)
-      "-a", "--append"          Create folder structure for missing challenges
+      "-a", "--append"          Append to folder structure (default no)
 ```
-
-<p align="justify">The append option will essentially call in the background the add.py file with no arguments, for each new challenge, it finds that doesn't exist in your current folder structure.</p>
 
 ### Step 5 - Create your own Template
 
