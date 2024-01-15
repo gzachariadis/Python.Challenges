@@ -26,8 +26,8 @@
 ![Maintenance](https://img.shields.io/maintenance/yes/2024?style=flat&label=Maintained)
 ![GitHub repo size](https://img.shields.io/github/repo-size/gzachariadis/Python.Challenges?&label=Size)
 ![GitHub License](https://img.shields.io/github/license/gzachariadis/Python.Challenges?style=flat&logo=github&label=License&color=blue)
-![Static Badge](https://img.shields.io/badge/Pre--Commit_Hook-Enabled-yellow?style=flat&logo=precommit&logoColor=white&labelColor=grey&link=https%3A%2F%2Fgithub.com%2Fgoogle%2Fyapf)
 
+![Static Badge](https://img.shields.io/badge/Pre--Commit_Hook-Enabled-yellow?style=flat&logo=precommit&logoColor=white&labelColor=grey&link=https%3A%2F%2Fgithub.com%2Fgoogle%2Fyapf)
 ![Static Badge](https://img.shields.io/badge/Code_Style-yapf-ff69b4?style=flat&logo=googlechrome&logoColor=white&link=https%3A%2F%2Fgithub.com%2Fgoogle%2Fyapf)
 
 </div>
