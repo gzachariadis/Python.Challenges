@@ -1,15 +1,10 @@
 import re
-from os.path import abspath
-from os.path import dirname
+from os.path import abspath, dirname
 from urllib.parse import urlparse
 
-from functions import create_folder
-from functions import edit_template
-from functions import extract_id
-from functions import fetch
-from functions import initiate_structure
-from functions import is_valid_url
-from functions import parse_arguments
+from functions import (
+    create_folder, edit_template, extract_id, fetch, initiate_structure, is_valid_url, parse_arguments
+    )
 
 # Disallowed Characters for Folder names
 Disallowed_Characters = r'[\\/*?:"<>|]'
