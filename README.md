@@ -349,9 +349,9 @@ Usage: python update.py [options]
 
 ## Why the scripts doesn't pull challenge descriptions?
 
-<i align="justify">I prefer to write my own descriptions to any challenges for several reasons; The clarity of my own thoughts for one, gives me a more familiar feel.</i>
+<i align="justify">I prefer to write my own descriptions to any challenges for several reasons; The clarity of my own thoughts for one, gives me a more familiar feel. I find most author's descriptions are lacking in that same clarity.</i>
 
-<i align="justify">I tend to find most author's descriptions are lacking in that same clarity. I write long verbose descriptions which more effectively accompany my short-form answers, that lack specificity in arguments.</i>
+<i align="justify"> I write long verbose descriptions which more effectively accompany my short-form answers, that lack specificity in arguments.</i>
 
 ## Author Notes
 
