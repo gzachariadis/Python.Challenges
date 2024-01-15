@@ -347,7 +347,7 @@ Usage: python update.py [options]
 
 ## FAQ
 
-- ### The script doesn't pull challenge descriptions, why?
+- The script doesn't pull challenge descriptions, why?
 
 > I prefer to write my own descriptions to question, in my own words, that makes it easier for me to go back and review them and understand them better.
 
