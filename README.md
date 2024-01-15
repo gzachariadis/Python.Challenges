@@ -71,10 +71,25 @@ Additionally, consider sharing it with the community using the badges below.
 
 ## Updates
 
+- [ ] Should I reconsider notes.txt to be a notes.md ?
+
 ### Potential
 
 - [ ] Create a database for Challenges.
 - [ ] Minimize requests to only new challenges.
+
+### Attempt.py
+
+#### Input
+
+- [ ] a challenge Link
+
+#### Logic
+
+- [ ] Open wars.py inside vscode
+- [ ] fetch description inside notes?
+- [ ] fetch automatic test?
+- [ ] fetch sample code provided?
 
 ### Add.py
 
@@ -94,12 +109,6 @@ Additionally, consider sharing it with the community using the badges below.
 
 - [ ] What to do when API request fails?
 - [ ] Query database
-
-<br>
-
-### Functions.py
-
-- [ ]
 
 <br>
 
