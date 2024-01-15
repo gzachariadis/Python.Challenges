@@ -52,7 +52,7 @@ Please consider, leaving a Star🌟
 
 Additionally, consider sharing it with the community using the badges below.
 
-![Reddit](https://img.shields.io/badge/Share_on-Reddit-orange?style=flat&logo=reddit&logoColor=orange&labelColor=%230D0D0D&link=https%3A%2F%2Freddit.com%2Fsubmit%3Furl%3Dhttps%3A%2F%2Fgithub.com%2Fgzachariadis%2FPython.Challenges%26title%3DA%2520collection%2520of%2520my%2520solutions%2520to%2520various%2520coding%2520challenges%2C%2520grouped%2520by%2520difficulty)
+![Reddit](https://img.shields.io/badge/Share_on-Reddit-orange?style=flat&logo=reddit&logoColor=white&labelColor=%230B0B0B&color=%23FF6100&link=https%3A%2F%2Ftwitter.com%2Fshare%3Furl%3Dhttps%3A%2F%2Fgithub.com%2Fgzachariadis%2FPython.Challenges%26text%3DA%2520collection%2520of%2520my%2520solutions%2520to%2520various%2520coding%2520challenges%2C%2520grouped%2520by%2520difficulty)
 ![Ycombinator](https://img.shields.io/badge/Share_on-HackerNews-orage?style=flat&logo=ycombinator&logoColor=white&labelColor=%230B0B0B&color=%23FF6100&link=https%3A%2F%2Fnews.ycombinator.com%2Fsubmitlink%3Fu%3Dhttps%3A%2F%2Fgithub.com%2Fgzachariadis%2FPython.Challenges)
 ![Twitter](https://img.shields.io/badge/Share_on-Twitter-orange?style=flat&logo=x&logoColor=white&labelColor=%230B0B0B&color=blue&link=https%3A%2F%2Ftwitter.com%2Fshare%3Furl%3Dhttps%3A%2F%2Fgithub.com%2Fgzachariadis%2FPython.Challenges%26text%3DA%2520collection%2520of%2520my%2520solutions%2520to%2520various%2520coding%2520challenges%2C%2520grouped%2520by%2520difficulty)
 ![Facebook](https://img.shields.io/badge/Share_on-Facebook-blue?style=flat&logo=facebook&logoColor=white&labelColor=%230B0B0B&link=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%3A%2F%2Fgithub.com%2Fgzachariadis%2FPython.Challenges)
