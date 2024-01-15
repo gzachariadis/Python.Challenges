@@ -217,16 +217,22 @@ cd Python.Challenges
 ### Step 2 - Configuring Credentials
 
 ```bash
-python config.py --initiate --configure
+python config.py --configure --platform Codewars --username [username]
 ```
 
 ```bash
-  Usage
-      "-i", "--initiate"                 Initiate  Database
-      "-c", "--configure [option]"       Configure Option
-        Options:
-              "--platform [platform] --username [username]" Set Username
-              "--default-template [file_path]" Set Template File
+  Usage: python config.py -c [Option] [Value]
+      "-c", "--configure" Configure a Specific Option
+```
+
+#### Example Usages
+
+```bash
+python config.py --configure --platform Exercism --username george1234
+```
+
+```bash
+python config.py --configure --default-template my_Template.md
 ```
 
 ### Step 3 - Creating New Entries
@@ -247,12 +253,6 @@ Usage: python add.py [options]
       "-n", "--notes"           Submit notes as solution notes
 
 ```
-
-<p align="justify">Username is only required input, if you haven't configured the database.</p>
-
-<p align="justify">The submit option will submit the contents of wars.py file as your answer to the challenge.</p>
-
-<p align="justify">The notes option will submit the contents of notes.md file as your notes to the challenge.</p>
 
 ### Step 4 - Updating Manually (Optional)
 
