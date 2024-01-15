@@ -2,9 +2,17 @@ import re
 from os.path import abspath, dirname
 from urllib.parse import urlparse
 
+# yapf: disable
 from functions import (
-    create_folder, edit_template, extract_id, fetch, initiate_structure, is_valid_url, parse_arguments
+    create_folder,
+    edit_template,
+    extract_id,
+    fetch,
+    initiate_structure,
+    is_valid_url,
+    parse_arguments
     )
+# yapf: enable
 
 # Disallowed Characters for Folder names
 Disallowed_Characters = r'[\\/*?:"<>|]'
