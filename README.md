@@ -222,7 +222,8 @@ python config.py --configure --platform Codewars --username [username]
 
 ```bash
   Usage: python config.py -c [Option] [Value]
-      "-c", "--configure" Configure a Specific Option
+      Options:
+        "-c", "--configure" Configure a Specific Option
 ```
 
 #### Example Usages
