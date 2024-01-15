@@ -69,6 +69,59 @@ Additionally, consider sharing it with the community using the badges below.
 |    📅   	|                  Automate the update process.                  	|   `scheduled`   	|  📅 03/02/2024  	|
 |    🚧   	|                       Fix the Share Buttons                      	|  `in progress`  	|  📅 14/01/2024  	|
 
+## Updates
+
+### Potential
+
+- [ ] Create a database for Challenges.
+- [ ] Minimize requests to only new challenges.
+
+### Add.py
+
+#### Input
+
+- [ ] Set a new argument -s for "submit --yes" if the want the contents of wars.py to be submitted as their solution.
+- [ ] Set a new argument -n for "notes" if they want the contents of notes.txt to be sumbitted as their notes for the challenge.
+
+#### Validation
+
+- [ ] Check valid username
+- [ ] Check Template.md file exists.
+  - [ ] Check Template.md file valid.
+  - [ ] Determine Challenge Path
+
+#### Improvements
+
+- [ ] What to do when API request fails?
+- [ ] Query database
+
+<br>
+
+### Functions.py
+
+- [ ]
+
+<br>
+
+### Update.py
+
+#### Validation
+
+- [ ] Create input Validation methods
+
+#### Logic
+
+#### Improvements
+
+- [ ] Update.md must print "Acquired {number} new challenges. Updating the database..."
+
+<br>
+
+### Completed ✓
+
+- [x] Configure [YAPF](https://github.com/google/yapf).
+- [x] Set up a usage guide for the [add.py](https://github.com/gzachariadis/Python.Challenges/blob/main/add.py) client.
+
 ## Coding Style
 
 <p align="justify">Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution is almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.</p>
