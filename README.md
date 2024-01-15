@@ -205,7 +205,6 @@ Additionally, consider sharing it with the community using the badges below.
 
 <p align="justify">Additionally, included under this <a href="https://github.com/gzachariadis/Python-Code-Performance" target="_black">project</a> is my code performance tester, using <a href="https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/" target="_black">cProfiler</a> where you can test the efficiency of your solutions or compare your answers against mine.</p>
 
-
 ## Start your own Journey
 
 ### Step 1 - Mirroring
@@ -215,40 +214,64 @@ git clone https://github.com/gzachariadis/Python.Challenges.git
 cd Python.Challenges
 ```
 
-### Step 2 - Editing Credentials
+### Step 2 - Configuring Credentials
 
+```bash
+python config.py --initiate --configure
 ```
-cd Python.Challenges
-nano credentials.json
+
+```bash
+  Usage
+      "-i", "--initiate"                 Initiate  Database
+      "-c", "--configure [option]"       Configure Option
+            "--platform [platform] --username [username]"
+            "--default-template [file_path]"
 ```
 
 ### Step 3 - Creating New Entries
 
-```
+```bash
 python .\add.py --link [URL]
 ```
 
-```
+```bash
+
 Usage: python add.py [options]
     Options:
       "-h", "--help"            Show this help message and exit
       "-l", "--link"            Specify the challenge link/url (required)
-      "-u", "--username"        Specify your username
-      "-c", "--configure"       Configure script defaults
+      "-u", "--username"        Specify your username (required)
       "-t", "--template"        Specify Template file
       "-s", "--submit"          Submit wars.py as solution file
       "-n", "--notes"           Submit notes as solution notes
+
 ```
+
+<p align="justify">Username is only required input, if you haven't configured the database.</p>
+
+<p align="justify">The submit option will submit the contents of wars.py file as your answer to the challenge.</p>
+
+<p align="justify">The notes option will submit the contents of notes.md file as your notes to the challenge.</p>
 
 ### Step 4 - Updating Manually (Optional)
 
-```
+```bash
 python .\update.py --platform [Platform] --username [Username]
 ```
 
+```bash
+Usage: python update.py [options]
+    Options:
+      "-h", "--help"            Show this help message and exit
+      "-u", "--username"        Specify your username (required)
+      "-a", "--append"          Create folder structure for missing challenges
+```
+
+<p align="justify">The append option will essentially call in the background the add.py file with no arguments, for each new challenge, it finds that doesn't exist in your current folder structure.</p>
+
 ### Step 5 - Create your own Template
 
-<p align="justify">Modify the <a href="https://github.com/gzachariadis/Python.Challenges/blob/main/Template.md">Template.md</a> file according to your needs.</p>
+<p align="justify">Modify the <a href="https://github.com/gzachariadis/Python.Challenges/blob/main/Template.md">Template.md</a> file according to your needs, or create one yourself.</p>
 
 <p align="justify">Careful when changing the "id" inside of the HTML tags, as they are used to fill the content accordingly.</p>
 
