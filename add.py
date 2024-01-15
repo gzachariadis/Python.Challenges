@@ -10,8 +10,9 @@ from functions import (
     fetch,
     initiate_structure,
     is_valid_url,
-    parse_arguments
-    )
+    parse_arguments,
+)
+
 # yapf: enable
 
 # Disallowed Characters for Folder names

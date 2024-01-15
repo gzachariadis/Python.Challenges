@@ -36,3 +36,5 @@ repos:
       - id: isort
         name: isort (python)
         args: ["--profile=black"]
+        language: python
+        types: [python]
