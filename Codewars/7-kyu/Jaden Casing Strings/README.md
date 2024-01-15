@@ -8,7 +8,7 @@
 
 ### Objective
 
-- Write a Function that, performs Pascal-Case (capitalize every word's first letter) on a given string. 
+- Write a Function that, performs Pascal-Case (capitalize every word's first letter) on a given string.
 
 ### Constraints
 

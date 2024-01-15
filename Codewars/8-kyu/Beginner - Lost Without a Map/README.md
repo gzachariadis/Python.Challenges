@@ -9,7 +9,7 @@
 ### Objective
 
 - Write a Function that, given an array of integers, returns a new array with each integer's value doubled.
-  
+
 ### Constraints
 
 - The output must be a new List.

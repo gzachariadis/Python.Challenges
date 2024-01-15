@@ -12,6 +12,6 @@
 
 ### Constraints
 
-- The Western Suburbs Croquet Club has two categories of membership, Senior and Open. 
+- The Western Suburbs Croquet Club has two categories of membership, Senior and Open.
 - To be a senior, a member must be at least 55 years old and have a handicap greater than 7.
 - Input will consist of a list of pairs.

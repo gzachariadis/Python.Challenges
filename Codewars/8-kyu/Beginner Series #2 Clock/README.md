@@ -9,7 +9,7 @@
 ### Objective
 
 - Write a Function that, given "H" for Hours, "M" for Minutes and "S" for Seconds, returns the sum of all in Milliseconds.
-  
+
 ### Constraints
 
 - H must be between 0 and 23

@@ -1,19 +1,13 @@
 # File configures YAPF to be used as a git hook with https://github.com/pre-commit/pre-commit
 repos:
-  - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
-    hooks:
-      - id: isort
-        name: isort (python)
   - repo: local
     hooks:
       - id: yapf
         name: yapf
         language: python
         entry: yapf
-        args: ["-p","-i","-r"]
+        args: ["-p","-i","r"]
         types: [python]
-
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
@@ -21,11 +15,14 @@ repos:
       - id: check-yaml
       - id: check-docstring-first
       - id: check-added-large-files
+        args: ['--maxkb=500']
       - id: check-ast
       - id: check-json
-        types: [text]
-        files: \.(json|template)$
       - id: pretty-format-json
+        args:
+          - "--autofix"
+          - "--indent=2"
+          - "--no-sort-keys"
       - id: debug-statements
       - id: check-merge-conflict
       - id: end-of-file-fixer
@@ -33,3 +30,7 @@ repos:
       - id: mixed-line-ending
       - id: requirements-txt-fixer
       - id: fix-byte-order-marker
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: v3.12.0
+    hooks:
+      - id: reorder-python-imports

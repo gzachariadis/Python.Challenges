@@ -1,2 +1,2 @@
 def check(seq, elem):
-    return elem in seq
+	return elem in seq

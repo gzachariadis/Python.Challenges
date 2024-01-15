@@ -8,7 +8,7 @@
 
 ### Objective
 
-- Write a Function that, given a list (or array) of integer pairs, representing the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop, returns the number of people who are still on the bus after the last bus stop (after the last array). 
+- Write a Function that, given a list (or array) of integer pairs, representing the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop, returns the number of people who are still on the bus after the last bus stop (after the last array).
 
 ### Constraints
 

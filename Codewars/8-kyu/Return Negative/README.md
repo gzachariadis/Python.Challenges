@@ -8,9 +8,9 @@
 
 ### Objective
 
-- Write a Function that, given a number, transforms it to negative. 
+- Write a Function that, given a number, transforms it to negative.
 
 ### Constraints
 
 - The number can be negative already, in which case no change is required.
-- Zero (0) is not checked for any specific sign. 
+- Zero (0) is not checked for any specific sign.

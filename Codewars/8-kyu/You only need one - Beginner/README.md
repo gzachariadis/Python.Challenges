@@ -9,7 +9,7 @@
 ### Objective
 
 - Write a Function that, given an array "Sequence" and a value "X", check whether the provided array contains the value and returns return "True" if the array contains the value or "False" if not.
-  
+
 ### Constraints
 
 - Return type must be of type Boolean.

@@ -1,2 +1,2 @@
 def solution(string, ending):
-    return ending in string[-len(ending):]
+	return ending in string[-len(ending):]

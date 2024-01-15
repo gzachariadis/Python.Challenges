@@ -9,7 +9,7 @@
 ### Objective
 
 - Write a Function that, given an array of numbers, returns the sum of all the positives numbers in the array.
-  
+
 ### Constraints
 
 - Default sum (in case all negative) should be Zero (0).

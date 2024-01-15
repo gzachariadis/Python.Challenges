@@ -1,4 +1,0 @@
-[tool.yapfignore]
-ignore_patterns = [
-  "*.md"
-]

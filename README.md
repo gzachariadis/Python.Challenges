@@ -69,7 +69,7 @@ Additionally, consider sharing it with the community using the badges below.
 |    📅   	|                  Automate the update process.                  	|   `scheduled`   	|  📅 03/02/2024  	|
 |    🚧   	|                       Fix the Share Buttons                      	|  `in progress`  	|  📅 14/01/2024  	|
 
-## Coding Style 
+## Coding Style
 
 <p align="justify">Almost every problem has a long, verbose and short, concise solution. IMHO, a long descriptive solution is almost always preferred over a cryptic one-liner. The exception being, a shared understanding of the code by the entire development team.</p>
 
@@ -144,7 +144,7 @@ python .\update.py --platform [Platform]
 
 ### Step 5 - Create your own Template
 
-<p align="justify">Modify the <a href="https://github.com/gzachariadis/Python.Challenges/blob/main/Template.md">Template.md</a> file according to your needs.</p> 
+<p align="justify">Modify the <a href="https://github.com/gzachariadis/Python.Challenges/blob/main/Template.md">Template.md</a> file according to your needs.</p>
 
 <p align="justify">Careful when changing the "id" inside of the HTML tags, as they are used to fill the content accordingly.</p>
 
@@ -170,7 +170,7 @@ python .\update.py --platform [Platform]
 │    │    ├── Challenge Title/
 │    │    │                 └── solution.py
 │    │    │                 └── README.md
-│    │    │ 
+│    │    │
 │    │    ├── Challenge Title/
 │    │    │                 └── solution_1.py
 │    │    │                 └── solution_2.py
@@ -184,15 +184,15 @@ python .\update.py --platform [Platform]
 │    │    │                  └── solution_1.py
 │    │    │                  └── solution_2.py
 │    │    │                  └── README.md
-│    │    │  
+│    │    │
 │    │    ├── Challenge Title/
 │    │    │                  └── solution.py
 │    │    │                  └── notes.txt
 │    │    │                  └── README.md
-│    │    │   
+│    │    │
 │    │    └── ...
 │    │
-│    │  
+│    │
 │    └── README.md - Challenges indexed and grouped by difficulty.
 │    │
 │    │
@@ -200,7 +200,7 @@ python .\update.py --platform [Platform]
 │    │
 │    │
 │    │
-│    │    
+│    │
 │    │
 │    └── README.md - Challenges indexed and grouped by difficulty.
 │    │
