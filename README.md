@@ -351,7 +351,7 @@ Usage: python update.py [options]
 
 I prefer to write my own descriptions to any challenges for several reasons.
 
-1.	I prefer the clarity of my own thoughts and a more familiar feel, I tend to find most descriptions lacking in that same clarity.
+  - I prefer the clarity of my own thoughts and a more familiar feel, I tend to find most descriptions lacking in that same clarity.
 
 	-	I tend to write long verbose descriptions which more effectively accompany the answers. Since, the answers tend to be one-liners and lack specificity in arguments.
 
